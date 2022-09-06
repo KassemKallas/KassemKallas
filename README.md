@@ -4,7 +4,7 @@
 - 🔭 I’m currently working on security of Machine Learning
 - 🎓 PhD in Information Engineering and Science, two master degrees and a bachelor degree in STEM
 - 🗣 You can communicate with me in English, French, Italian and Arabic
-- 👯 I’m looking to collaborate on research, industrial projects or startups in security of machine learning
+- 👯 I’m looking to collaborate on research, industrial projects or startups in security of machine learning and/or AI applications
 - 💬 Ask me about deep learning, computer vision, cyber security
 - 📫 reach me by email: k_kallas@hotmail.com
 - ⚡ Interests: AI, cyber security, business, sport, cars
