@@ -6,7 +6,8 @@
 - 💬 Ask me about deep learning, computer vision, cyber security
 - 📫 reach me by email: k_kallas@hotmail.com
 - ⚡ Interests: AI, cyber security, business, sport, cars
-- 🌐 My personal website [𝙰𝚄𝚁](https://www.kassemkallas.com)
+- 🌐 My personal website [https://www.kassemkallas.com](https://www.kassemkallas.com)
+
 <a href="https://www.linkedin.com/in/kassem-kallas-82670954/">
   <img align="left" alt="Kassem's LinkedIN" width="22px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/linkedin.svg" />
 </a>
