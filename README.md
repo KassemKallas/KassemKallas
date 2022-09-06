@@ -8,6 +8,9 @@
 - ⚡ Interests: AI, cyber security, business, sport, cars
 - <a href="https://www.linkedin.com/in/kassem-kallas-82670954/">
   <img align="left" alt="Kassem's LinkedIN" width="22px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/linkedin.svg" />
-</a>
+</a> LinkedIn
+- <a href="https://twitter.com/KassemKallas">
+  <img align="left" alt="Kassem Kallas | Twitter" width="22px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/twitter.svg" />
+
 
 ![Kassem's GitHub stats](https://github-readme-stats.vercel.app/api?username=kassemkallas&show_icons=true&theme=github_dark)
