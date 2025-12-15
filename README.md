@@ -1,7 +1,7 @@
 ### Hi there 👋
 
-- 👨🏽‍💻 Research Scientist, INRIA, Rennes, France
-- 🔭 I’m currently working on security of Machine Learning
+- 👨🏽‍💻 Senior Scientist and Prof., INSERM, France
+- 🔭 Adversarial Signal Processing, Machine/Deep Learning, AI, AI Security, Cyber Securiy
 - 🎓 PhD in Information Engineering and Science, two master degrees and a bachelor degree in STEM
 - 🗣 You can communicate with me in English, French, Italian and Arabic
 - 👯 I’m looking to collaborate on research, industrial projects or startups in security of machine learning and/or AI applications
