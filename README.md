@@ -2,7 +2,9 @@
 
 - 👨🏽‍💻 Senior Scientist and Prof., INSERM, France
 - 🔭 Adversarial Signal Processing, Machine/Deep Learning, AI, AI Security, Cyber Securiy
+- 🎓 HDR in Computer Engineering, Automation, and Signal Processing - HDR is the highest degree in the French university system.
 - 🎓 PhD in Information Engineering and Science, two master degrees and a bachelor degree in STEM
+- 🎓 Executive MBA in Strategic Leadership
 - 🗣 You can communicate with me in English, French, Italian and Arabic
 - 👯 I’m looking to collaborate on research, industrial projects or startups in security of machine learning and/or AI applications
 - 💬 Ask me about deep learning, computer vision, cyber security
