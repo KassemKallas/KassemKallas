@@ -227,7 +227,7 @@ def main():
     os.makedirs(ASSETS, exist_ok=True)
     prev = load_previous()
     data = {
-        "updated": dt.datetime.utcnow().strftime("%Y-%m-%d"),
+        "updated": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d"),
         "github": github_stats(prev),
         "s2": s2_stats(prev),
         "openalex": openalex_stats(prev),
