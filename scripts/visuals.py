@@ -73,8 +73,8 @@ def badges(data):
 
 # ---------------------------------------------------------------- hero
 TAGLINES = [
-    "Backdoor and data-poisoning attacks on deep learning",
-    "Watermarking neural networks to protect intellectual property",
+    "Backdoor and data-poisoning attacks",
+    "Watermarking neural networks",
     "Secure federated learning for healthcare",
 ]
 
@@ -115,11 +115,11 @@ def hero(t, sm):
     o.append(f'<rect x="1" y="1" width="{W-2}" height="{H-2}" rx="12" fill="url(#fade)"/>')
     # left: identity
     o.append(f'<g class="in"><text x="36" y="70" font-size="13" fill="{t["accent"]}" class="mono" letter-spacing="1.5">AI SECURITY · HEALTHCARE · DEFENSE</text>'
-             f'<text x="34" y="112" font-size="38" font-weight="700" fill="{t["ink"]}">Kassem Kallas</text>'
-             f'<text x="36" y="140" font-size="15" fill="{t["muted"]}">Senior Scientist &amp; Junior Professor · INSERM &amp; IMT Atlantique</text></g>')
-    o.append(f'<text x="36" y="182" font-size="12" class="mono" fill="{t["muted"]}">&gt;</text>')
+             f'<text x="34" y="112" font-size="42" font-weight="700" fill="{t["ink"]}">Kassem Kallas</text>'
+             f'<text x="36" y="140" font-size="17" fill="{t["muted"]}">Senior Scientist &amp; Junior Professor · INSERM &amp; IMT Atlantique</text></g>')
+    o.append(f'<text x="36" y="184" font-size="15" class="mono" fill="{t["muted"]}">&gt;</text>')
     for i, line in enumerate(TAGLINES):
-        o.append(f'<text class="tl{i}" x="52" y="182" font-size="14" fill="{t["ink"]}">{e(line)}</text>')
+        o.append(f'<text class="tl{i}" x="52" y="184" font-size="17" fill="{t["ink"]}">{e(line)}</text>')
     # right: network with a hidden trigger path
     layers = [[60, 95, 130, 165], [50, 85, 120, 155, 190], [72, 112, 152], [112]]
     xs = [585, 665, 745, 820]
@@ -153,7 +153,7 @@ def hero(t, sm):
              f'<text x="{sx}" y="{sy+36}" font-size="10" text-anchor="middle" class="mono" fill="{t["accent"]}">blocked</text></g>')
     cites = sm.get("citations")
     stat = (f"{cites:,} citations · h-index {sm.get('h')}" if cites else "")
-    o.append(f'<text x="{W-24}" y="{H-16}" font-size="10" text-anchor="end" class="mono" fill="{t["muted"]}">{e(stat)}</text>')
+    o.append(f'<text x="{W-24}" y="{H-16}" font-size="12" text-anchor="end" class="mono" fill="{t["muted"]}">{e(stat)}</text>')
     o.append("</svg>")
     return "\n".join(o)
 
@@ -211,7 +211,7 @@ MILESTONES = [
 
 
 def journey(t, data):
-    W, H = 880, 330
+    W, H = 880, 350
     items, src = paper_items(data)
     dated = [i for i in items if _yr(i)]
     if not dated:
@@ -237,17 +237,17 @@ def journey(t, data):
          f'aria-label="Research journey: papers per year with milestones">',
          f"<style>{css}</style>",
          f'<rect x=".5" y=".5" width="{W-1}" height="{H-1}" rx="10" fill="{t["bg"]}" stroke="{t["line"]}"/>',
-         f'<text x="24" y="36" font-size="16" font-weight="700" fill="{t["ink"]}">Research journey</text>',
-         f'<text x="{W-24}" y="36" font-size="11" text-anchor="end" class="m">Papers per year · {e(note)}</text>']
+         f'<text x="24" y="36" font-size="18" font-weight="700" fill="{t["ink"]}">Research journey</text>',
+         f'<text x="{W-24}" y="36" font-size="12" text-anchor="end" class="m">Papers per year · {e(note)}</text>']
     cx, cw, base, span = 40, W - 80, H - 40, 120
     bw = cw / len(years)
     xpos = {y: cx + i * bw + bw / 2 for i, y in enumerate(years)}
     # milestones first so their guide lines sit behind the bars
-    rows_y = [70, 92, 114]
+    rows_y = [74, 98, 122]
     rows_end = [-1e9] * len(rows_y)
     for j, (y, label) in enumerate([m for m in MILESTONES if m[0] in xpos]):
         x = xpos[y]
-        wlab = len(label) * 5.9 + 14
+        wlab = len(label) * 7.0 + 14
         anchor = "end" if x > W - 200 else "start"
         x0, x1 = (x - wlab, x) if anchor == "end" else (x - 4, x + wlab)
         r = next((k for k, end in enumerate(rows_end) if x0 > end + 8), len(rows_y) - 1)
@@ -256,7 +256,7 @@ def journey(t, data):
         dx = -8 if anchor == "end" else 8
         o.append(f'<g class="f" style="animation-delay:{.6+j*.15:.2f}s"><line x1="{x:.1f}" y1="{ry+4}" x2="{x:.1f}" y2="{base-2}" stroke="{t["award"]}" stroke-width="1" stroke-dasharray="2 3" opacity=".6"/>'
                  f'<circle cx="{x:.1f}" cy="{ry}" r="4" fill="{t["award"]}"/>'
-                 f'<text x="{x+dx:.1f}" y="{ry+4}" font-size="11" text-anchor="{anchor}" fill="{t["ink"]}">{e(label)}</text></g>')
+                 f'<text x="{x+dx:.1f}" y="{ry+4}" font-size="13" text-anchor="{anchor}" fill="{t["ink"]}">{e(label)}</text></g>')
     o.append(f'<line x1="{cx}" y1="{base+.5}" x2="{cx+cw}" y2="{base+.5}" stroke="{t["line"]}"/>')
     for i, y in enumerate(years):
         w = bw * .56
@@ -266,18 +266,20 @@ def journey(t, data):
             h = span * n / top
             fill = t["accent2"] if y == this else t["accent"]
             o.append(f'<rect class="b" style="animation-delay:{i*0.06:.2f}s" x="{x:.1f}" y="{base-h:.1f}" width="{w:.1f}" height="{h:.1f}" rx="3" fill="{fill}"/>')
-            o.append(f'<text class="f" x="{xpos[y]:.1f}" y="{base-h-6:.1f}" font-size="11" font-weight="700" text-anchor="middle" fill="{t["ink"]}">{n}</text>')
-        o.append(f'<text x="{xpos[y]:.1f}" y="{base+15}" font-size="10" text-anchor="middle" class="m">{y}</text>')
+            o.append(f'<text class="f" x="{xpos[y]:.1f}" y="{base-h-6:.1f}" font-size="13" font-weight="700" text-anchor="middle" fill="{t["ink"]}">{n}</text>')
+        o.append(f'<text x="{xpos[y]:.1f}" y="{base+17}" font-size="12" text-anchor="middle" class="m">{y}</text>')
     if counts.get(this):
-        o.append(f'<rect x="{W-150}" y="50" width="10" height="10" rx="2" fill="{t["accent2"]}"/>'
-                 f'<text x="{W-135}" y="59" font-size="10.5" class="m">{this} so far</text>')
+        o.append(f'<rect x="{W-140}" y="48" width="10" height="10" rx="2" fill="{t["accent2"]}"/>'
+                 f'<text x="{W-125}" y="58" font-size="12" class="m">{this} so far</text>')
     if _yr(star) in xpos:
         x = xpos[_yr(star)]
-        title = star["t"] if len(star["t"]) <= 52 else star["t"][:51] + "…"
-        sy = base - span * counts[_yr(star)] / top - 30
+        title = star["t"] if len(star["t"]) <= 46 else star["t"][:45].rstrip() + "…"
+        top_y = base - span * counts[_yr(star)] / top
+        ly = rows_y[-1] + 30
         anchor, dx = ("end", -12) if x > W / 2 else ("start", 12)
-        o.append(f'<g class="f" style="animation-delay:1.4s"><path class="star" d="M{x:.1f},{sy-7} l3,6 6.5,.9 -4.7,4.6 1.1,6.5 -5.9,-3.1 -5.9,3.1 1.1,-6.5 -4.7,-4.6 6.5,-.9z" fill="{t["hot"]}"/>'
-                 f'<text x="{x+dx:.1f}" y="{sy+5}" font-size="10.5" text-anchor="{anchor}" fill="{t["hot"]}">Most cited: {e(title)} · {star.get("c",0):,}</text></g>')
+        o.append(f'<g class="f" style="animation-delay:1.4s"><line x1="{x:.1f}" y1="{ly+8}" x2="{x:.1f}" y2="{top_y-20:.1f}" stroke="{t["hot"]}" stroke-width="1" stroke-dasharray="2 3"/>'
+                 f'<path class="star" d="M{x:.1f},{ly-7} l3,6 6.5,.9 -4.7,4.6 1.1,6.5 -5.9,-3.1 -5.9,3.1 1.1,-6.5 -4.7,-4.6 6.5,-.9z" fill="{t["hot"]}"/>'
+                 f'<text x="{x+dx:.1f}" y="{ly+5}" font-size="12.5" text-anchor="{anchor}" fill="{t["hot"]}">Most cited: {e(title)} · {star.get("c",0):,}</text></g>')
     o.append("</svg>")
     return "\n".join(o)
 
@@ -288,7 +290,7 @@ SHORT = {"national institute of standards and technology": "NIST",
          "institut national de la sante et de la recherche medicale": "INSERM", "inserm": "INSERM",
          "thales france": "Thales", "imt atlantique": "IMT Atlantique", "university of siena": "University of Siena",
          "institut national de recherche en informatique et en automatique": "Inria",
-         "politecnico di torino": "Politecnico di Torino"}
+         "politecnico di torino": "Politecnico di Torino", "technology innovation institute": "TII", "centre inria": "Inria", "inria": "Inria"}
 
 
 def short_inst(name):
@@ -300,7 +302,7 @@ def short_inst(name):
 
 
 def network(t, works, me_id):
-    W, H = 880, 500
+    W, H = 880, 520
     works = dedupe_works(works)
     people = {}
     for wi, w in enumerate(works):
@@ -328,7 +330,7 @@ def network(t, works, me_id):
         rest = [k for g in order[7:] for k in groups.pop(g)]
         groups["Other"] = groups.get("Other", []) + rest
         order = [g for g in order[:7] if g != "Other"] + ["Other"]
-    CX, CY, RX, RY = W / 2, 262, 290, 145
+    CX, CY, RX, RY = W / 2, 272, 290, 150
     mx = max(p["n"] for p in people.values())
     gw = {g: weight(g) for g in order}
     gmx = max(gw.values())
@@ -343,8 +345,8 @@ def network(t, works, me_id):
          f'aria-label="Collaboration map: {len(people)} co-authors grouped by institution">',
          f"<style>{css}</style>",
          f'<rect x=".5" y=".5" width="{W-1}" height="{H-1}" rx="10" fill="{t["bg"]}" stroke="{t["line"]}"/>',
-         f'<text x="24" y="36" font-size="16" font-weight="700" fill="{t["ink"]}">Collaboration map</text>',
-         f'<text x="{W-24}" y="36" font-size="11" text-anchor="end" class="m">{len(people)} co-authors · {len(order)} institution groups · OpenAlex</text>']
+         f'<text x="24" y="36" font-size="18" font-weight="700" fill="{t["ink"]}">Collaboration map</text>',
+         f'<text x="{W-24}" y="36" font-size="12" text-anchor="end" class="m">{len(people)} co-authors · {len(order)} institution groups · OpenAlex</text>']
     spokes, clusters, labels = [], [], []
     for gi, g in enumerate(order):
         ang = -math.pi / 2 + (gi + .5) * 2 * math.pi / len(order)
@@ -370,17 +372,17 @@ def network(t, works, me_id):
         names = [surname(people[k]["name"]) for k in members[:3]]
         more = len(members) - len(names)
         lines = [(g, f"{gw[g]} paper{'s' if gw[g] != 1 else ''}"), (", ".join(names) + (f" +{more}" if more > 0 else ""), None)]
-        lx = min(max(hx, 110), W - 110)
+        lx = min(max(hx, 165), W - 165)
         down = math.sin(ang) > -.2
-        ly = hy + R + 16 if down else hy - R - 22
-        labels.append(f'<text x="{lx:.1f}" y="{ly:.1f}" font-size="12" font-weight="700" text-anchor="middle" fill="{t["ink"]}">{e(lines[0][0])}'
+        ly = hy + R + 18 if down else hy - R - 24
+        labels.append(f'<text x="{lx:.1f}" y="{ly:.1f}" font-size="14" font-weight="700" text-anchor="middle" fill="{t["ink"]}">{e(lines[0][0])}'
                       f'<tspan font-weight="400" class="m"> · {e(lines[0][1])}</tspan></text>'
-                      f'<text x="{lx:.1f}" y="{ly+14:.1f}" font-size="10.5" text-anchor="middle" class="m">{e(lines[1][0])}</text>')
+                      f'<text x="{lx:.1f}" y="{ly+16:.1f}" font-size="12" text-anchor="middle" class="m">{e(lines[1][0])}</text>')
     o += spokes + clusters + labels
     o.append(f'<circle class="me" cx="{CX}" cy="{CY}" r="30" fill="{t["accent"]}"/>'
              f'<circle cx="{CX}" cy="{CY}" r="28" fill="{t["ink"]}"/>'
              f'<text x="{CX}" y="{CY+5}" font-size="15" font-weight="700" text-anchor="middle" fill="{t["bg"]}">KK</text>')
-    o.append(f'<text x="24" y="{H-16}" font-size="10" class="m">Dot size = papers together · spoke width = papers with that group · '
+    o.append(f'<text x="24" y="{H-16}" font-size="11.5" class="m">Dot size = papers together · spoke width = papers with that group · '
              f'group = co-author’s most frequent affiliation on those papers</text>')
     o.append("</svg>")
     return "\n".join(o)
@@ -398,7 +400,10 @@ def pub_lists(data):
     cited = sorted(items, key=lambda i: i["c"], reverse=True)[:3]
     def line(i, cites=False):
         v = re.sub(r"^\d{4}\s+", "", (i["v"] or "").strip())
-        v = re.split(r",|\s\d", v)[0].strip()[:70]
+        v = re.split(r",\s*\d", v)[0]
+        v = re.sub(r"\s+\d+(\s*\(\d+\))?\s*$", "", v).strip(" ,")
+        if len(v) > 72:
+            v = v[:72].rsplit(" ", 1)[0].rstrip(" ,:;") + "…"
         title = f'[{_md(i["t"])}]({i["url"]})' if i.get("url") else _md(i["t"])
         tail = f" · **{i['c']:,} citations**" if cites else ""
         return f"- `{_yr(i) or '—'}` {title}" + (f" · *{_md(v)}*" if v else "") + tail
