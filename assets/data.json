@@ -104,6 +104,421 @@
     "h": 14,
     "i10": 17,
     "papers": 59,
+    "articles": [
+      {
+        "title": "A new backdoor attack in cnns by training set corruption without label poisoning",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:_kc_bZDykSQC",
+        "year": 2019,
+        "publication": "IEEE International Conference on Image Processing, 2019",
+        "cites": 743
+      },
+      {
+        "title": "CNN detection of GAN-generated face images based on cross-band co-occurrences analysis",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:Y0pCki6q_DkC",
+        "year": 2020,
+        "publication": "2020 IEEE international workshop on information forensics and security (WIFS \u2026, 2020",
+        "cites": 156
+      },
+      {
+        "title": "On the transferability of adversarial examples against CNN-based image forensics",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:5nxA0vEk-isC",
+        "year": 2019,
+        "publication": "ICASSP 2019-2019 IEEE International Conference on Acoustics, Speech and \u2026, 2019",
+        "cites": 51
+      },
+      {
+        "title": "A comprehensive survey on backdoor attacks and their defenses in face recognition systems",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:4TOpqqG69KYC",
+        "year": 2024,
+        "publication": "IEEE Access 12, 47433-47468, 2024",
+        "cites": 50
+      },
+      {
+        "title": "Deep learning for radar signal detection in the 3.5 GHz CBRS band",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:ufrVoPGSRksC",
+        "year": 2021,
+        "publication": "2021 IEEE International Symposium on Dynamic Spectrum Access Networks \u2026, 2021",
+        "cites": 35
+      },
+      {
+        "title": "A game-theoretic framework for optimum decision fusion in the presence of Byzantines",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:UeHWp8X0CEIC",
+        "year": 2016,
+        "publication": "IEEE Transactions on Information Forensics and Security 11 (6), 1333-1345, 2016",
+        "cites": 34
+      },
+      {
+        "title": "Deep learning for path loss prediction in the 3.5 GHz CBRS spectrum band",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:Tyk-4Ss8FVUC",
+        "year": 2022,
+        "publication": "2022 IEEE wireless communications and networking conference (WCNC), 1665-1670, 2022",
+        "cites": 30
+      },
+      {
+        "title": "Decision and game theory for security",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:M05iB0D1s5AC",
+        "year": 2016,
+        "publication": "Springer International Publishing, 2016",
+        "cites": 25
+      },
+      {
+        "title": "Luminance-based video backdoor attack against anti-spoofing rebroadcast detection",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:d1gkVwhDpl0C",
+        "year": 2019,
+        "publication": "2019 IEEE 21st International Workshop on Multimedia Signal Processing (MMSP \u2026, 2019",
+        "cites": 24
+      },
+      {
+        "title": "Rose: A robust and secure dnn watermarking",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:_FxGoFyzp5QC",
+        "year": 2022,
+        "publication": "2022 IEEE International Workshop on Information Forensics and Security (WIFS \u2026, 2022",
+        "cites": 19
+      },
+      {
+        "title": "Information Security and Cryptology: 10th International Conference, Inscrypt 2014, Beijing, China, December 13-15, 2014, Revised Selected Papers",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:Zph67rFs4hoC",
+        "year": 2015,
+        "publication": "Springer, 2015",
+        "cites": 18
+      },
+      {
+        "title": "Strategic safeguarding: A game theoretic approach for analyzing attacker-defender behavior in DNN backdoors",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:4DMP91E08xMC",
+        "year": 2024,
+        "publication": "EURASIP Journal on Information Security 2024 (1), 32, 2024",
+        "cites": 14
+      },
+      {
+        "title": "Mixer: Dnn watermarking using image mixup",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:u-x6o8ySG0sC",
+        "year": 2023,
+        "publication": "ICASSP 2023-2023 IEEE International Conference on Acoustics, Speech and \u2026, 2023",
+        "cites": 14
+      },
+      {
+        "title": "Decision fusion with corrupted reports in multi-sensor networks: A game-theoretic approach",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:LkGwnXOMwfcC",
+        "year": 2014,
+        "publication": "53rd IEEE Conference on Decision and Control, 505-510, 2014",
+        "cites": 14
+      },
+      {
+        "title": "Information Fusion in Distributed Sensor Networks with Byzantines",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:kNdYIx-mwKoC",
+        "year": 2021,
+        "publication": "Springer, 2021",
+        "cites": 13
+      },
+      {
+        "title": "Restore: Exploring a black-box defense against dnn backdoors using rare event simulation",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:YOwf2qJgpHMC",
+        "year": 2024,
+        "publication": "2024 IEEE Conference on Secure and Trustworthy Machine Learning (SaTML), 286-308, 2024",
+        "cites": 11
+      },
+      {
+        "title": "A double-edged sword: The power of two in defending against dnn backdoor attacks",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:QIV2ME_5wuYC",
+        "year": 2024,
+        "publication": "2024 32nd European Signal Processing Conference (EUSIPCO), 2007-2011, 2024",
+        "cites": 10
+      },
+      {
+        "title": "Energy backdoor attack to deep neural networks",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:M3NEmzRMIkIC",
+        "year": 2025,
+        "publication": "ICASSP 2025-2025 IEEE International Conference on Acoustics, Speech and \u2026, 2025",
+        "cites": 9
+      },
+      {
+        "title": "A message passing approach for decision fusion in adversarial multi-sensor networks",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:UebtZRa9Y70C",
+        "year": 2018,
+        "publication": "Information Fusion 40, 101-111, 2018",
+        "cites": 9
+      },
+      {
+        "title": "FedCrypt: A dynamic white-box watermarking scheme for homomorphic federated learning",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:Wp0gIr-vW9MC",
+        "year": 2024,
+        "publication": "",
+        "cites": 7
+      },
+      {
+        "title": "Flare: Federated learning attack via robust expectation-based backdooring using gan",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:2P1L_qKh6hAC",
+        "year": 2025,
+        "publication": "2025 International Conference on Emerging Technologies and Computing (IC_ETC \u2026, 2025",
+        "cites": 6
+      },
+      {
+        "title": "RoSe-Mix: Robust and secure deep neural network watermarking in black-box settings via image Mixup",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:J_g5lzvAfSwC",
+        "year": 2025,
+        "publication": "Machine Learning and Knowledge Extraction 7 (2), 32, 2025",
+        "cites": 6
+      },
+      {
+        "title": "Decision fusion with unbalanced priors under synchronized byzantine attacks: A message-passing approach",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:hqOjcs7Dif8C",
+        "year": 2018,
+        "publication": "2018 Asia-Pacific Signal and Information Processing Association Annual \u2026, 2018",
+        "cites": 6
+      },
+      {
+        "title": "A message passing approach for decision fusion of hidden-markov observations in the presence of synchronized attacks",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:u5HHmVD_uO8C",
+        "year": 2017,
+        "publication": "Int. Conf. Advances in Multimedia (MMEDIA), Special Track on Models and \u2026, 2017",
+        "cites": 4
+      },
+      {
+        "title": "Consensus algorithm with censored data for distributed detection with corrupted measurements: A game-theoretic approach",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:IjCSPb-OGe4C",
+        "year": 2016,
+        "publication": "International Conference on Decision and Game Theory for Security, 455-466, 2016",
+        "cites": 4
+      },
+      {
+        "title": "Adversarial multimedia forensics",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:M3ejUd6NZC8C",
+        "year": 2024,
+        "publication": "Springer, 2024",
+        "cites": 3
+      },
+      {
+        "title": "Efficient deep-learning-based decision fusion for adversarial sensor networks with Byzantine attacks",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:lSLTfruPkqcC",
+        "year": 2025,
+        "publication": "IEEE Sensors Journal 25 (13), 25905-25913, 2025",
+        "cites": 2
+      },
+      {
+        "title": "Performance Characterizations of a Simultaneous\" AND\"-\" OR\" Gates System Dependent on a Parallel-Series SOA-MZIs Combination",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:rO6llkc54NcC",
+        "year": 2026,
+        "publication": "Journal of Electronics and Electrical Engineering, 181-202, 2026",
+        "cites": 1
+      },
+      {
+        "title": "A Durable Backdoor Attack on Medical Imaging via Federated Learning",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:u_35RYKgDlwC",
+        "year": 2026,
+        "publication": "Opening the Personal Gate between Technology and Health Care: Proceedings of \u2026, 2026",
+        "cites": 1
+      },
+      {
+        "title": "GHOST: GAN-Harnessed Optimization for Strategic Backdoor Persistence with Future Update Anticipation in Non-IID Federated Learning",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:3s1wT3WcHBgC",
+        "year": 2026,
+        "publication": "",
+        "cites": 1
+      },
+      {
+        "title": "A Zero\u2011Sum Game\u2011Theoretic Analysis for Cost\u2011Aware Backdoor Attacks and Defenses in Deep Learning",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:SeFeTyx0c_EC",
+        "year": 2025,
+        "publication": "Journal of Intelligent Communication 4 (2), 74-92, 2025",
+        "cites": 1
+      },
+      {
+        "title": "Deciphering the Realm of Artificial Intelligence Security: Journeying from Backdoor Attacks in Deep Learning to Safeguarding their Intellectual Property through Watermarking",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:vV6vV6tmYwMC",
+        "year": 2025,
+        "publication": "Habilitation \u00e0 diriger des recherches, 2025",
+        "cites": 1
+      },
+      {
+        "title": "TriniMark: A robust generative speech watermarking method for trinity-level traceability",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:dfsIfKJdRG4C",
+        "year": 2025,
+        "publication": "arXiv preprint arXiv:2504.20532, 2025",
+        "cites": 1
+      },
+      {
+        "title": "Tatouage robuste et s\u00fbr de r\u00e9seaux de neurones en bo\u00eete noire",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:zYLM7Y9cAGgC",
+        "year": 2023,
+        "publication": "XXIX\u00e8me Colloque Francophone de Traitement du Signal et des Images, 2023",
+        "cites": 1
+      },
+      {
+        "title": "Basic Notions of Distributed Detection, Information Fusion and Game Theory",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:qjMakFHDy7sC",
+        "year": 2020,
+        "publication": "Information Fusion in Distributed Sensor Networks with Byzantines, 9-27, 2020",
+        "cites": 1
+      },
+      {
+        "title": "Adversarial Decision Fusion: A Heuristic Approach",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:9yKSN-GCB0IC",
+        "year": 2020,
+        "publication": "Information Fusion in Distributed Sensor Networks with Byzantines, 45-55, 2020",
+        "cites": 1
+      },
+      {
+        "title": "Attacks and Defenses on Consensus Algorithm for Distributed Networks",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:MXK_kJrjxJIC",
+        "year": 2015,
+        "publication": "VIPP Group, Siena, 2015",
+        "cites": 1
+      },
+      {
+        "title": "Optimum Fusion of Possibly Corrupted Reports for Distributed Detection in Multi-Sensor Networks",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:eQOLeE2rZwMC",
+        "year": 2015,
+        "publication": "arXiv preprint arXiv:1503.05829, 2015",
+        "cites": 1
+      },
+      {
+        "title": "Evaluaci\u00f3n del \u00c1rea de Solapamiento en Redes Wi-Fi Empleando Modelos de Propagaci\u00f3n para Interiores y Realizando Mediciones en el Sitio (Site Survey)",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:roLk4NBRz8UC",
+        "year": 2014,
+        "publication": "Revista Polit\u00e9cnica 34 (2), 2014",
+        "cites": 1
+      },
+      {
+        "title": "Turning Distillation against Obfuscation: A Recovery Framework for DNN White-Box Watermarks",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:fPk4N6BV_jEC",
+        "year": 2026,
+        "publication": "Proceedings of the 2026 ACM Workshop on Information Hiding and Multimedia \u2026, 2026",
+        "cites": 0
+      },
+      {
+        "title": "ROSE: Extended Evaluation of RObust and SEcure Black-Box DNN Watermarking",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:zA6iFVUQeVQC",
+        "year": 2026,
+        "publication": "IEEE Transactions on Dependable and Secure Computing, 2026",
+        "cites": 0
+      },
+      {
+        "title": "A Brief Survey of Emerging Threats to AI Security",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:ZHo1McVdvXMC",
+        "year": 2026,
+        "publication": "Adversarial Example Detection and Mitigation Using Machine Learning, 3-17, 2026",
+        "cites": 0
+      },
+      {
+        "title": "A Game-Theoretic Approach for Adversarial Information Fusion in Distributed Sensor Networks",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:Se3iqnhoufwC",
+        "year": 2025,
+        "publication": "arXiv preprint arXiv:2511.23026, 2025",
+        "cites": 0
+      },
+      {
+        "title": "Neural networks security under realistic scenario",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:dhFuZR0502QC",
+        "year": 2023,
+        "publication": "Universit\u00e9 de Rennes, 2023",
+        "cites": 0
+      },
+      {
+        "title": "A\u03c7on: IoT Attribute-based dynamic connector For Emergency Applications",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:KlAtU1dfN6UC",
+        "year": 2023,
+        "publication": "2023 International Conference on Smart Applications, Communications and \u2026, 2023",
+        "cites": 0
+      },
+      {
+        "title": "\ub525 \ub7ec\ub2dd \uae30\ubc18\uc758 \uc774\ubbf8\uc9c0 \ubd84\ub958 \ubaa8\ub378\uc5d0 \ub300\ud55c \ubc31\ub3c4\uc5b4 \uacf5\uaca9\uacfc \ubc29\uc5b4 \ubc29\ubc95\uc758 \ucd5c\uc2e0 \ub3d9\ud5a5\uc5d0 \uad00\ud55c \uc5f0\uad6c",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:HoB7MX3m0LUC",
+        "year": 2022,
+        "publication": "\ud55c\uad6d\uc815\ubcf4\uacfc\ud559\ud68c \ud559\uc220\ubc1c\ud45c\ub17c\ubb38\uc9d1, 717-719, 2022",
+        "cites": 0
+      },
+      {
+        "title": "An Efficient Nearly-Optimum Decision Fusion Technique Based on Message Passing",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:YsMSGLbcyi4C",
+        "year": 2020,
+        "publication": "Information Fusion in Distributed Sensor Networks with Byzantines, 83-101, 2020",
+        "cites": 0
+      },
+      {
+        "title": "Security Attacks and Defenses in Distributed Sensor Networks",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:W7OEmFMy1HYC",
+        "year": 2020,
+        "publication": "Information Fusion in Distributed Sensor Networks with Byzantines, 29-43, 2020",
+        "cites": 0
+      },
+      {
+        "title": "Information Fusion in Distributed Sensor Networks with Byzantines Andrea Abrardo, Mauro Barni, Kassem Kallas, Benedetta Tondi",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:9ZlFYXVOiuMC",
+        "year": 2019,
+        "publication": "",
+        "cites": 0
+      },
+      {
+        "title": "A Message Passing Approach for Decision Fusion of Hidden-Markov Observations in the Presence of Synchronized Attacks",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:35N4QoGY0k4C",
+        "year": 2017,
+        "publication": "The Ninth International Conferences on. Advances in Multimedia. MMEDIA 2017, 2017",
+        "cites": 0
+      },
+      {
+        "title": "Organizing committee ICCST 2017",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:ULOm3_A8WrAC",
+        "year": 2017,
+        "publication": "Sandia National Laboratories, USA, 2017",
+        "cites": 0
+      },
+      {
+        "title": "Evaluaci\u00f3n del \u00c1rea de Solapamiento en Redes Wi-Fi Empleando Modelos de Propagaci\u00f3n para Interiores y Realizando Mediciones en el Sitio (Site Survey)",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:4OULZ7Gr8RgC",
+        "year": 2014,
+        "publication": "",
+        "cites": 0
+      },
+      {
+        "title": "cognitive radio networks tutorial",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:2osOgNQ5qMEC",
+        "year": 2014,
+        "publication": "",
+        "cites": 0
+      },
+      {
+        "title": "Backdoors in Artificial Intelligence: Stealth Weapon or Structural Weakness?",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:pqnbT2bcN3wC",
+        "year": null,
+        "publication": "",
+        "cites": 0
+      },
+      {
+        "title": "Fournaris Apostolos, Industrial Systems Institute, Research Center ATHENA, Greece Gaur Manoj, Malaviya National Institute of Technology, India Ghai Dhruva, Oriental University \u2026",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:g5m5HwL7SMYC",
+        "year": null,
+        "publication": "",
+        "cites": 0
+      },
+      {
+        "title": "SaTML 2024",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:ldfaerwXgEUC",
+        "year": null,
+        "publication": "",
+        "cites": 0
+      },
+      {
+        "title": "Jiyang Guan1, 2, Jian Liang1, 2, Ran He1, 2 1MAIS&CRIPAC, Institute of Automation, Chinese Academy of Sciences, China 2School of Artificial Intelligence, University of Chinese \u2026",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:7PzlFSSx8tAC",
+        "year": null,
+        "publication": "",
+        "cites": 0
+      },
+      {
+        "title": "2024 IEEE Conference on Secure and Trustworthy Machine Learning (SaTML)| 979-8-3503-4950-4/24/$31.00\u00a9 2024 IEEE| DOI: 10.1109/SaTML59370. 2024.00043",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:qxL8FJ1GzNcC",
+        "year": null,
+        "publication": "",
+        "cites": 0
+      },
+      {
+        "title": "RESEARCH MASTER in Information Systems and Data Intelligence (ISDI)",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:3fE2CSJIrl8C",
+        "year": null,
+        "publication": "",
+        "cites": 0
+      }
+    ],
     "by_year": [
       {
         "year": 2016,
@@ -151,6 +566,1213 @@
       }
     ]
   },
+  "works": [
+    {
+      "t": "A New Backdoor Attack in CNNS by Training Set Corruption Without Label Poisoning",
+      "y": 2019,
+      "c": 392,
+      "type": "conference-paper",
+      "doi": "https://doi.org/10.1109/icip.2019.8802997",
+      "venue": "Proceedings - International Conference on Image Processing",
+      "a": [
+        [
+          "A5007836692",
+          "Mauro Barni",
+          "University of Siena"
+        ],
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "University of Siena"
+        ],
+        [
+          "A5026139768",
+          "Benedetta Tondi",
+          "University of Siena"
+        ]
+      ]
+    },
+    {
+      "t": "CNN Detection of GAN-Generated Face Images based on Cross-Band Co-occurrences Analysis",
+      "y": 2020,
+      "c": 111,
+      "type": "conference-paper",
+      "doi": "https://doi.org/10.1109/wifs49906.2020.9360905",
+      "venue": "IEEE International Workshop on Information Forensics and Security",
+      "a": [
+        [
+          "A5007836692",
+          "Mauro Barni",
+          "University of Siena"
+        ],
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "University of Siena"
+        ],
+        [
+          "A5014302355",
+          "Ehsan Nowroozi",
+          "University of Siena"
+        ],
+        [
+          "A5026139768",
+          "Benedetta Tondi",
+          "University of Siena"
+        ]
+      ]
+    },
+    {
+      "t": "A Comprehensive Survey on Backdoor Attacks and Their Defenses in Face Recognition Systems",
+      "y": 2024,
+      "c": 30,
+      "type": "article",
+      "doi": "https://doi.org/10.1109/access.2024.3382584",
+      "venue": "IEEE Access",
+      "a": [
+        [
+          "A5015656596",
+          "Quentin Le Roux",
+          "Thales (France)"
+        ],
+        [
+          "A5067341186",
+          "Eric Bourbao",
+          "Thales (France)"
+        ],
+        [
+          "A5078246888",
+          "Yannick Teglia",
+          "Thales (France)"
+        ],
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "Institut national de recherche en sciences et technologies du num\u00e9rique"
+        ]
+      ]
+    },
+    {
+      "t": "On the Transferability of Adversarial Examples against CNN-based Image Forensics",
+      "y": 2019,
+      "c": 41,
+      "type": "conference-paper",
+      "doi": "https://doi.org/10.1109/icassp.2019.8683772",
+      "venue": "IEEE International Conference on Acoustics Speech and Signal Processing",
+      "a": [
+        [
+          "A5007836692",
+          "Mauro Barni",
+          "University of Siena"
+        ],
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "University of Siena"
+        ],
+        [
+          "A5014302355",
+          "Ehsan Nowroozi",
+          "University of Siena"
+        ],
+        [
+          "A5026139768",
+          "Benedetta Tondi",
+          "University of Siena"
+        ]
+      ]
+    },
+    {
+      "t": "A Game-Theoretic Framework for Optimum Decision Fusion in the Presence of Byzantines",
+      "y": 2016,
+      "c": 29,
+      "type": "article",
+      "doi": "https://doi.org/10.1109/tifs.2016.2526963",
+      "venue": "IEEE Transactions on Information Forensics and Security",
+      "a": [
+        [
+          "A5026258680",
+          "Andrea Abrardo",
+          "University of Siena"
+        ],
+        [
+          "A5007836692",
+          "Mauro Barni",
+          "University of Siena"
+        ],
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "University of Siena"
+        ],
+        [
+          "A5026139768",
+          "Benedetta Tondi",
+          "University of Siena"
+        ]
+      ]
+    },
+    {
+      "t": "Deep Learning for Radar Signal Detection in the 3.5 GHz CBRS Band",
+      "y": 2021,
+      "c": 26,
+      "type": "conference-paper",
+      "doi": "https://doi.org/10.1109/dyspan53946.2021.9677280",
+      "venue": "IEEE International Symposium on Dynamic Spectrum Access Networks",
+      "a": [
+        [
+          "A5017038926",
+          "Raied Caromi",
+          "National Institute of Standards and Technology"
+        ],
+        [
+          "A5020040253",
+          "Alex Lackpour",
+          "Drexel University"
+        ],
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "National Institute of Standards and Technology"
+        ],
+        [
+          "A5003918071",
+          "Thao T. Nguyen",
+          "National Institute of Standards and Technology"
+        ],
+        [
+          "A5077761543",
+          "Michael R. Souryal",
+          "National Institute of Standards and Technology"
+        ]
+      ]
+    },
+    {
+      "t": "Deep Learning for Path Loss Prediction in the 3.5 GHz CBRS Spectrum Band",
+      "y": 2022,
+      "c": 23,
+      "type": "conference-paper",
+      "doi": "https://doi.org/10.1109/wcnc51071.2022.9771737",
+      "venue": "IEEE Wireless Communications and Networking Conference",
+      "a": [
+        [
+          "A5003918071",
+          "Thao T. Nguyen",
+          "National Institute of Standards and Technology"
+        ],
+        [
+          "A5017038926",
+          "Raied Caromi",
+          "National Institute of Standards and Technology"
+        ],
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "National Institute of Standards and Technology"
+        ],
+        [
+          "A5077761543",
+          "Michael R. Souryal",
+          "National Institute of Standards and Technology"
+        ]
+      ]
+    },
+    {
+      "t": "Luminance-based video backdoor attack against anti-spoofing rebroadcast detection",
+      "y": 2019,
+      "c": 17,
+      "type": "conference-paper",
+      "doi": "https://doi.org/10.1109/mmsp.2019.8901711",
+      "venue": "IEEE International Workshop on Multimedia Signal Processing (MMSP)",
+      "a": [
+        [
+          "A5081010150",
+          "Abhir H. Bhalerao",
+          "University of Warwick"
+        ],
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "University of Siena"
+        ],
+        [
+          "A5026139768",
+          "Benedetta Tondi",
+          "University of Siena"
+        ],
+        [
+          "A5007836692",
+          "Mauro Barni",
+          "University of Siena"
+        ]
+      ]
+    },
+    {
+      "t": "Strategic safeguarding: A game theoretic approach for analyzing attacker-defender behavior in DNN backdoors",
+      "y": 2024,
+      "c": 8,
+      "type": "article",
+      "doi": "https://doi.org/10.1186/s13635-024-00180-5",
+      "venue": "EURASIP Journal on Information Security",
+      "a": [
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "Inserm"
+        ],
+        [
+          "A5015656596",
+          "Quentin Le Roux",
+          "Institut national de recherche en sciences et technologies du num\u00e9rique"
+        ],
+        [
+          "A5084205574",
+          "Wassim Hamidouche",
+          "Technology Innovation Institute"
+        ],
+        [
+          "A5062906790",
+          "Teddy Furon",
+          "Institut national de recherche en sciences et technologies du num\u00e9rique"
+        ]
+      ]
+    },
+    {
+      "t": "Energy Backdoor Attack to Deep Neural Networks",
+      "y": 2025,
+      "c": 5,
+      "type": "conference-paper",
+      "doi": "https://doi.org/10.1109/icassp49660.2025.10888330",
+      "venue": "IEEE International Conference on Acoustics Speech and Signal Processing",
+      "a": [
+        [
+          "A5006656635",
+          "Hanene F. Z. Brachemi Meftah",
+          "Centre National de la Recherche Scientifique"
+        ],
+        [
+          "A5084205574",
+          "Wassim Hamidouche",
+          "Khalifa University of Science and Technology"
+        ],
+        [
+          "A5055759473",
+          "Sid Ahmed Fezza",
+          "Ecole Nationale Sup\u00e9rieur des T\u00e9l\u00e9communications et des Technologies de l\u2019Information et de la Communication, Abdelhafid Boussouf"
+        ],
+        [
+          "A5031377954",
+          "Olivier D\u00e9forges A",
+          "Centre National de la Recherche Scientifique"
+        ],
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "Laboratoire de Traitement de l'Information M\u00e9dicale"
+        ]
+      ]
+    },
+    {
+      "t": "ROSE: A RObust and SEcure DNN Watermarking",
+      "y": 2022,
+      "c": 12,
+      "type": "conference-paper",
+      "doi": "https://doi.org/10.1109/wifs55849.2022.9975300",
+      "venue": "IEEE International Workshop on Information Forensics and Security",
+      "a": [
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "Centre Inria de l'Universit\u00e9 de Rennes"
+        ],
+        [
+          "A5062906790",
+          "Teddy Furon",
+          "Centre Inria de l'Universit\u00e9 de Rennes"
+        ]
+      ]
+    },
+    {
+      "t": "Mixer: DNN Watermarking using Image Mixup",
+      "y": 2023,
+      "c": 7,
+      "type": "conference-paper",
+      "doi": "https://doi.org/10.1109/icassp49357.2023.10095332",
+      "venue": "IEEE International Conference on Acoustics Speech and Signal Processing",
+      "a": [
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "Centre Inria de l'Universit\u00e9 de Rennes"
+        ],
+        [
+          "A5062906790",
+          "Teddy Furon",
+          "Centre Inria de l'Universit\u00e9 de Rennes"
+        ]
+      ]
+    },
+    {
+      "t": "REStore: Exploring a Black-Box Defense against DNN Backdoors using Rare Event Simulation",
+      "y": 2024,
+      "c": 7,
+      "type": "conference-paper",
+      "doi": "https://doi.org/10.1109/satml59370.2024.00021",
+      "venue": "IEEE Conference on Secure and Trustworthy Machine Learning (SaTML)",
+      "a": [
+        [
+          "A5015656596",
+          "Quentin Le Roux",
+          "Institut national de recherche en sciences et technologies du num\u00e9rique"
+        ],
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "Institut national de recherche en sciences et technologies du num\u00e9rique"
+        ],
+        [
+          "A5062906790",
+          "Teddy Furon",
+          "Institut national de recherche en sciences et technologies du num\u00e9rique"
+        ]
+      ]
+    },
+    {
+      "t": "A message passing approach for decision fusion in adversarial multi-sensor networks",
+      "y": 2017,
+      "c": 6,
+      "type": "article",
+      "doi": "https://doi.org/10.1016/j.inffus.2017.06.006",
+      "venue": "Information Fusion",
+      "a": [
+        [
+          "A5026258680",
+          "Andrea Abrardo",
+          "University of Siena"
+        ],
+        [
+          "A5007836692",
+          "Mauro Barni",
+          "University of Siena"
+        ],
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "University of Siena"
+        ],
+        [
+          "A5026139768",
+          "Benedetta Tondi",
+          "University of Siena"
+        ]
+      ]
+    },
+    {
+      "t": "Adversarial Multimedia Forensics",
+      "y": 2024,
+      "c": 6,
+      "type": "book",
+      "doi": "https://doi.org/10.1007/978-3-031-49803-9",
+      "venue": "Advances in information security",
+      "a": [
+        [
+          "A5014302355",
+          "Ehsan Nowroozi",
+          "Ravensbourne University London"
+        ],
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "Institut national de recherche en sciences et technologies du num\u00e9rique"
+        ],
+        [
+          "A5045461052",
+          "Alireza Jolfaei",
+          "Flinders University"
+        ]
+      ]
+    },
+    {
+      "t": "A Double-Edged Sword: The Power of Two in Defending Against DNN Backdoor Attacks",
+      "y": 2024,
+      "c": 6,
+      "type": "conference-paper",
+      "doi": "https://doi.org/10.23919/eusipco63174.2024.10715340",
+      "venue": "European Signal Processing Conference (EUSIPCO)",
+      "a": [
+        [
+          "A5015656596",
+          "Quentin Le Roux",
+          "Thales (France)"
+        ],
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "Institut national de recherche en sciences et technologies du num\u00e9rique"
+        ],
+        [
+          "A5062906790",
+          "Teddy Furon",
+          "Centre Inria de l'Universit\u00e9 de Rennes"
+        ]
+      ]
+    },
+    {
+      "t": "Decision fusion with corrupted reports in multi-sensor networks: A game-theoretic approach",
+      "y": 2014,
+      "c": 11,
+      "type": "conference-paper",
+      "doi": "https://doi.org/10.1109/cdc.2014.7039431",
+      "venue": "IEEE Conference on Decision and Control (CDC)",
+      "a": [
+        [
+          "A5026258680",
+          "Andrea Abrardo",
+          "University of Siena"
+        ],
+        [
+          "A5007836692",
+          "Mauro Barni",
+          "University of Siena"
+        ],
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "University of Siena"
+        ],
+        [
+          "A5026139768",
+          "Benedetta Tondi",
+          "University of Siena"
+        ]
+      ]
+    },
+    {
+      "t": "Information Fusion in Distributed Sensor Networks with Byzantines",
+      "y": 2020,
+      "c": 8,
+      "type": "book",
+      "doi": "https://doi.org/10.1007/978-981-32-9001-3",
+      "venue": "Signals and communication technology",
+      "a": [
+        [
+          "A5026258680",
+          "Andrea Abrardo",
+          "University of Siena"
+        ],
+        [
+          "A5007836692",
+          "Mauro Barni",
+          "University of Siena"
+        ],
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "University of Siena"
+        ],
+        [
+          "A5026139768",
+          "Benedetta Tondi",
+          "University of Siena"
+        ]
+      ]
+    },
+    {
+      "t": "RoSe-Mix: Robust and Secure Deep Neural Network Watermarking in Black-Box Settings via Image Mixup",
+      "y": 2025,
+      "c": 3,
+      "type": "article",
+      "doi": "https://doi.org/10.3390/make7020032",
+      "venue": "Machine Learning and Knowledge Extraction",
+      "a": [
+        [
+          "A5116866377",
+          "Tamara El Hajjar",
+          "Inserm"
+        ],
+        [
+          "A5043935032",
+          "Mohammed Lansari",
+          "Inserm"
+        ],
+        [
+          "A5069264855",
+          "Reda Bellafqira",
+          "Inserm"
+        ],
+        [
+          "A5062289182",
+          "Gouenou Coatrieux",
+          "Inserm"
+        ],
+        [
+          "A5060291347",
+          "Katarzyna Kapusta",
+          "Thales (France)"
+        ],
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "Inserm"
+        ]
+      ]
+    },
+    {
+      "t": "Efficient Deep-Learning-Based Decision Fusion for Adversarial Sensor Networks With Byzantine Attacks",
+      "y": 2025,
+      "c": 2,
+      "type": "article",
+      "doi": "https://doi.org/10.1109/jsen.2025.3566168",
+      "venue": "IEEE Sensors Journal",
+      "a": [
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "Inserm"
+        ]
+      ]
+    },
+    {
+      "t": "A Durable Backdoor Attack on Medical Imaging via Federated Learning",
+      "y": 2026,
+      "c": 2,
+      "type": "book-chapter",
+      "doi": "https://doi.org/10.3233/shti260241",
+      "venue": "Studies in health technology and informatics",
+      "a": [
+        [
+          "A5116772153",
+          "Hichem Faraoun",
+          "IMT Atlantique"
+        ],
+        [
+          "A5069264855",
+          "Reda Bellafqira",
+          "Inserm"
+        ],
+        [
+          "A5108307254",
+          "Gouenou Coatrieux",
+          "Inserm"
+        ],
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "Inserm"
+        ]
+      ]
+    },
+    {
+      "t": "Decision Fusion with Unbalanced Priors under Synchronized Byzantine Attacks: a Message-Passing Approach",
+      "y": 2018,
+      "c": 5,
+      "type": "conference-paper",
+      "doi": "https://doi.org/10.23919/apsipa.2018.8659667",
+      "venue": "Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC)",
+      "a": [
+        [
+          "A5026258680",
+          "Andrea Abrardo",
+          "University of Siena"
+        ],
+        [
+          "A5007836692",
+          "Mauro Barni",
+          "University of Siena"
+        ],
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "University of Siena"
+        ],
+        [
+          "A5026139768",
+          "Benedetta Tondi",
+          "University of Siena"
+        ]
+      ]
+    },
+    {
+      "t": "FLARE: Federated Learning Attack via Robust Expectation-Based Backdooring Using GAN",
+      "y": 2025,
+      "c": 1,
+      "type": "conference-paper",
+      "doi": "https://doi.org/10.1109/ic_etc65981.2025.11141092",
+      "venue": "International Conference on Emerging Technologies and Computing (IC_ETC)",
+      "a": [
+        [
+          "A5116772153",
+          "Hichem Faraoun",
+          "IMT Atlantique"
+        ],
+        [
+          "A5069264855",
+          "Reda Bellafqira",
+          "IMT Atlantique"
+        ],
+        [
+          "A5108307254",
+          "Gouenou Coatrieux",
+          "IMT Atlantique"
+        ],
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "Inserm"
+        ]
+      ]
+    },
+    {
+      "t": "Performance Characterizations of a Simultaneous \"AND\"-\"OR\" Gates System Dependent on a Parallel-Series SOA-MZIs Combination",
+      "y": 2026,
+      "c": 1,
+      "type": "article",
+      "doi": "https://doi.org/10.37256/jeee.5120269932",
+      "venue": "Journal of Electronics and Electrical Engineering",
+      "a": [
+        [
+          "A5073350854",
+          "Hassan Termos",
+          "Institute of Photonic Sciences"
+        ],
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "Inserm"
+        ]
+      ]
+    },
+    {
+      "t": "A Message Passing Approach for Decision Fusion of Hidden-Markov Observations in the presence of Synchronized Attacks",
+      "y": 2017,
+      "c": 3,
+      "type": "conference-paper",
+      "doi": null,
+      "venue": "HAL",
+      "a": [
+        [
+          "A5112286956",
+          "Andrea Abrardo",
+          "University of Siena"
+        ],
+        [
+          "A5007836692",
+          "Mauro Barni",
+          "University of Siena"
+        ],
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "University of Siena"
+        ],
+        [
+          "A5026139768",
+          "Benedetta Tondi",
+          "University of Siena"
+        ]
+      ]
+    },
+    {
+      "t": "Consensus Algorithm with Censored Data for Distributed Detection with Corrupted Measurements: A Game-Theoretic Approach",
+      "y": 2016,
+      "c": 2,
+      "type": "conference-paper",
+      "doi": "https://doi.org/10.1007/978-3-319-47413-7_26",
+      "venue": "Lecture notes in computer science",
+      "a": [
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "University of Siena"
+        ],
+        [
+          "A5026139768",
+          "Benedetta Tondi",
+          "University of Siena"
+        ],
+        [
+          "A5011222101",
+          "Riccardo Lazzeretti",
+          "University of Siena"
+        ],
+        [
+          "A5007836692",
+          "Mauro Barni",
+          "University of Siena"
+        ]
+      ]
+    },
+    {
+      "t": "Basic Notions of Distributed Detection, Information Fusion and Game Theory",
+      "y": 2020,
+      "c": 2,
+      "type": "book-chapter",
+      "doi": "https://doi.org/10.1007/978-981-32-9001-3_2",
+      "venue": "Signals and communication technology",
+      "a": [
+        [
+          "A5026258680",
+          "Andrea Abrardo",
+          "University of Siena"
+        ],
+        [
+          "A5007836692",
+          "Mauro Barni",
+          "University of Siena"
+        ],
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "University of Siena"
+        ],
+        [
+          "A5026139768",
+          "Benedetta Tondi",
+          "University of Siena"
+        ]
+      ]
+    },
+    {
+      "t": "Adversarial Decision Fusion: A Heuristic Approach",
+      "y": 2020,
+      "c": 2,
+      "type": "book-chapter",
+      "doi": "https://doi.org/10.1007/978-981-32-9001-3_4",
+      "venue": "Signals and communication technology",
+      "a": [
+        [
+          "A5026258680",
+          "Andrea Abrardo",
+          "University of Siena"
+        ],
+        [
+          "A5007836692",
+          "Mauro Barni",
+          "University of Siena"
+        ],
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "University of Siena"
+        ],
+        [
+          "A5026139768",
+          "Benedetta Tondi",
+          "University of Siena"
+        ]
+      ]
+    },
+    {
+      "t": "A Game-Theoretic Framework for Optimum Decision Fusion in the Presence of Byzantines",
+      "y": 2020,
+      "c": 1,
+      "type": "book-chapter",
+      "doi": "https://doi.org/10.1007/978-981-32-9001-3_5",
+      "venue": "Signals and communication technology",
+      "a": [
+        [
+          "A5026258680",
+          "Andrea Abrardo",
+          "University of Siena"
+        ],
+        [
+          "A5007836692",
+          "Mauro Barni",
+          "University of Siena"
+        ],
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "University of Siena"
+        ],
+        [
+          "A5026139768",
+          "Benedetta Tondi",
+          "University of Siena"
+        ]
+      ]
+    },
+    {
+      "t": "Security Attacks and Defenses in Distributed Sensor Networks",
+      "y": 2020,
+      "c": 1,
+      "type": "book-chapter",
+      "doi": "https://doi.org/10.1007/978-981-32-9001-3_3",
+      "venue": "Signals and communication technology",
+      "a": [
+        [
+          "A5026258680",
+          "Andrea Abrardo",
+          "University of Siena"
+        ],
+        [
+          "A5007836692",
+          "Mauro Barni",
+          "University of Siena"
+        ],
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "University of Siena"
+        ],
+        [
+          "A5026139768",
+          "Benedetta Tondi",
+          "University of Siena"
+        ]
+      ]
+    },
+    {
+      "t": "FedCrypt: A Dynamic White-Box Watermarking Scheme for Homomorphic Federated Learning",
+      "y": 2024,
+      "c": 3,
+      "type": "preprint",
+      "doi": "https://doi.org/10.36227/techrxiv.172114666.63343276/v1",
+      "venue": "",
+      "a": [
+        [
+          "A5043935032",
+          "Mohammed Lansari",
+          "Inserm"
+        ],
+        [
+          "A5069264855",
+          "Reda Bellafqira",
+          "Inserm"
+        ],
+        [
+          "A5060291347",
+          "Katarzyna Kapusta",
+          "Inserm"
+        ],
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "Inserm"
+        ],
+        [
+          "A5102175185",
+          "Vincent Thouvenot",
+          "Inserm"
+        ],
+        [
+          "A5028754666",
+          "Olivier Bettan",
+          "Thales (France)"
+        ],
+        [
+          "A5062289182",
+          "Gouenou Coatrieux",
+          "Inserm"
+        ]
+      ]
+    },
+    {
+      "t": "Evaluaci\u00f3n del \u00c1rea de Solapamiento en Redes Wi-Fi Empleando Modelos de Propagaci\u00f3n para Interiores y Realizando Mediciones en el Sitio (Site Survey)",
+      "y": 2014,
+      "c": 0,
+      "type": "article",
+      "doi": null,
+      "venue": "DOAJ (DOAJ: Directory of Open Access Journals)",
+      "a": [
+        [
+          "A5037170311",
+          "Christian Jos\u00e9 Tipantu\u00f1a",
+          "Politecnico di Torino"
+        ],
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "University of Siena"
+        ]
+      ]
+    },
+    {
+      "t": "Optimum Fusion of Possibly Corrupted Reports for Distributed Detection in Multi-Sensor Networks",
+      "y": 2015,
+      "c": 0,
+      "type": "preprint",
+      "doi": "https://doi.org/10.48550/arxiv.1503.05829",
+      "venue": "arXiv (Cornell University)",
+      "a": [
+        [
+          "A5026258680",
+          "Andrea Abrardo",
+          ""
+        ],
+        [
+          "A5007836692",
+          "Mauro Barni",
+          ""
+        ],
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          ""
+        ],
+        [
+          "A5026139768",
+          "Benedetta Tondi",
+          ""
+        ]
+      ]
+    },
+    {
+      "t": "A Game-Theoretic Approach for Adversarial Information Fusion in Distributed Sensor Networks",
+      "y": 2017,
+      "c": 0,
+      "type": "preprint",
+      "doi": "https://doi.org/10.13140/rg.2.2.28011.54564",
+      "venue": "arXiv (Cornell University)",
+      "a": [
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          ""
+        ]
+      ]
+    },
+    {
+      "t": "An Efficient Nearly-Optimum Decision Fusion Technique Based on Message Passing",
+      "y": 2020,
+      "c": 0,
+      "type": "book-chapter",
+      "doi": "https://doi.org/10.1007/978-981-32-9001-3_6",
+      "venue": "Signals and communication technology",
+      "a": [
+        [
+          "A5026258680",
+          "Andrea Abrardo",
+          "University of Siena"
+        ],
+        [
+          "A5007836692",
+          "Mauro Barni",
+          "University of Siena"
+        ],
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "University of Siena"
+        ],
+        [
+          "A5026139768",
+          "Benedetta Tondi",
+          "University of Siena"
+        ]
+      ]
+    },
+    {
+      "t": "Conclusion",
+      "y": 2020,
+      "c": 0,
+      "type": "book-chapter",
+      "doi": "https://doi.org/10.1007/978-981-32-9001-3_7",
+      "venue": "Signals and communication technology",
+      "a": [
+        [
+          "A5026258680",
+          "Andrea Abrardo",
+          "University of Siena"
+        ],
+        [
+          "A5007836692",
+          "Mauro Barni",
+          "University of Siena"
+        ],
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "University of Siena"
+        ],
+        [
+          "A5026139768",
+          "Benedetta Tondi",
+          "University of Siena"
+        ]
+      ]
+    },
+    {
+      "t": "Introduction",
+      "y": 2020,
+      "c": 0,
+      "type": "book-chapter",
+      "doi": "https://doi.org/10.1007/978-981-32-9001-3_1",
+      "venue": "Signals and communication technology",
+      "a": [
+        [
+          "A5026258680",
+          "Andrea Abrardo",
+          "University of Siena"
+        ],
+        [
+          "A5007836692",
+          "Mauro Barni",
+          "University of Siena"
+        ],
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "University of Siena"
+        ],
+        [
+          "A5026139768",
+          "Benedetta Tondi",
+          "University of Siena"
+        ]
+      ]
+    },
+    {
+      "t": "GHOST: GAN-Harnessed Optimization for Strategic Backdoor Persistence With Future Update Anticipation in Non-IID Federated Learning",
+      "y": 2026,
+      "c": 0,
+      "type": "article",
+      "doi": "https://doi.org/10.1109/tifs.2026.3744525",
+      "venue": "IEEE Transactions on Information Forensics and Security",
+      "a": [
+        [
+          "A5116772153",
+          "Hichem Faraoun",
+          "Inserm"
+        ],
+        [
+          "A5069264855",
+          "Reda Bellafqira",
+          "Inserm"
+        ],
+        [
+          "A5108307254",
+          "Gouenou Coatrieux",
+          "Inserm"
+        ],
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "Inserm"
+        ]
+      ]
+    },
+    {
+      "t": "Deciphering the Realm of Artificial Intelligence Security: Journeying from Backdoor Attacks in Deep Learning to Safeguarding their Intellectual Property through Watermarking",
+      "y": 2025,
+      "c": 0,
+      "type": "dissertation",
+      "doi": null,
+      "venue": "HAL",
+      "a": [
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "Laboratoire de Traitement de l'Information M\u00e9dicale"
+        ]
+      ]
+    },
+    {
+      "t": "A Zero\u2011Sum Game\u2011Theoretic Analysis for Cost\u2011Aware Backdoor Attacks and Defenses in Deep Learning",
+      "y": 2025,
+      "c": 0,
+      "type": "article",
+      "doi": "https://doi.org/10.54963/jic.v4i2.1576",
+      "venue": "Journal of Intelligent Communication",
+      "a": [
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "Inserm"
+        ],
+        [
+          "A5120336314",
+          "Carine Tannous",
+          "IMT Atlantique"
+        ],
+        [
+          "A5116772153",
+          "Hichem Faraoun",
+          "IMT Atlantique"
+        ]
+      ]
+    },
+    {
+      "t": "A Brief Survey of Emerging Threats to AI Security",
+      "y": 2026,
+      "c": 0,
+      "type": "book-chapter",
+      "doi": "https://doi.org/10.1007/978-3-031-99447-0_1",
+      "venue": "Springer eBooks",
+      "a": [
+        [
+          "A5120336314",
+          "Carine Tannous",
+          "IMT Atlantique"
+        ],
+        [
+          "A5116772153",
+          "Hichem Faraoun",
+          "IMT Atlantique"
+        ],
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "Inserm"
+        ]
+      ]
+    },
+    {
+      "t": "ROSE: Extended Evaluation of RObust and SEcure Black-Box DNN Watermarking",
+      "y": 2026,
+      "c": 0,
+      "type": "article",
+      "doi": "https://doi.org/10.1109/tdsc.2026.3694332",
+      "venue": "IEEE Transactions on Dependable and Secure Computing",
+      "a": [
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "Laboratoire de Traitement de l'Information M\u00e9dicale"
+        ],
+        [
+          "A5062906790",
+          "Teddy Furon",
+          "Centre Inria de l'Universit\u00e9 de Rennes"
+        ]
+      ]
+    },
+    {
+      "t": "Turning Distillation against Obfuscation: A Recovery Framework for DNN White-Box Watermarks",
+      "y": 2026,
+      "c": 0,
+      "type": "conference-paper",
+      "doi": "https://doi.org/10.1145/3785353.3815095",
+      "venue": "ACM Workshop on Information Hiding and Multimedia Security (IH&MMSec)",
+      "a": [
+        [
+          "A5118706964",
+          "Mahdieh Pouresmaeil",
+          "IMT Atlantique"
+        ],
+        [
+          "A5069264855",
+          "Reda Bellafqira",
+          "IMT Atlantique"
+        ],
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "Inserm"
+        ],
+        [
+          "A5028479581",
+          "Gwenol\u00e9 Quellec",
+          "Inserm"
+        ],
+        [
+          "A5062289182",
+          "Gouenou Coatrieux",
+          "IMT Atlantique"
+        ]
+      ]
+    }
+  ],
   "summary": {
     "source": "Google Scholar",
     "citations": 1329,
