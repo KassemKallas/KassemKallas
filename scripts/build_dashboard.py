@@ -4,6 +4,8 @@ Runs daily in GitHub Actions. Pulls live numbers from:
   - GitHub REST API: public repositories, stars, forks, followers
   - Semantic Scholar Graph API: citations, h-index, paper count
   - OpenAlex API: citations per year, works count, h-index
+  - Google Scholar profile, through SerpApi's free tier (only when the SERPAPI_KEY secret is set;
+    refreshed every 3 days to stay well inside the free monthly quota)
 Writes assets/dashboard-light.svg, assets/dashboard-dark.svg and assets/data.json.
 If a source is unreachable, the last saved values are reused so the card never breaks.
 Standard library only.
@@ -18,6 +20,8 @@ import urllib.request
 USER = "KassemKallas"
 S2_AUTHOR = "3192444"            # Semantic Scholar author id
 OPENALEX_AUTHOR = "A5046279472"  # OpenAlex author id (ORCID 0000-0001-7689-4125)
+SCHOLAR_ID = "Bf9vAicAAAAJ"      # Google Scholar profile id
+SCHOLAR_EVERY_DAYS = 3
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ASSETS = os.path.join(ROOT, "assets")
 DATA = os.path.join(ASSETS, "data.json")
@@ -78,8 +82,58 @@ def openalex_stats(prev):
         "citations": a["cited_by_count"],
         "works": a["works_count"],
         "h": a.get("summary_stats", {}).get("h_index"),
+        "i10": a.get("summary_stats", {}).get("i10_index"),
         "by_year": [{"year": y["year"], "cites": y["cited_by_count"]} for y in years],
     }
+
+
+def scholar_stats(prev):
+    old = prev.get("scholar", {})
+    key = os.environ.get("SERPAPI_KEY")
+    if not key:
+        return old
+    today = dt.date.today()
+    try:
+        last = dt.date.fromisoformat(old.get("fetched", "1970-01-01"))
+    except ValueError:
+        last = dt.date(1970, 1, 1)
+    if old and (today - last).days < SCHOLAR_EVERY_DAYS:
+        return old
+    base = f"https://serpapi.com/search.json?engine=google_scholar_author&author_id={SCHOLAR_ID}&hl=en&num=100&api_key={key}"
+    first = get(base, tries=2)
+    if not first or "cited_by" not in first:
+        return old
+    table = {list(row)[0]: list(row.values())[0] for row in first["cited_by"].get("table", [])}
+    papers = len(first.get("articles", []))
+    start = 100
+    while first.get("serpapi_pagination", {}).get("next") and start < 500:
+        page = get(base + f"&start={start}", tries=2)
+        if not page or not page.get("articles"):
+            break
+        papers += len(page["articles"])
+        if not page.get("serpapi_pagination", {}).get("next"):
+            break
+        start += 100
+    return {
+        "fetched": today.isoformat(),
+        "citations": table.get("citations", {}).get("all"),
+        "h": table.get("h_index", {}).get("all"),
+        "i10": table.get("i10_index", {}).get("all"),
+        "papers": papers,
+        "by_year": [{"year": g["year"], "cites": g["citations"]} for g in first["cited_by"].get("graph", [])],
+    }
+
+
+def summarize(data):
+    """Pick the best available source for each headline number."""
+    sc, s2, oa = data.get("scholar", {}), data.get("s2", {}), data.get("openalex", {})
+    if sc.get("citations") is not None:
+        return {"source": "Google Scholar", "citations": sc["citations"], "h": sc["h"], "i10": sc["i10"],
+                "papers": sc["papers"], "papers_source": "Google Scholar",
+                "by_year": sc["by_year"], "by_year_source": "Google Scholar"}
+    return {"source": "Semantic Scholar", "citations": s2.get("citations"), "h": s2.get("h") or oa.get("h"),
+            "i10": oa.get("i10"), "papers": oa.get("works") or s2.get("papers"), "papers_source": "OpenAlex",
+            "by_year": oa.get("by_year", []), "by_year_source": "OpenAlex"}
 
 
 THEMES = {
@@ -100,7 +154,7 @@ def fmt(n):
 def svg(data, t):
     W, H = 880, 380
     e = html.escape
-    gh, s2, oa = data.get("github", {}), data.get("s2", {}), data.get("openalex", {})
+    gh, sm = data.get("github", {}), data.get("summary", {})
     out = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" '
            f'aria-label="Research and code dashboard for Kassem Kallas">',
            f'<style>text{{font-family:{FONT};}} .n{{font-weight:700;}} .m{{fill:{t["muted"]};}}</style>',
@@ -115,12 +169,12 @@ def svg(data, t):
             out.append(f'<rect x="{262+i*6}" y="{25+j*6}" width="5" height="5" fill="{c}"/>')
     # stat tiles
     tiles = [
-        (fmt(s2.get("citations")), "Citations", "Semantic Scholar"),
-        (fmt(s2.get("h") or oa.get("h")), "h-index", "Semantic Scholar"),
-        (fmt(oa.get("works") or s2.get("papers")), "Indexed works", "OpenAlex"),
+        (fmt(sm.get("citations")), "Citations", sm.get("source", "")),
+        (fmt(sm.get("h")), "h-index", sm.get("source", "")),
+        (fmt(sm.get("i10")), "i10-index", sm.get("source", "") if sm.get("source") == "Google Scholar" else "OpenAlex"),
+        (fmt(sm.get("papers")), "Papers", sm.get("papers_source", "")),
         (fmt(gh.get("stars")), "GitHub stars", "own repositories"),
         (fmt(gh.get("repos")), "Public repos", "GitHub"),
-        (fmt(gh.get("followers")), "Followers", "GitHub"),
     ]
     gap, x0, y0 = 10, 24, 56
     tw = (W - 2 * x0 - 5 * gap) / 6
@@ -132,10 +186,10 @@ def svg(data, t):
         out.append(f'<text x="{x+16}" y="{y0+54}" font-size="12" fill="{t["ink"]}">{e(label)}</text>')
         out.append(f'<text x="{x+16}" y="{y0+69}" font-size="10" class="m">{e(src)}</text>')
     # citations per year chart (left)
-    by = [y for y in oa.get("by_year", []) if y["year"] >= dt.date.today().year - 9]
+    by = [y for y in sm.get("by_year", []) if y["year"] >= dt.date.today().year - 9]
     cx, cy, cw, ch = 24, 160, 470, 196
     out.append(f'<text x="{cx}" y="{cy+8}" font-size="13" class="n" fill="{t["ink"]}">Citations per year</text>')
-    out.append(f'<text x="{cx+cw}" y="{cy+8}" font-size="10" text-anchor="end" class="m">OpenAlex · {fmt(oa.get("citations"))} total</text>')
+    out.append(f'<text x="{cx+cw}" y="{cy+8}" font-size="10" text-anchor="end" class="m">{e(sm.get("by_year_source", ""))}</text>')
     if by:
         top = max(y["cites"] for y in by) or 1
         base = cy + ch - 18
@@ -177,7 +231,9 @@ def main():
         "github": github_stats(prev),
         "s2": s2_stats(prev),
         "openalex": openalex_stats(prev),
+        "scholar": scholar_stats(prev),
     }
+    data["summary"] = summarize(data)
     with open(DATA, "w") as f:
         json.dump(data, f, indent=2)
     for name, theme in THEMES.items():
