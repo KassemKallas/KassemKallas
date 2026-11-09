@@ -1,26 +1,41 @@
-# Kassem Kallas
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <img alt="Kassem Kallas, AI security scientist. Animated banner: a small neural network where a hidden trigger path lights up and is then blocked." src="assets/hero-light.svg" width="100%">
+</picture>
 
-**AI security scientist** · Senior Scientist & Junior Professor at INSERM and IMT Atlantique (LaTIM, Brest, France)
+I study how AI systems are attacked and how to make them hold: backdoor and data-poisoning attacks, model watermarking for intellectual-property protection, and secure federated learning for healthcare. I am a Senior Scientist & Junior Professor at INSERM and IMT Atlantique (LaTIM, Brest, France). Before that, I worked on AI security for defense at Inria, on AI for wireless spectrum at NIST, and on adversarial signal processing at the University of Siena.
 
-I study how AI systems are attacked and how to make them hold: backdoor and data-poisoning attacks, model watermarking for intellectual-property protection, and secure federated learning for healthcare. Before INSERM, I worked on AI security for defense at Inria, on AI for wireless spectrum at NIST, and on adversarial signal processing at the University of Siena.
+[Website](https://sites.google.com/view/prof-dr-kassem-kallas) · [Google Scholar](https://scholar.google.com/citations?user=Bf9vAicAAAAJ) · [LinkedIn](https://www.linkedin.com/in/dr-kassem-kallas-82670954/) · [ORCID](https://orcid.org/0000-0001-7689-4125)
 
-[Website](https://sites.google.com/view/prof-dr-kassem-kallas) · [Google Scholar](https://scholar.google.com/citations?user=Bf9vAicAAAAJ) · [LinkedIn](https://www.linkedin.com/in/dr-kassem-kallas-82670954/)
-
-[![Citations](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FKassemKallas%2FKassemKallas%2Fmain%2Fassets%2Fdata.json&query=%24.summary.citations&label=citations&color=0E2136&logo=googlescholar&logoColor=white&cacheSeconds=21600)](https://scholar.google.com/citations?user=Bf9vAicAAAAJ)
-[![h-index](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FKassemKallas%2FKassemKallas%2Fmain%2Fassets%2Fdata.json&query=%24.summary.h&label=h-index&color=0E2136&logo=googlescholar&logoColor=white&cacheSeconds=21600)](https://scholar.google.com/citations?user=Bf9vAicAAAAJ)
-[![Papers](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FKassemKallas%2FKassemKallas%2Fmain%2Fassets%2Fdata.json&query=%24.summary.papers&label=papers&color=0E2136&logo=googlescholar&logoColor=white&cacheSeconds=21600)](https://scholar.google.com/citations?user=Bf9vAicAAAAJ)
-[![GitHub stars](https://img.shields.io/github/stars/KassemKallas?affiliation=OWNER&label=stars&color=0B7A83&logo=github)](https://github.com/KassemKallas?tab=repositories&sort=stargazers)
-[![Followers](https://img.shields.io/github/followers/KassemKallas?label=followers&color=0B7A83&logo=github)](https://github.com/KassemKallas?tab=followers)
+[![Citations](assets/badges/citations.svg)](https://scholar.google.com/citations?user=Bf9vAicAAAAJ)
+[![h-index](assets/badges/h-index.svg)](https://scholar.google.com/citations?user=Bf9vAicAAAAJ)
+[![i10-index](assets/badges/i10-index.svg)](https://scholar.google.com/citations?user=Bf9vAicAAAAJ)
+[![Papers](assets/badges/papers.svg)](https://scholar.google.com/citations?user=Bf9vAicAAAAJ)
+[![GitHub stars](assets/badges/stars.svg)](https://github.com/KassemKallas?tab=repositories&sort=stargazers)
+[![Followers](assets/badges/followers.svg)](https://github.com/KassemKallas?tab=followers)
 [![Profile views](https://komarev.com/ghpvc/?username=KassemKallas&label=profile%20views&color=0b7a83&style=flat)](https://github.com/KassemKallas)
 
 ### Dashboard
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/dashboard-dark.svg">
-  <img alt="Research and code dashboard: citations, h-index, indexed works, GitHub stars, public repositories, followers, citations per year and most starred repositories" src="assets/dashboard-light.svg" width="100%">
+  <img alt="Research and code dashboard: citations, h-index, i10-index, papers, GitHub stars, public repositories, citations per year and most starred repositories" src="assets/dashboard-light.svg" width="100%">
 </picture>
 
-<sub>Rebuilt every day by a GitHub Action. Citations, h-index, i10-index, papers and citations per year come from my <a href="https://scholar.google.com/citations?user=Bf9vAicAAAAJ">Google Scholar profile</a> through SerpApi; if Scholar is unavailable, the card falls back to Semantic Scholar and OpenAlex and says so on each tile. GitHub numbers come from the GitHub API.</sub>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/journey-dark.svg">
+  <img alt="Research journey: papers per year since my first paper, with milestones and my most cited paper" src="assets/journey-light.svg" width="100%">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/network-dark.svg">
+  <img alt="Collaboration map: my co-authors grouped by institution, sized by the number of papers we wrote together" src="assets/network-light.svg" width="100%">
+</picture>
+
+### Publications
+
+<!--PUBS:START-->
+<!--PUBS:END-->
 
 ### Highlights
 
@@ -71,3 +86,5 @@ I study how AI systems are attacked and how to make them hold: backdoor and data
 ### Work with me
 
 Open to research collaboration, advisory roles, keynotes and senior leadership positions in AI security. Get in touch through the [contact form on my website](https://sites.google.com/view/prof-dr-kassem-kallas/contact).
+
+<sub>Everything above is drawn by my own <a href="scripts/visuals.py">script</a> and rebuilt every day by a <a href=".github/workflows/dashboard.yml">GitHub Action</a>, with no third-party image services. Badges, dashboard, journey and the publication lists all read the same data file, so the numbers always agree. Citations, h-index, i10-index and papers come from my <a href="https://scholar.google.com/citations?user=Bf9vAicAAAAJ">Google Scholar profile</a> through SerpApi (falling back to Semantic Scholar and OpenAlex if Scholar is unavailable); the collaboration map comes from OpenAlex; GitHub numbers from the GitHub API.</sub>
