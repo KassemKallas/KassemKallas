@@ -98,68 +98,112 @@
       }
     ]
   },
-  "scholar": {},
-  "summary": {
-    "source": "Semantic Scholar",
-    "citations": 889,
-    "h": 10,
-    "i10": 10,
-    "papers": 44,
-    "papers_source": "OpenAlex",
+  "scholar": {
+    "fetched": "2026-11-09",
+    "citations": 1329,
+    "h": 14,
+    "i10": 17,
+    "papers": 59,
     "by_year": [
       {
-        "year": 2014,
-        "cites": 0
-      },
-      {
-        "year": 2015,
-        "cites": 1
-      },
-      {
         "year": 2016,
-        "cites": 3
+        "cites": 8
       },
       {
         "year": 2017,
-        "cites": 5
-      },
-      {
-        "year": 2018,
-        "cites": 13
-      },
-      {
-        "year": 2019,
         "cites": 7
       },
       {
+        "year": 2018,
+        "cites": 19
+      },
+      {
+        "year": 2019,
+        "cites": 8
+      },
+      {
         "year": 2020,
-        "cites": 41
+        "cites": 34
       },
       {
         "year": 2021,
-        "cites": 41
+        "cites": 51
       },
       {
         "year": 2022,
-        "cites": 72
+        "cites": 119
       },
       {
         "year": 2023,
-        "cites": 110
+        "cites": 178
       },
       {
         "year": 2024,
-        "cites": 151
+        "cites": 277
       },
       {
         "year": 2025,
-        "cites": 180
+        "cites": 332
       },
       {
         "year": 2026,
-        "cites": 149
+        "cites": 281
+      }
+    ]
+  },
+  "summary": {
+    "source": "Google Scholar",
+    "citations": 1329,
+    "h": 14,
+    "i10": 17,
+    "papers": 59,
+    "papers_source": "Google Scholar",
+    "by_year": [
+      {
+        "year": 2016,
+        "cites": 8
+      },
+      {
+        "year": 2017,
+        "cites": 7
+      },
+      {
+        "year": 2018,
+        "cites": 19
+      },
+      {
+        "year": 2019,
+        "cites": 8
+      },
+      {
+        "year": 2020,
+        "cites": 34
+      },
+      {
+        "year": 2021,
+        "cites": 51
+      },
+      {
+        "year": 2022,
+        "cites": 119
+      },
+      {
+        "year": 2023,
+        "cites": 178
+      },
+      {
+        "year": 2024,
+        "cites": 277
+      },
+      {
+        "year": 2025,
+        "cites": 332
+      },
+      {
+        "year": 2026,
+        "cites": 281
       }
     ],
-    "by_year_source": "OpenAlex"
+    "by_year_source": "Google Scholar"
   }
 }
