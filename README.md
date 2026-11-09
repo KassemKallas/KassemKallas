@@ -6,9 +6,9 @@ I study how AI systems are attacked and how to make them hold: backdoor and data
 
 [Website](https://sites.google.com/view/prof-dr-kassem-kallas) · [Google Scholar](https://scholar.google.com/citations?user=Bf9vAicAAAAJ) · [LinkedIn](https://www.linkedin.com/in/dr-kassem-kallas-82670954/)
 
-[![Citations](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fauthor%2F3192444%3Ffields%3DcitationCount&query=%24.citationCount&label=citations&color=0E2136&logo=semanticscholar&logoColor=white&cacheSeconds=86400)](https://www.semanticscholar.org/author/3192444)
-[![h-index](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fauthor%2F3192444%3Ffields%3DhIndex&query=%24.hIndex&label=h-index&color=0E2136&logo=semanticscholar&logoColor=white&cacheSeconds=86400)](https://www.semanticscholar.org/author/3192444)
-[![Works](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.openalex.org%2Fauthors%2FA5046279472&query=%24.works_count&label=indexed%20works&color=0E2136&logo=openaccess&logoColor=white&cacheSeconds=86400)](https://openalex.org/A5046279472)
+[![Citations](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FKassemKallas%2FKassemKallas%2Fmain%2Fassets%2Fdata.json&query=%24.summary.citations&label=citations&color=0E2136&logo=googlescholar&logoColor=white&cacheSeconds=21600)](https://scholar.google.com/citations?user=Bf9vAicAAAAJ)
+[![h-index](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FKassemKallas%2FKassemKallas%2Fmain%2Fassets%2Fdata.json&query=%24.summary.h&label=h-index&color=0E2136&logo=googlescholar&logoColor=white&cacheSeconds=21600)](https://scholar.google.com/citations?user=Bf9vAicAAAAJ)
+[![Papers](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FKassemKallas%2FKassemKallas%2Fmain%2Fassets%2Fdata.json&query=%24.summary.papers&label=papers&color=0E2136&logo=googlescholar&logoColor=white&cacheSeconds=21600)](https://scholar.google.com/citations?user=Bf9vAicAAAAJ)
 [![GitHub stars](https://img.shields.io/github/stars/KassemKallas?affiliation=OWNER&label=stars&color=0B7A83&logo=github)](https://github.com/KassemKallas?tab=repositories&sort=stargazers)
 [![Followers](https://img.shields.io/github/followers/KassemKallas?label=followers&color=0B7A83&logo=github)](https://github.com/KassemKallas?tab=followers)
 [![Profile views](https://komarev.com/ghpvc/?username=KassemKallas&label=profile%20views&color=0b7a83&style=flat)](https://github.com/KassemKallas)
@@ -20,7 +20,7 @@ I study how AI systems are attacked and how to make them hold: backdoor and data
   <img alt="Research and code dashboard: citations, h-index, indexed works, GitHub stars, public repositories, followers, citations per year and most starred repositories" src="assets/dashboard-light.svg" width="100%">
 </picture>
 
-<sub>Rebuilt every day by a GitHub Action from Semantic Scholar, OpenAlex and the GitHub API. Google Scholar has no public API, so its counts appear on the [Scholar profile](https://scholar.google.com/citations?user=Bf9vAicAAAAJ).</sub>
+<sub>Rebuilt every day by a GitHub Action. Citations, h-index, i10-index, papers and citations per year come from my <a href="https://scholar.google.com/citations?user=Bf9vAicAAAAJ">Google Scholar profile</a> through SerpApi; if Scholar is unavailable, the card falls back to Semantic Scholar and OpenAlex and says so on each tile. GitHub numbers come from the GitHub API.</sub>
 
 ### Highlights
 
