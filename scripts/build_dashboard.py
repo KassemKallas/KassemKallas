@@ -15,7 +15,10 @@ import html
 import json
 import os
 import time
+import re
 import urllib.request
+
+import visuals
 
 USER = "KassemKallas"
 S2_AUTHOR = "3192444"            # Semantic Scholar author id
@@ -87,6 +90,24 @@ def openalex_stats(prev):
     }
 
 
+def openalex_works(prev):
+    url = (f"https://api.openalex.org/works?filter=author.id:{OPENALEX_AUTHOR}&per-page=200&mailto=noreply@github.com"
+           "&select=id,doi,title,publication_year,cited_by_count,type,primary_location,authorships")
+    r = get(url)
+    if not r or "results" not in r:
+        return prev.get("works", [])
+    out = []
+    for w in r["results"]:
+        src = ((w.get("primary_location") or {}).get("source") or {})
+        out.append({
+            "t": w.get("title") or "", "y": w.get("publication_year"), "c": w.get("cited_by_count", 0),
+            "type": w.get("type"), "doi": w.get("doi"), "venue": src.get("display_name") or "",
+            "a": [[(a.get("author") or {}).get("id", "").split("/")[-1], (a.get("author") or {}).get("display_name", ""),
+                   ((a.get("institutions") or [{}])[0] or {}).get("display_name", "")] for a in w.get("authorships", [])],
+        })
+    return out
+
+
 def scholar_stats(prev):
     old = prev.get("scholar", {})
     key = os.environ.get("SERPAPI_KEY")
@@ -97,20 +118,27 @@ def scholar_stats(prev):
         last = dt.date.fromisoformat(old.get("fetched", "1970-01-01"))
     except ValueError:
         last = dt.date(1970, 1, 1)
-    if old and (today - last).days < SCHOLAR_EVERY_DAYS:
+    if old and old.get("articles") and (today - last).days < SCHOLAR_EVERY_DAYS:
         return old
     base = f"https://serpapi.com/search.json?engine=google_scholar_author&author_id={SCHOLAR_ID}&hl=en&num=100&api_key={key}"
     first = get(base, tries=2)
     if not first or "cited_by" not in first:
         return old
     table = {list(row)[0]: list(row.values())[0] for row in first["cited_by"].get("table", [])}
-    papers = len(first.get("articles", []))
+    def art(a):
+        try:
+            year = int(a.get("year") or 0) or None
+        except ValueError:
+            year = None
+        return {"title": a.get("title"), "link": a.get("link"), "year": year,
+                "publication": a.get("publication", ""), "cites": (a.get("cited_by") or {}).get("value") or 0}
+    articles = [art(a) for a in first.get("articles", [])]
     start = 100
     while first.get("serpapi_pagination", {}).get("next") and start < 500:
         page = get(base + f"&start={start}", tries=2)
         if not page or not page.get("articles"):
             break
-        papers += len(page["articles"])
+        articles += [art(a) for a in page["articles"]]
         if not page.get("serpapi_pagination", {}).get("next"):
             break
         start += 100
@@ -119,7 +147,8 @@ def scholar_stats(prev):
         "citations": table.get("citations", {}).get("all"),
         "h": table.get("h_index", {}).get("all"),
         "i10": table.get("i10_index", {}).get("all"),
-        "papers": papers,
+        "papers": len(articles),
+        "articles": articles,
         "by_year": [{"year": g["year"], "cites": g["citations"]} for g in first["cited_by"].get("graph", [])],
     }
 
@@ -223,6 +252,24 @@ def svg(data, t):
     return "\n".join(out)
 
 
+def write(path, text):
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(text)
+
+
+def update_readme(data):
+    path = os.path.join(ROOT, "README.md")
+    try:
+        text = open(path, encoding="utf-8").read()
+    except FileNotFoundError:
+        return
+    block = "<!--PUBS:START-->\n" + visuals.pub_lists(data) + "\n<!--PUBS:END-->"
+    new = re.sub(r"<!--PUBS:START-->.*?<!--PUBS:END-->", lambda m: block, text, flags=re.S)
+    if new != text:
+        write(path, new)
+
+
 def main():
     os.makedirs(ASSETS, exist_ok=True)
     prev = load_previous()
@@ -232,14 +279,25 @@ def main():
         "s2": s2_stats(prev),
         "openalex": openalex_stats(prev),
         "scholar": scholar_stats(prev),
+        "works": openalex_works(prev),
     }
     data["summary"] = summarize(data)
     with open(DATA, "w") as f:
         json.dump(data, f, indent=2)
     for name, theme in THEMES.items():
-        with open(os.path.join(ASSETS, f"dashboard-{name}.svg"), "w") as f:
-            f.write(svg(data, theme))
-    print(json.dumps(data, indent=2))
+        vt = visuals.THEMES[name]
+        write(os.path.join(ASSETS, f"dashboard-{name}.svg"), svg(data, theme))
+        write(os.path.join(ASSETS, f"hero-{name}.svg"), visuals.hero(vt, data["summary"]))
+        j = visuals.journey(vt, data)
+        if j:
+            write(os.path.join(ASSETS, f"journey-{name}.svg"), j)
+        n = visuals.network(vt, data["works"], OPENALEX_AUTHOR)
+        if n:
+            write(os.path.join(ASSETS, f"network-{name}.svg"), n)
+    for key, b in visuals.badges(data).items():
+        write(os.path.join(ASSETS, "badges", f"{key}.svg"), b)
+    update_readme(data)
+    print(json.dumps(data["summary"], indent=2))
 
 
 if __name__ == "__main__":
