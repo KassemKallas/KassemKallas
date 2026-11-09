@@ -1,0 +1,100 @@
+{
+  "updated": "2026-11-09",
+  "github": {
+    "repos": 21,
+    "stars": 28,
+    "forks": 3,
+    "followers": 9,
+    "top": [
+      {
+        "name": "Backdoor-Attacks-in-DeepLearning",
+        "stars": 13,
+        "forks": 3
+      },
+      {
+        "name": "CDC-DecisionFusionWithByzantines",
+        "stars": 4,
+        "forks": 0
+      },
+      {
+        "name": "INFOFUSION-MessagePassingWithByzantines",
+        "stars": 4,
+        "forks": 0
+      },
+      {
+        "name": "GameSec16",
+        "stars": 3,
+        "forks": 0
+      },
+      {
+        "name": "TIFS-OptimumFusionWithByzantines",
+        "stars": 3,
+        "forks": 0
+      }
+    ]
+  },
+  "s2": {
+    "citations": 889,
+    "h": 10,
+    "papers": 42
+  },
+  "openalex": {
+    "citations": 773,
+    "works": 44,
+    "h": 10,
+    "by_year": [
+      {
+        "year": 2014,
+        "cites": 0
+      },
+      {
+        "year": 2015,
+        "cites": 1
+      },
+      {
+        "year": 2016,
+        "cites": 3
+      },
+      {
+        "year": 2017,
+        "cites": 5
+      },
+      {
+        "year": 2018,
+        "cites": 13
+      },
+      {
+        "year": 2019,
+        "cites": 7
+      },
+      {
+        "year": 2020,
+        "cites": 41
+      },
+      {
+        "year": 2021,
+        "cites": 41
+      },
+      {
+        "year": 2022,
+        "cites": 72
+      },
+      {
+        "year": 2023,
+        "cites": 110
+      },
+      {
+        "year": 2024,
+        "cites": 151
+      },
+      {
+        "year": 2025,
+        "cites": 180
+      },
+      {
+        "year": 2026,
+        "cites": 149
+      }
+    ]
+  }
+}
