@@ -42,6 +42,7 @@
     "citations": 773,
     "works": 44,
     "h": 10,
+    "i10": 10,
     "by_year": [
       {
         "year": 2014,
@@ -96,5 +97,69 @@
         "cites": 149
       }
     ]
+  },
+  "scholar": {},
+  "summary": {
+    "source": "Semantic Scholar",
+    "citations": 889,
+    "h": 10,
+    "i10": 10,
+    "papers": 44,
+    "papers_source": "OpenAlex",
+    "by_year": [
+      {
+        "year": 2014,
+        "cites": 0
+      },
+      {
+        "year": 2015,
+        "cites": 1
+      },
+      {
+        "year": 2016,
+        "cites": 3
+      },
+      {
+        "year": 2017,
+        "cites": 5
+      },
+      {
+        "year": 2018,
+        "cites": 13
+      },
+      {
+        "year": 2019,
+        "cites": 7
+      },
+      {
+        "year": 2020,
+        "cites": 41
+      },
+      {
+        "year": 2021,
+        "cites": 41
+      },
+      {
+        "year": 2022,
+        "cites": 72
+      },
+      {
+        "year": 2023,
+        "cites": 110
+      },
+      {
+        "year": 2024,
+        "cites": 151
+      },
+      {
+        "year": 2025,
+        "cites": 180
+      },
+      {
+        "year": 2026,
+        "cites": 149
+      }
+    ],
+    "by_year_source": "OpenAlex"
   }
 }
