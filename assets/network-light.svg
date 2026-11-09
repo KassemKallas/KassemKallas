@@ -1,64 +1,64 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="500" viewBox="0 0 880 500" role="img" aria-label="Collaboration map: 32 co-authors grouped by institution">
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="520" viewBox="0 0 880 520" role="img" aria-label="Collaboration map: 32 co-authors grouped by institution">
 <style>text{font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;}.m{fill:#566376;}.e{stroke-dasharray:5 7;animation:flow 1.8s linear infinite;}@keyframes flow{to{stroke-dashoffset:-24;}}.n{animation:pop .7s cubic-bezier(.2,.8,.2,1.3) both;transform-box:fill-box;transform-origin:center;}@keyframes pop{from{transform:scale(0)}to{transform:scale(1)}}.me{animation:halo 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center;}@keyframes halo{0%,100%{transform:scale(1);opacity:.4}50%{transform:scale(1.4);opacity:0}}@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
-<rect x=".5" y=".5" width="879" height="499" rx="10" fill="#FFFFFF" stroke="#D6DDE6"/>
-<text x="24" y="36" font-size="16" font-weight="700" fill="#0E2136">Collaboration map</text>
-<text x="856" y="36" font-size="11" text-anchor="end" class="m">32 co-authors · 8 institution groups · OpenAlex</text>
-<line class="e" style="animation-delay:0.00s" x1="440.0" y1="262" x2="551.0" y2="128.0" stroke="#0B7A83" stroke-width="4.50" opacity="0.85" stroke-linecap="round"/>
-<line class="e" style="animation-delay:-0.25s" x1="440.0" y1="262" x2="707.9" y2="206.5" stroke="#0B7A83" stroke-width="2.11" opacity="0.51" stroke-linecap="round"/>
-<line class="e" style="animation-delay:-0.50s" x1="440.0" y1="262" x2="707.9" y2="317.5" stroke="#0B7A83" stroke-width="2.11" opacity="0.51" stroke-linecap="round"/>
-<line class="e" style="animation-delay:-0.75s" x1="440.0" y1="262" x2="551.0" y2="396.0" stroke="#0B7A83" stroke-width="2.11" opacity="0.51" stroke-linecap="round"/>
-<line class="e" style="animation-delay:-1.00s" x1="440.0" y1="262" x2="329.0" y2="396.0" stroke="#0B7A83" stroke-width="2.11" opacity="0.51" stroke-linecap="round"/>
-<line class="e" style="animation-delay:-1.25s" x1="440.0" y1="262" x2="172.1" y2="317.5" stroke="#0B7A83" stroke-width="1.37" opacity="0.40" stroke-linecap="round"/>
-<line class="e" style="animation-delay:-1.50s" x1="440.0" y1="262" x2="172.1" y2="206.5" stroke="#0B7A83" stroke-width="1.37" opacity="0.40" stroke-linecap="round"/>
-<line class="e" style="animation-delay:-1.75s" x1="440.0" y1="262" x2="329.0" y2="128.0" stroke="#0B7A83" stroke-width="2.11" opacity="0.51" stroke-linecap="round"/>
-<circle cx="551.0" cy="128.0" r="32.8" fill="#F4F6F9" stroke="#D6DDE6"/>
-<circle class="n" style="animation-delay:0.30s" cx="558.5" cy="128.0" r="8.7" fill="#0B7A83" fill-opacity="1.00"><title>Mauro Barni · 18 papers</title></circle>
-<circle class="n" style="animation-delay:0.33s" cx="541.4" cy="136.8" r="8.7" fill="#0B7A83" fill-opacity="1.00"><title>Benedetta Tondi · 18 papers</title></circle>
-<circle class="n" style="animation-delay:0.36s" cx="552.4" cy="111.3" r="7.9" fill="#0B7A83" fill-opacity="0.82"><title>Andrea Abrardo · 13 papers</title></circle>
-<circle class="n" style="animation-delay:0.39s" cx="563.1" cy="143.8" r="5.4" fill="#0B7A83" fill-opacity="0.46"><title>Ehsan Nowroozi · 3 papers</title></circle>
-<circle class="n" style="animation-delay:0.42s" cx="528.8" cy="124.1" r="4.5" fill="#0B7A83" fill-opacity="0.39"><title>Riccardo Lazzeretti · 1 papers</title></circle>
-<circle cx="707.9" cy="206.5" r="23.5" fill="#F4F6F9" stroke="#D6DDE6"/>
-<circle class="n" style="animation-delay:0.42s" cx="707.9" cy="206.5" r="6.4" fill="#0B7A83" fill-opacity="0.57"><title>Teddy Furon · 6 papers</title></circle>
-<circle cx="707.9" cy="317.5" r="29.0" fill="#F4F6F9" stroke="#D6DDE6"/>
-<circle class="n" style="animation-delay:0.54s" cx="716.1" cy="317.5" r="6.1" fill="#0B7A83" fill-opacity="0.53"><title>Hichem Faraoun · 5 papers</title></circle>
-<circle class="n" style="animation-delay:0.57s" cx="697.5" cy="327.0" r="5.0" fill="#0B7A83" fill-opacity="0.42"><title>Carine Tannous · 2 papers</title></circle>
-<circle class="n" style="animation-delay:0.60s" cx="709.5" cy="299.3" r="4.5" fill="#0B7A83" fill-opacity="0.39"><title>Mahdieh Pouresmaeil · 1 papers</title></circle>
-<circle cx="551.0" cy="396.0" r="34.4" fill="#F4F6F9" stroke="#D6DDE6"/>
-<circle class="n" style="animation-delay:0.66s" cx="558.3" cy="396.0" r="6.4" fill="#0B7A83" fill-opacity="0.57"><title>Reda Bellafqira · 6 papers</title></circle>
-<circle class="n" style="animation-delay:0.69s" cx="541.6" cy="404.5" r="6.4" fill="#0B7A83" fill-opacity="0.57"><title>Gouenou Coatrieux · 6 papers</title></circle>
-<circle class="n" style="animation-delay:0.72s" cx="552.4" cy="379.6" r="5.0" fill="#0B7A83" fill-opacity="0.42"><title>Mohammed Lansari · 2 papers</title></circle>
-<circle class="n" style="animation-delay:0.75s" cx="562.8" cy="411.3" r="4.5" fill="#0B7A83" fill-opacity="0.39"><title>Tamara El Hajjar · 1 papers</title></circle>
-<circle class="n" style="animation-delay:0.78s" cx="529.3" cy="392.1" r="4.5" fill="#0B7A83" fill-opacity="0.39"><title>Gwenolé Quellec · 1 papers</title></circle>
-<circle class="n" style="animation-delay:0.81s" cx="571.5" cy="382.9" r="4.5" fill="#0B7A83" fill-opacity="0.39"><title>Vincent Thouvenot · 1 papers</title></circle>
-<circle cx="329.0" cy="396.0" r="32.8" fill="#F4F6F9" stroke="#D6DDE6"/>
-<circle class="n" style="animation-delay:0.78s" cx="336.5" cy="396.0" r="5.8" fill="#0B7A83" fill-opacity="0.49"><title>Quentin Le Roux · 4 papers</title></circle>
-<circle class="n" style="animation-delay:0.81s" cx="319.4" cy="404.8" r="5.0" fill="#0B7A83" fill-opacity="0.42"><title>Katarzyna Kapusta · 2 papers</title></circle>
-<circle class="n" style="animation-delay:0.84s" cx="330.5" cy="379.2" r="4.5" fill="#0B7A83" fill-opacity="0.39"><title>Olivier Bettan · 1 papers</title></circle>
-<circle class="n" style="animation-delay:0.87s" cx="341.1" cy="411.7" r="4.5" fill="#0B7A83" fill-opacity="0.39"><title>Eric Bourbao · 1 papers</title></circle>
-<circle class="n" style="animation-delay:0.90s" cx="306.8" cy="392.0" r="4.5" fill="#0B7A83" fill-opacity="0.39"><title>Yannick Teglia · 1 papers</title></circle>
-<circle cx="172.1" cy="317.5" r="29.0" fill="#F4F6F9" stroke="#D6DDE6"/>
-<circle class="n" style="animation-delay:0.90s" cx="180.2" cy="317.5" r="5.0" fill="#0B7A83" fill-opacity="0.42"><title>Raied Caromi · 2 papers</title></circle>
-<circle class="n" style="animation-delay:0.93s" cx="161.7" cy="327.0" r="5.0" fill="#0B7A83" fill-opacity="0.42"><title>Thao T. Nguyen · 2 papers</title></circle>
-<circle class="n" style="animation-delay:0.96s" cx="173.7" cy="299.3" r="5.0" fill="#0B7A83" fill-opacity="0.42"><title>Michael R. Souryal · 2 papers</title></circle>
-<circle cx="172.1" cy="206.5" r="23.5" fill="#F4F6F9" stroke="#D6DDE6"/>
-<circle class="n" style="animation-delay:1.02s" cx="172.1" cy="206.5" r="5.0" fill="#0B7A83" fill-opacity="0.42"><title>Wassim Hamidouche · 2 papers</title></circle>
-<circle cx="329.0" cy="128.0" r="37.2" fill="#F4F6F9" stroke="#D6DDE6"/>
-<circle class="n" style="animation-delay:1.14s" cx="336.1" cy="128.0" r="4.5" fill="#0B7A83" fill-opacity="0.39"><title>Abhir H. Bhalerao · 1 papers</title></circle>
-<circle class="n" style="animation-delay:1.17s" cx="320.0" cy="136.3" r="4.5" fill="#0B7A83" fill-opacity="0.39"><title>Olivier Déforges · 1 papers</title></circle>
-<circle class="n" style="animation-delay:1.20s" cx="330.4" cy="112.3" r="4.5" fill="#0B7A83" fill-opacity="0.39"><title>Sid Ahmed Fezza · 1 papers</title></circle>
-<circle class="n" style="animation-delay:1.23s" cx="340.4" cy="142.8" r="4.5" fill="#0B7A83" fill-opacity="0.39"><title>Alireza Jolfaei · 1 papers</title></circle>
-<circle class="n" style="animation-delay:1.26s" cx="308.2" cy="124.4" r="4.5" fill="#0B7A83" fill-opacity="0.39"><title>Alex Lackpour · 1 papers</title></circle>
-<circle class="n" style="animation-delay:1.29s" cx="348.8" cy="115.5" r="4.5" fill="#0B7A83" fill-opacity="0.39"><title>Hanene F. Z. Brachemi Meftah · 1 papers</title></circle>
-<circle class="n" style="animation-delay:1.32s" cx="322.4" cy="152.6" r="4.5" fill="#0B7A83" fill-opacity="0.39"><title>Hassan Termos · 1 papers</title></circle>
-<circle class="n" style="animation-delay:1.35s" cx="316.4" cy="103.8" r="4.5" fill="#0B7A83" fill-opacity="0.39"><title>Christian José Tipantuña · 1 papers</title></circle>
-<text x="551.0" y="73.3" font-size="12" font-weight="700" text-anchor="middle" fill="#0E2136">University of Siena<tspan font-weight="400" class="m"> · 19 papers</tspan></text><text x="551.0" y="87.3" font-size="10.5" text-anchor="middle" class="m">Barni, Tondi, Abrardo +2</text>
-<text x="707.9" y="161.0" font-size="12" font-weight="700" text-anchor="middle" fill="#0E2136">Centre Inria de l&#x27;Université de Rennes<tspan font-weight="400" class="m"> · 6 papers</tspan></text><text x="707.9" y="175.0" font-size="10.5" text-anchor="middle" class="m">Furon</text>
-<text x="707.9" y="362.5" font-size="12" font-weight="700" text-anchor="middle" fill="#0E2136">IMT Atlantique<tspan font-weight="400" class="m"> · 6 papers</tspan></text><text x="707.9" y="376.5" font-size="10.5" text-anchor="middle" class="m">Faraoun, Tannous, Pouresmaeil</text>
-<text x="551.0" y="446.3" font-size="12" font-weight="700" text-anchor="middle" fill="#0E2136">INSERM<tspan font-weight="400" class="m"> · 6 papers</tspan></text><text x="551.0" y="460.3" font-size="10.5" text-anchor="middle" class="m">Bellafqira, Coatrieux, Lansari +3</text>
-<text x="329.0" y="444.7" font-size="12" font-weight="700" text-anchor="middle" fill="#0E2136">Thales<tspan font-weight="400" class="m"> · 6 papers</tspan></text><text x="329.0" y="458.7" font-size="10.5" text-anchor="middle" class="m">Le Roux, Kapusta, Bettan +2</text>
-<text x="172.1" y="362.5" font-size="12" font-weight="700" text-anchor="middle" fill="#0E2136">NIST<tspan font-weight="400" class="m"> · 2 papers</tspan></text><text x="172.1" y="376.5" font-size="10.5" text-anchor="middle" class="m">Caromi, Nguyen, Souryal</text>
-<text x="172.1" y="161.0" font-size="12" font-weight="700" text-anchor="middle" fill="#0E2136">Technology Innovation Institute<tspan font-weight="400" class="m"> · 2 papers</tspan></text><text x="172.1" y="175.0" font-size="10.5" text-anchor="middle" class="m">Hamidouche</text>
-<text x="329.0" y="68.8" font-size="12" font-weight="700" text-anchor="middle" fill="#0E2136">Other<tspan font-weight="400" class="m"> · 6 papers</tspan></text><text x="329.0" y="82.8" font-size="10.5" text-anchor="middle" class="m">Bhalerao, Déforges, Ahmed Fezza +5</text>
-<circle class="me" cx="440.0" cy="262" r="30" fill="#0B7A83"/><circle cx="440.0" cy="262" r="28" fill="#0E2136"/><text x="440.0" y="267" font-size="15" font-weight="700" text-anchor="middle" fill="#FFFFFF">KK</text>
-<text x="24" y="484" font-size="10" class="m">Dot size = papers together · spoke width = papers with that group · group = co-author’s most frequent affiliation on those papers</text>
+<rect x=".5" y=".5" width="879" height="519" rx="10" fill="#FFFFFF" stroke="#D6DDE6"/>
+<text x="24" y="36" font-size="18" font-weight="700" fill="#0E2136">Collaboration map</text>
+<text x="856" y="36" font-size="12" text-anchor="end" class="m">32 co-authors · 8 institution groups · OpenAlex</text>
+<line class="e" style="animation-delay:0.00s" x1="440.0" y1="272" x2="551.0" y2="133.4" stroke="#0B7A83" stroke-width="4.50" opacity="0.85" stroke-linecap="round"/>
+<line class="e" style="animation-delay:-0.25s" x1="440.0" y1="272" x2="707.9" y2="214.6" stroke="#0B7A83" stroke-width="2.11" opacity="0.51" stroke-linecap="round"/>
+<line class="e" style="animation-delay:-0.50s" x1="440.0" y1="272" x2="707.9" y2="329.4" stroke="#0B7A83" stroke-width="2.11" opacity="0.51" stroke-linecap="round"/>
+<line class="e" style="animation-delay:-0.75s" x1="440.0" y1="272" x2="551.0" y2="410.6" stroke="#0B7A83" stroke-width="2.11" opacity="0.51" stroke-linecap="round"/>
+<line class="e" style="animation-delay:-1.00s" x1="440.0" y1="272" x2="329.0" y2="410.6" stroke="#0B7A83" stroke-width="2.11" opacity="0.51" stroke-linecap="round"/>
+<line class="e" style="animation-delay:-1.25s" x1="440.0" y1="272" x2="172.1" y2="329.4" stroke="#0B7A83" stroke-width="1.37" opacity="0.40" stroke-linecap="round"/>
+<line class="e" style="animation-delay:-1.50s" x1="440.0" y1="272" x2="172.1" y2="214.6" stroke="#0B7A83" stroke-width="1.37" opacity="0.40" stroke-linecap="round"/>
+<line class="e" style="animation-delay:-1.75s" x1="440.0" y1="272" x2="329.0" y2="133.4" stroke="#0B7A83" stroke-width="2.11" opacity="0.51" stroke-linecap="round"/>
+<circle cx="551.0" cy="133.4" r="32.8" fill="#F4F6F9" stroke="#D6DDE6"/>
+<circle class="n" style="animation-delay:0.30s" cx="558.5" cy="133.4" r="8.7" fill="#0B7A83" fill-opacity="1.00"><title>Mauro Barni · 18 papers</title></circle>
+<circle class="n" style="animation-delay:0.33s" cx="541.4" cy="142.2" r="8.7" fill="#0B7A83" fill-opacity="1.00"><title>Benedetta Tondi · 18 papers</title></circle>
+<circle class="n" style="animation-delay:0.36s" cx="552.4" cy="116.7" r="7.9" fill="#0B7A83" fill-opacity="0.82"><title>Andrea Abrardo · 13 papers</title></circle>
+<circle class="n" style="animation-delay:0.39s" cx="563.1" cy="149.2" r="5.4" fill="#0B7A83" fill-opacity="0.46"><title>Ehsan Nowroozi · 3 papers</title></circle>
+<circle class="n" style="animation-delay:0.42s" cx="528.8" cy="129.5" r="4.5" fill="#0B7A83" fill-opacity="0.39"><title>Riccardo Lazzeretti · 1 papers</title></circle>
+<circle cx="707.9" cy="214.6" r="29.0" fill="#F4F6F9" stroke="#D6DDE6"/>
+<circle class="n" style="animation-delay:0.42s" cx="716.1" cy="214.6" r="6.1" fill="#0B7A83" fill-opacity="0.53"><title>Hichem Faraoun · 5 papers</title></circle>
+<circle class="n" style="animation-delay:0.45s" cx="697.5" cy="224.1" r="5.0" fill="#0B7A83" fill-opacity="0.42"><title>Carine Tannous · 2 papers</title></circle>
+<circle class="n" style="animation-delay:0.48s" cx="709.5" cy="196.4" r="4.5" fill="#0B7A83" fill-opacity="0.39"><title>Mahdieh Pouresmaeil · 1 papers</title></circle>
+<circle cx="707.9" cy="329.4" r="34.4" fill="#F4F6F9" stroke="#D6DDE6"/>
+<circle class="n" style="animation-delay:0.54s" cx="715.2" cy="329.4" r="6.4" fill="#0B7A83" fill-opacity="0.57"><title>Reda Bellafqira · 6 papers</title></circle>
+<circle class="n" style="animation-delay:0.57s" cx="698.6" cy="338.0" r="6.4" fill="#0B7A83" fill-opacity="0.57"><title>Gouenou Coatrieux · 6 papers</title></circle>
+<circle class="n" style="animation-delay:0.60s" cx="709.4" cy="313.1" r="5.0" fill="#0B7A83" fill-opacity="0.42"><title>Mohammed Lansari · 2 papers</title></circle>
+<circle class="n" style="animation-delay:0.63s" cx="719.7" cy="344.8" r="4.5" fill="#0B7A83" fill-opacity="0.39"><title>Tamara El Hajjar · 1 papers</title></circle>
+<circle class="n" style="animation-delay:0.66s" cx="686.3" cy="325.6" r="4.5" fill="#0B7A83" fill-opacity="0.39"><title>Gwenolé Quellec · 1 papers</title></circle>
+<circle class="n" style="animation-delay:0.69s" cx="728.4" cy="316.4" r="4.5" fill="#0B7A83" fill-opacity="0.39"><title>Vincent Thouvenot · 1 papers</title></circle>
+<circle cx="551.0" cy="410.6" r="23.5" fill="#F4F6F9" stroke="#D6DDE6"/>
+<circle class="n" style="animation-delay:0.66s" cx="551.0" cy="410.6" r="6.4" fill="#0B7A83" fill-opacity="0.57"><title>Teddy Furon · 6 papers</title></circle>
+<circle cx="329.0" cy="410.6" r="32.8" fill="#F4F6F9" stroke="#D6DDE6"/>
+<circle class="n" style="animation-delay:0.78s" cx="336.5" cy="410.6" r="5.8" fill="#0B7A83" fill-opacity="0.49"><title>Quentin Le Roux · 4 papers</title></circle>
+<circle class="n" style="animation-delay:0.81s" cx="319.4" cy="419.4" r="5.0" fill="#0B7A83" fill-opacity="0.42"><title>Katarzyna Kapusta · 2 papers</title></circle>
+<circle class="n" style="animation-delay:0.84s" cx="330.5" cy="393.8" r="4.5" fill="#0B7A83" fill-opacity="0.39"><title>Olivier Bettan · 1 papers</title></circle>
+<circle class="n" style="animation-delay:0.87s" cx="341.1" cy="426.4" r="4.5" fill="#0B7A83" fill-opacity="0.39"><title>Eric Bourbao · 1 papers</title></circle>
+<circle class="n" style="animation-delay:0.90s" cx="306.8" cy="406.7" r="4.5" fill="#0B7A83" fill-opacity="0.39"><title>Yannick Teglia · 1 papers</title></circle>
+<circle cx="172.1" cy="329.4" r="29.0" fill="#F4F6F9" stroke="#D6DDE6"/>
+<circle class="n" style="animation-delay:0.90s" cx="180.2" cy="329.4" r="5.0" fill="#0B7A83" fill-opacity="0.42"><title>Raied Caromi · 2 papers</title></circle>
+<circle class="n" style="animation-delay:0.93s" cx="161.7" cy="339.0" r="5.0" fill="#0B7A83" fill-opacity="0.42"><title>Thao T. Nguyen · 2 papers</title></circle>
+<circle class="n" style="animation-delay:0.96s" cx="173.7" cy="311.2" r="5.0" fill="#0B7A83" fill-opacity="0.42"><title>Michael R. Souryal · 2 papers</title></circle>
+<circle cx="172.1" cy="214.6" r="23.5" fill="#F4F6F9" stroke="#D6DDE6"/>
+<circle class="n" style="animation-delay:1.02s" cx="172.1" cy="214.6" r="5.0" fill="#0B7A83" fill-opacity="0.42"><title>Wassim Hamidouche · 2 papers</title></circle>
+<circle cx="329.0" cy="133.4" r="37.2" fill="#F4F6F9" stroke="#D6DDE6"/>
+<circle class="n" style="animation-delay:1.14s" cx="336.1" cy="133.4" r="4.5" fill="#0B7A83" fill-opacity="0.39"><title>Abhir H. Bhalerao · 1 papers</title></circle>
+<circle class="n" style="animation-delay:1.17s" cx="320.0" cy="141.7" r="4.5" fill="#0B7A83" fill-opacity="0.39"><title>Olivier Déforges · 1 papers</title></circle>
+<circle class="n" style="animation-delay:1.20s" cx="330.4" cy="117.7" r="4.5" fill="#0B7A83" fill-opacity="0.39"><title>Sid Ahmed Fezza · 1 papers</title></circle>
+<circle class="n" style="animation-delay:1.23s" cx="340.4" cy="148.2" r="4.5" fill="#0B7A83" fill-opacity="0.39"><title>Alireza Jolfaei · 1 papers</title></circle>
+<circle class="n" style="animation-delay:1.26s" cx="308.2" cy="129.7" r="4.5" fill="#0B7A83" fill-opacity="0.39"><title>Alex Lackpour · 1 papers</title></circle>
+<circle class="n" style="animation-delay:1.29s" cx="348.8" cy="120.9" r="4.5" fill="#0B7A83" fill-opacity="0.39"><title>Hanene F. Z. Brachemi Meftah · 1 papers</title></circle>
+<circle class="n" style="animation-delay:1.32s" cx="322.4" cy="158.0" r="4.5" fill="#0B7A83" fill-opacity="0.39"><title>Hassan Termos · 1 papers</title></circle>
+<circle class="n" style="animation-delay:1.35s" cx="316.4" cy="109.2" r="4.5" fill="#0B7A83" fill-opacity="0.39"><title>Christian José Tipantuña · 1 papers</title></circle>
+<text x="551.0" y="76.6" font-size="14" font-weight="700" text-anchor="middle" fill="#0E2136">University of Siena<tspan font-weight="400" class="m"> · 19 papers</tspan></text><text x="551.0" y="92.6" font-size="12" text-anchor="middle" class="m">Barni, Tondi, Abrardo +2</text>
+<text x="707.9" y="161.6" font-size="14" font-weight="700" text-anchor="middle" fill="#0E2136">IMT Atlantique<tspan font-weight="400" class="m"> · 6 papers</tspan></text><text x="707.9" y="177.6" font-size="12" text-anchor="middle" class="m">Faraoun, Tannous, Pouresmaeil</text>
+<text x="707.9" y="381.8" font-size="14" font-weight="700" text-anchor="middle" fill="#0E2136">INSERM<tspan font-weight="400" class="m"> · 6 papers</tspan></text><text x="707.9" y="397.8" font-size="12" text-anchor="middle" class="m">Bellafqira, Coatrieux, Lansari +3</text>
+<text x="551.0" y="452.1" font-size="14" font-weight="700" text-anchor="middle" fill="#0E2136">Inria<tspan font-weight="400" class="m"> · 6 papers</tspan></text><text x="551.0" y="468.1" font-size="12" text-anchor="middle" class="m">Furon</text>
+<text x="329.0" y="461.4" font-size="14" font-weight="700" text-anchor="middle" fill="#0E2136">Thales<tspan font-weight="400" class="m"> · 6 papers</tspan></text><text x="329.0" y="477.4" font-size="12" text-anchor="middle" class="m">Le Roux, Kapusta, Bettan +2</text>
+<text x="172.1" y="376.4" font-size="14" font-weight="700" text-anchor="middle" fill="#0E2136">NIST<tspan font-weight="400" class="m"> · 2 papers</tspan></text><text x="172.1" y="392.4" font-size="12" text-anchor="middle" class="m">Caromi, Nguyen, Souryal</text>
+<text x="172.1" y="167.1" font-size="14" font-weight="700" text-anchor="middle" fill="#0E2136">TII<tspan font-weight="400" class="m"> · 2 papers</tspan></text><text x="172.1" y="183.1" font-size="12" text-anchor="middle" class="m">Hamidouche</text>
+<text x="329.0" y="72.2" font-size="14" font-weight="700" text-anchor="middle" fill="#0E2136">Other<tspan font-weight="400" class="m"> · 6 papers</tspan></text><text x="329.0" y="88.2" font-size="12" text-anchor="middle" class="m">Bhalerao, Déforges, Ahmed Fezza +5</text>
+<circle class="me" cx="440.0" cy="272" r="30" fill="#0B7A83"/><circle cx="440.0" cy="272" r="28" fill="#0E2136"/><text x="440.0" y="277" font-size="15" font-weight="700" text-anchor="middle" fill="#FFFFFF">KK</text>
+<text x="24" y="504" font-size="11.5" class="m">Dot size = papers together · spoke width = papers with that group · group = co-author’s most frequent affiliation on those papers</text>
 </svg>
