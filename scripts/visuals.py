@@ -199,12 +199,127 @@ def _yr(i):
         return 0
 
 
+def axis_years(data):
+    """Shared year axis for the journey and the career map, so the two cards line up."""
+    items, _ = paper_items(data)
+    ys = [_yr(i) for i in items if _yr(i)]
+    this = dt.date.today().year
+    return list(range(min(ys) if ys else this - 10, this + 1))
+
+
+# ---------------------------------------------------------------- career map
+# Edit this list when something changes. Years only; end=None means "to date".
+# Each segment: (start, end, title, subtitle, where) with where = "up" (title above the line) or "down".
+# A segment with start == end is drawn as a single station.
+CAREER = [
+    ("Research", "ink", [
+        (2014, 2020, "University of Siena", "PhD → postdoc · adversarial signal processing", "up"),
+        (2020, 2022, "NIST", "AI for spectrum", "up"),
+        (2022, 2023, "Inria", "AI for defense", "up"),
+        (2023, None, "INSERM & IMT Atlantique", "AI security for healthcare", "up"),
+    ]),
+    ("Funded programs & industrial partners", "hot", [
+        (2017, 2020, "MediFor (DARPA / AFRL) · PREMIER", "media forensics", "up"),
+        (2022, 2023, "SAIDA × Thales", "", "up"),
+        (2023, None, "Cybaile industrial chair", "Thales · SOPHiA GENETICS · AiiNtense · CHU Brest", "up"),
+    ]),
+    ("Industry", "accent", [
+        (2017, 2020, "ViDiTrust · R&D Scientist & AI Consultant", "anti-counterfeiting · social DRM · Centrica", "up"),
+        (2024, None, "ViDiTrust · Board of Directors", "", "down"),
+        (2026, 2026, "BRENUS PHARMA · Scientific Advisor", "", "up"),
+    ]),
+]
+DEGREES = [  # (year, title, subtitle, label side)
+    (2017, "PhD", "Siena · Springer best-thesis award", "right"),
+    (2024, "Executive MBA", "Quantic", "left"),
+    (2025, "HDR", "UBO, Brest", "right"),
+]
+INTERCHANGES = [(2017, 0, 2), (2022, 0, 1), (2023, 0, 1)]  # (year, lane, lane)
+
+
+def career(t, data):
+    years = axis_years(data)
+    W, H = 880, 470
+    cx, cw = 40, W - 80
+    bw = cw / len(years)
+    X = lambda y: cx + (y - years[0]) * bw + bw / 2
+    end_x = cx + cw + 6
+    this = years[-1]
+    lane_y = [138, 222, 306]
+    deg_y = 392
+    col = {k: t[k] for k in ("ink", "hot", "accent")}
+    halo = f"paint-order:stroke;stroke:{t['bg']};stroke-width:5px;stroke-linejoin:round;"
+    css = (f"text{{font-family:{FONT};{halo}}}.m{{fill:{t['muted']};}}"
+           ".ln{stroke-dasharray:1400;stroke-dashoffset:1400;animation:draw 2.2s cubic-bezier(.3,.7,.2,1) forwards;}"
+           "@keyframes draw{to{stroke-dashoffset:0;}}"
+           ".f{animation:fade .8s ease-out both;}@keyframes fade{from{opacity:0}to{opacity:1}}"
+           ".now{animation:blink 2s ease-in-out infinite;}@keyframes blink{0%,100%{opacity:.35}50%{opacity:1}}"
+           "@media (prefers-reduced-motion:reduce){*{animation:none!important}.ln{stroke-dashoffset:0}}")
+    o = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" '
+         f'aria-label="Career map: research positions, funded programs and industrial partners, industry roles and degrees on one time line">',
+         f"<style>{css}</style>",
+         f'<rect x=".5" y=".5" width="{W-1}" height="{H-1}" rx="10" fill="{t["bg"]}" stroke="{t["line"]}"/>',
+         f'<text x="24" y="36" font-size="18" font-weight="700" fill="{t["ink"]}">Career map</text>',
+         f'<text x="{W-24}" y="36" font-size="12" text-anchor="end" class="m">Research, industry and degrees on the same years as the journey above</text>']
+    lx = 24
+    for name, ck, _ in CAREER:
+        o.append(f'<rect x="{lx}" y="54" width="22" height="5" rx="2.5" fill="{col[ck]}"/>'
+                 f'<text x="{lx+28}" y="60" font-size="12" class="m">{e(name)}</text>')
+        lx += 44 + len(name) * 6.4
+    o.append(f'<path d="M{lx+4},56.5 l5,-5 5,5 -5,5z" fill="{t["award"]}"/><text x="{lx+16}" y="60" font-size="12" class="m">Degrees</text>')
+    for y in years:
+        o.append(f'<line x1="{X(y):.1f}" y1="88" x2="{X(y):.1f}" y2="{deg_y+26}" stroke="{t["grid"]}" stroke-width="1"/>'
+                 f'<text x="{X(y):.1f}" y="{H-18}" font-size="12" text-anchor="middle" class="m">{y}</text>')
+    o.append(f'<line class="now" x1="{X(this):.1f}" y1="88" x2="{X(this):.1f}" y2="{deg_y+26}" stroke="{t["accent"]}" stroke-width="1.5" stroke-dasharray="3 3"/>'
+             f'<text class="now" x="{X(this):.1f}" y="84" font-size="11" text-anchor="middle" fill="{t["accent"]}">now</text>')
+    for y, a, b in INTERCHANGES:
+        o.append(f'<line class="f" style="animation-delay:1.6s" x1="{X(y):.1f}" y1="{lane_y[a]}" x2="{X(y):.1f}" y2="{lane_y[b]}" stroke="{t["line"]}" stroke-width="7" stroke-linecap="round"/>')
+    labels = []
+    for li, (name, ck, segs) in enumerate(CAREER):
+        ly, c = lane_y[li], col[ck]
+        stations = []
+        for si, (a, b, title, sub, where) in enumerate(segs):
+            x1 = X(a)
+            x2 = end_x if b is None else X(b)
+            delay = .2 + li * .35 + si * .2
+            if b != a:
+                o.append(f'<line class="ln" style="animation-delay:{delay:.2f}s" x1="{x1:.1f}" y1="{ly}" x2="{x2:.1f}" y2="{ly}" stroke="{c}" stroke-width="6" stroke-linecap="round"/>')
+                if b is None:
+                    o.append(f'<path class="f" style="animation-delay:{delay+1:.2f}s" d="M{x2+7:.1f},{ly} l-9,-6.5 v13z" fill="{c}"/>')
+            stations += [(x1, delay)] + ([] if b is None or b == a else [(x2, delay)])
+            right = x1 > W - 300
+            ax, anchor = ((W - 30, "end") if right else (x1 - 6, "start"))
+            t_y, s_y = (ly - 16, ly + 24) if where == "up" else (ly + 26, ly + 41)
+            labels.append(f'<text class="f" style="animation-delay:{delay+.6:.2f}s" x="{ax:.1f}" y="{t_y}" font-size="13" font-weight="700" text-anchor="{anchor}" fill="{t["ink"]}">{e(title)}</text>')
+            if sub:
+                labels.append(f'<text class="f m" style="animation-delay:{delay+.7:.2f}s" x="{ax:.1f}" y="{s_y}" font-size="11.5" text-anchor="{anchor}">{e(sub)}</text>')
+        for xs, delay in stations:
+            o.append(f'<circle class="f" style="animation-delay:{delay+.4:.2f}s" cx="{xs:.1f}" cy="{ly}" r="6.5" fill="{t["bg"]}" stroke="{c}" stroke-width="3"/>')
+        xs = [X(s[0]) for s in segs] + [end_x if s[1] is None else X(s[1]) for s in segs]
+        p0, p1 = min(xs), max(xs)
+        o.append(f'<circle r="4.5" fill="{c}" opacity=".9">'
+                 f'<animateMotion dur="{7+li*1.5:.1f}s" begin="{2.4+li*.4:.1f}s" repeatCount="indefinite" path="M{p0:.1f},{ly} L{p1:.1f},{ly}"/></circle>')
+    o += labels
+    o.append(f'<line x1="{cx}" y1="{deg_y}" x2="{cx+cw}" y2="{deg_y}" stroke="{t["award"]}" stroke-width="1.2" stroke-dasharray="2 5" opacity=".7"/>')
+    for k, (y, title, sub, side) in enumerate(DEGREES):
+        if y not in years:
+            continue
+        x = X(y)
+        anchor, dx = ("end", -13) if side == "left" else ("start", 13)
+        o.append(f'<g class="f" style="animation-delay:{2+k*.2:.2f}s"><path d="M{x:.1f},{deg_y-9} l9,9 -9,9 -9,-9z" fill="{t["award"]}"/>'
+                 f'<text x="{x+dx:.1f}" y="{deg_y-2}" font-size="13" font-weight="700" text-anchor="{anchor}" fill="{t["ink"]}">{e(title)}</text>'
+                 f'<text x="{x+dx:.1f}" y="{deg_y+14}" font-size="11.5" text-anchor="{anchor}" class="m">{e(sub)}</text></g>')
+    o.append("</svg>")
+    return "\n".join(o)
+
+
 # ---------------------------------------------------------------- research journey
 MILESTONES = [
     (2014, "First paper · IEEE CDC"),
     (2016, "IEEE TIFS · fusion with Byzantines"),
-    (2017, "Best Paper · MMEDIA"),
+    (2017, "PhD · Best Paper MMEDIA"),
     (2023, "ICASSP Top 3% paper"),
+    (2024, "Executive MBA"),
     (2025, "HDR"),
     (2026, "Springer book · FLTA 2nd Best Paper"),
 ]
@@ -217,7 +332,7 @@ def journey(t, data):
     if not dated:
         return None
     this = dt.date.today().year
-    years = list(range(min(_yr(i) for i in dated), this + 1))
+    years = axis_years(data)
     counts = {y: 0 for y in years}
     for i in dated:
         if _yr(i) in counts:

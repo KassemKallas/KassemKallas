@@ -291,6 +291,9 @@ def main():
         j = visuals.journey(vt, data)
         if j:
             write(os.path.join(ASSETS, f"journey-{name}.svg"), j)
+        c = visuals.career(vt, data)
+        if c:
+            write(os.path.join(ASSETS, f"career-{name}.svg"), c)
         n = visuals.network(vt, data["works"], OPENALEX_AUTHOR)
         if n:
             write(os.path.join(ASSETS, f"network-{name}.svg"), n)
