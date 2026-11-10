@@ -40,6 +40,22 @@ I study how AI systems are attacked and how to make them hold: backdoor and data
 ### Publications
 
 <!--PUBS:START-->
+**Latest**
+
+- `2026` [Performance Characterizations of a Simultaneous" AND"-" OR" Gates System Dependent on a Parallel-Series SOA-MZIs Combination](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:rO6llkc54NcC) · *Journal of Electronics and Electrical Engineering*
+- `2026` [A Durable Backdoor Attack on Medical Imaging via Federated Learning](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:u_35RYKgDlwC) · *Opening the Personal Gate between Technology and Health Care…*
+- `2026` [GHOST: GAN-Harnessed Optimization for Strategic Backdoor Persistence with Future Update Anticipation in Non-IID Federated Learning](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:3s1wT3WcHBgC)
+- `2026` [Turning Distillation against Obfuscation: A Recovery Framework for DNN White-Box Watermarks](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:fPk4N6BV_jEC) · *Proceedings of the 2026 ACM Workshop on Information Hiding and…*
+- `2026` [ROSE: Extended Evaluation of RObust and SEcure Black-Box DNN Watermarking](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:zA6iFVUQeVQC) · *IEEE Transactions on Dependable and Secure Computing*
+- `2026` [A Brief Survey of Emerging Threats to AI Security](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:ZHo1McVdvXMC) · *Adversarial Example Detection and Mitigation Using Machine Learning*
+
+**Most cited**
+
+- `2019` [A new backdoor attack in cnns by training set corruption without label poisoning](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:_kc_bZDykSQC) · *IEEE International Conference on Image Processing* · **743 citations**
+- `2020` [CNN detection of GAN-generated face images based on cross-band co-occurrences analysis](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:Y0pCki6q_DkC) · *IEEE international workshop on information forensics and security (WIFS…* · **156 citations**
+- `2019` [On the transferability of adversarial examples against CNN-based image forensics](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:5nxA0vEk-isC) · *ICASSP 2019-2019 IEEE International Conference on Acoustics, Speech and…* · **51 citations**
+
+<sub>Updated automatically from Google Scholar on 2026-11-10.</sub>
 <!--PUBS:END-->
 
 ### Highlights
