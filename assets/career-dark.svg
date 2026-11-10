@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="470" viewBox="0 0 880 470" role="img" aria-label="Career map: research positions, funded programs and industrial partners, industry roles and degrees on one time line">
+<style>text{font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;paint-order:stroke;stroke:#0D1117;stroke-width:5px;stroke-linejoin:round;}.m{fill:#8B98A9;}.ln{stroke-dasharray:1400;stroke-dashoffset:1400;animation:draw 2.2s cubic-bezier(.3,.7,.2,1) forwards;}@keyframes draw{to{stroke-dashoffset:0;}}.f{animation:fade .8s ease-out both;}@keyframes fade{from{opacity:0}to{opacity:1}}.now{animation:blink 2s ease-in-out infinite;}@keyframes blink{0%,100%{opacity:.35}50%{opacity:1}}@media (prefers-reduced-motion:reduce){*{animation:none!important}.ln{stroke-dashoffset:0}}</style>
+<rect x=".5" y=".5" width="879" height="469" rx="10" fill="#0D1117" stroke="#30363D"/>
+<text x="24" y="36" font-size="18" font-weight="700" fill="#E6EDF3">Career map</text>
+<text x="856" y="36" font-size="12" text-anchor="end" class="m">Research, industry and degrees on the same years as the journey above</text>
+<rect x="24" y="54" width="22" height="5" rx="2.5" fill="#E6EDF3"/><text x="52" y="60" font-size="12" class="m">Research</text>
+<rect x="119.2" y="54" width="22" height="5" rx="2.5" fill="#FF7B6B"/><text x="147.2" y="60" font-size="12" class="m">Funded programs &amp; industrial partners</text>
+<rect x="400.0" y="54" width="22" height="5" rx="2.5" fill="#43C3CB"/><text x="428.0" y="60" font-size="12" class="m">Industry</text>
+<path d="M499.2,56.5 l5,-5 5,5 -5,5z" fill="#F2C46B"/><text x="511.2" y="60" font-size="12" class="m">Degrees</text>
+<line x1="70.8" y1="88" x2="70.8" y2="418" stroke="#1C232C" stroke-width="1"/><text x="70.8" y="452" font-size="12" text-anchor="middle" class="m">2014</text>
+<line x1="132.3" y1="88" x2="132.3" y2="418" stroke="#1C232C" stroke-width="1"/><text x="132.3" y="452" font-size="12" text-anchor="middle" class="m">2015</text>
+<line x1="193.8" y1="88" x2="193.8" y2="418" stroke="#1C232C" stroke-width="1"/><text x="193.8" y="452" font-size="12" text-anchor="middle" class="m">2016</text>
+<line x1="255.4" y1="88" x2="255.4" y2="418" stroke="#1C232C" stroke-width="1"/><text x="255.4" y="452" font-size="12" text-anchor="middle" class="m">2017</text>
+<line x1="316.9" y1="88" x2="316.9" y2="418" stroke="#1C232C" stroke-width="1"/><text x="316.9" y="452" font-size="12" text-anchor="middle" class="m">2018</text>
+<line x1="378.5" y1="88" x2="378.5" y2="418" stroke="#1C232C" stroke-width="1"/><text x="378.5" y="452" font-size="12" text-anchor="middle" class="m">2019</text>
+<line x1="440.0" y1="88" x2="440.0" y2="418" stroke="#1C232C" stroke-width="1"/><text x="440.0" y="452" font-size="12" text-anchor="middle" class="m">2020</text>
+<line x1="501.5" y1="88" x2="501.5" y2="418" stroke="#1C232C" stroke-width="1"/><text x="501.5" y="452" font-size="12" text-anchor="middle" class="m">2021</text>
+<line x1="563.1" y1="88" x2="563.1" y2="418" stroke="#1C232C" stroke-width="1"/><text x="563.1" y="452" font-size="12" text-anchor="middle" class="m">2022</text>
+<line x1="624.6" y1="88" x2="624.6" y2="418" stroke="#1C232C" stroke-width="1"/><text x="624.6" y="452" font-size="12" text-anchor="middle" class="m">2023</text>
+<line x1="686.2" y1="88" x2="686.2" y2="418" stroke="#1C232C" stroke-width="1"/><text x="686.2" y="452" font-size="12" text-anchor="middle" class="m">2024</text>
+<line x1="747.7" y1="88" x2="747.7" y2="418" stroke="#1C232C" stroke-width="1"/><text x="747.7" y="452" font-size="12" text-anchor="middle" class="m">2025</text>
+<line x1="809.2" y1="88" x2="809.2" y2="418" stroke="#1C232C" stroke-width="1"/><text x="809.2" y="452" font-size="12" text-anchor="middle" class="m">2026</text>
+<line class="now" x1="809.2" y1="88" x2="809.2" y2="418" stroke="#43C3CB" stroke-width="1.5" stroke-dasharray="3 3"/><text class="now" x="809.2" y="84" font-size="11" text-anchor="middle" fill="#43C3CB">now</text>
+<line class="f" style="animation-delay:1.6s" x1="255.4" y1="138" x2="255.4" y2="306" stroke="#30363D" stroke-width="7" stroke-linecap="round"/>
+<line class="f" style="animation-delay:1.6s" x1="563.1" y1="138" x2="563.1" y2="222" stroke="#30363D" stroke-width="7" stroke-linecap="round"/>
+<line class="f" style="animation-delay:1.6s" x1="624.6" y1="138" x2="624.6" y2="222" stroke="#30363D" stroke-width="7" stroke-linecap="round"/>
+<line class="ln" style="animation-delay:0.20s" x1="70.8" y1="138" x2="440.0" y2="138" stroke="#E6EDF3" stroke-width="6" stroke-linecap="round"/>
+<line class="ln" style="animation-delay:0.40s" x1="440.0" y1="138" x2="563.1" y2="138" stroke="#E6EDF3" stroke-width="6" stroke-linecap="round"/>
+<line class="ln" style="animation-delay:0.60s" x1="563.1" y1="138" x2="624.6" y2="138" stroke="#E6EDF3" stroke-width="6" stroke-linecap="round"/>
+<line class="ln" style="animation-delay:0.80s" x1="624.6" y1="138" x2="846.0" y2="138" stroke="#E6EDF3" stroke-width="6" stroke-linecap="round"/>
+<path class="f" style="animation-delay:1.80s" d="M853.0,138 l-9,-6.5 v13z" fill="#E6EDF3"/>
+<circle class="f" style="animation-delay:0.60s" cx="70.8" cy="138" r="6.5" fill="#0D1117" stroke="#E6EDF3" stroke-width="3"/>
+<circle class="f" style="animation-delay:0.60s" cx="440.0" cy="138" r="6.5" fill="#0D1117" stroke="#E6EDF3" stroke-width="3"/>
+<circle class="f" style="animation-delay:0.80s" cx="440.0" cy="138" r="6.5" fill="#0D1117" stroke="#E6EDF3" stroke-width="3"/>
+<circle class="f" style="animation-delay:0.80s" cx="563.1" cy="138" r="6.5" fill="#0D1117" stroke="#E6EDF3" stroke-width="3"/>
+<circle class="f" style="animation-delay:1.00s" cx="563.1" cy="138" r="6.5" fill="#0D1117" stroke="#E6EDF3" stroke-width="3"/>
+<circle class="f" style="animation-delay:1.00s" cx="624.6" cy="138" r="6.5" fill="#0D1117" stroke="#E6EDF3" stroke-width="3"/>
+<circle class="f" style="animation-delay:1.20s" cx="624.6" cy="138" r="6.5" fill="#0D1117" stroke="#E6EDF3" stroke-width="3"/>
+<circle r="4.5" fill="#E6EDF3" opacity=".9"><animateMotion dur="7.0s" begin="2.4s" repeatCount="indefinite" path="M70.8,138 L846.0,138"/></circle>
+<line class="ln" style="animation-delay:0.55s" x1="255.4" y1="222" x2="440.0" y2="222" stroke="#FF7B6B" stroke-width="6" stroke-linecap="round"/>
+<line class="ln" style="animation-delay:0.75s" x1="563.1" y1="222" x2="624.6" y2="222" stroke="#FF7B6B" stroke-width="6" stroke-linecap="round"/>
+<line class="ln" style="animation-delay:0.95s" x1="624.6" y1="222" x2="846.0" y2="222" stroke="#FF7B6B" stroke-width="6" stroke-linecap="round"/>
+<path class="f" style="animation-delay:1.95s" d="M853.0,222 l-9,-6.5 v13z" fill="#FF7B6B"/>
+<circle class="f" style="animation-delay:0.95s" cx="255.4" cy="222" r="6.5" fill="#0D1117" stroke="#FF7B6B" stroke-width="3"/>
+<circle class="f" style="animation-delay:0.95s" cx="440.0" cy="222" r="6.5" fill="#0D1117" stroke="#FF7B6B" stroke-width="3"/>
+<circle class="f" style="animation-delay:1.15s" cx="563.1" cy="222" r="6.5" fill="#0D1117" stroke="#FF7B6B" stroke-width="3"/>
+<circle class="f" style="animation-delay:1.15s" cx="624.6" cy="222" r="6.5" fill="#0D1117" stroke="#FF7B6B" stroke-width="3"/>
+<circle class="f" style="animation-delay:1.35s" cx="624.6" cy="222" r="6.5" fill="#0D1117" stroke="#FF7B6B" stroke-width="3"/>
+<circle r="4.5" fill="#FF7B6B" opacity=".9"><animateMotion dur="8.5s" begin="2.8s" repeatCount="indefinite" path="M255.4,222 L846.0,222"/></circle>
+<line class="ln" style="animation-delay:0.90s" x1="255.4" y1="306" x2="440.0" y2="306" stroke="#43C3CB" stroke-width="6" stroke-linecap="round"/>
+<line class="ln" style="animation-delay:1.10s" x1="686.2" y1="306" x2="846.0" y2="306" stroke="#43C3CB" stroke-width="6" stroke-linecap="round"/>
+<path class="f" style="animation-delay:2.10s" d="M853.0,306 l-9,-6.5 v13z" fill="#43C3CB"/>
+<circle class="f" style="animation-delay:1.30s" cx="255.4" cy="306" r="6.5" fill="#0D1117" stroke="#43C3CB" stroke-width="3"/>
+<circle class="f" style="animation-delay:1.30s" cx="440.0" cy="306" r="6.5" fill="#0D1117" stroke="#43C3CB" stroke-width="3"/>
+<circle class="f" style="animation-delay:1.50s" cx="686.2" cy="306" r="6.5" fill="#0D1117" stroke="#43C3CB" stroke-width="3"/>
+<circle class="f" style="animation-delay:1.70s" cx="809.2" cy="306" r="6.5" fill="#0D1117" stroke="#43C3CB" stroke-width="3"/>
+<circle r="4.5" fill="#43C3CB" opacity=".9"><animateMotion dur="10.0s" begin="3.2s" repeatCount="indefinite" path="M255.4,306 L846.0,306"/></circle>
+<text class="f" style="animation-delay:0.80s" x="64.8" y="122" font-size="13" font-weight="700" text-anchor="start" fill="#E6EDF3">University of Siena</text>
+<text class="f m" style="animation-delay:0.90s" x="64.8" y="162" font-size="11.5" text-anchor="start">PhD → postdoc · adversarial signal processing</text>
+<text class="f" style="animation-delay:1.00s" x="434.0" y="122" font-size="13" font-weight="700" text-anchor="start" fill="#E6EDF3">NIST</text>
+<text class="f m" style="animation-delay:1.10s" x="434.0" y="162" font-size="11.5" text-anchor="start">AI for spectrum</text>
+<text class="f" style="animation-delay:1.20s" x="557.1" y="122" font-size="13" font-weight="700" text-anchor="start" fill="#E6EDF3">Inria</text>
+<text class="f m" style="animation-delay:1.30s" x="557.1" y="162" font-size="11.5" text-anchor="start">AI for defense</text>
+<text class="f" style="animation-delay:1.40s" x="850.0" y="122" font-size="13" font-weight="700" text-anchor="end" fill="#E6EDF3">INSERM &amp; IMT Atlantique</text>
+<text class="f m" style="animation-delay:1.50s" x="850.0" y="162" font-size="11.5" text-anchor="end">AI security for healthcare</text>
+<text class="f" style="animation-delay:1.15s" x="249.4" y="206" font-size="13" font-weight="700" text-anchor="start" fill="#E6EDF3">MediFor (DARPA / AFRL) · PREMIER</text>
+<text class="f m" style="animation-delay:1.25s" x="249.4" y="246" font-size="11.5" text-anchor="start">media forensics</text>
+<text class="f" style="animation-delay:1.35s" x="557.1" y="206" font-size="13" font-weight="700" text-anchor="start" fill="#E6EDF3">SAIDA × Thales</text>
+<text class="f" style="animation-delay:1.55s" x="850.0" y="206" font-size="13" font-weight="700" text-anchor="end" fill="#E6EDF3">Cybaile industrial chair</text>
+<text class="f m" style="animation-delay:1.65s" x="850.0" y="246" font-size="11.5" text-anchor="end">Thales · SOPHiA GENETICS · AiiNtense · CHU Brest</text>
+<text class="f" style="animation-delay:1.50s" x="249.4" y="290" font-size="13" font-weight="700" text-anchor="start" fill="#E6EDF3">ViDiTrust · R&amp;D Scientist &amp; AI Consultant</text>
+<text class="f m" style="animation-delay:1.60s" x="249.4" y="330" font-size="11.5" text-anchor="start">anti-counterfeiting · social DRM · Centrica</text>
+<text class="f" style="animation-delay:1.70s" x="850.0" y="332" font-size="13" font-weight="700" text-anchor="end" fill="#E6EDF3">ViDiTrust · Board of Directors</text>
+<text class="f" style="animation-delay:1.90s" x="850.0" y="290" font-size="13" font-weight="700" text-anchor="end" fill="#E6EDF3">BRENUS PHARMA · Scientific Advisor</text>
+<line x1="40" y1="392" x2="840" y2="392" stroke="#F2C46B" stroke-width="1.2" stroke-dasharray="2 5" opacity=".7"/>
+<g class="f" style="animation-delay:2.00s"><path d="M255.4,383 l9,9 -9,9 -9,-9z" fill="#F2C46B"/><text x="268.4" y="390" font-size="13" font-weight="700" text-anchor="start" fill="#E6EDF3">PhD</text><text x="268.4" y="406" font-size="11.5" text-anchor="start" class="m">Siena · Springer best-thesis award</text></g>
+<g class="f" style="animation-delay:2.20s"><path d="M686.2,383 l9,9 -9,9 -9,-9z" fill="#F2C46B"/><text x="673.2" y="390" font-size="13" font-weight="700" text-anchor="end" fill="#E6EDF3">Executive MBA</text><text x="673.2" y="406" font-size="11.5" text-anchor="end" class="m">Quantic</text></g>
+<g class="f" style="animation-delay:2.40s"><path d="M747.7,383 l9,9 -9,9 -9,-9z" fill="#F2C46B"/><text x="760.7" y="390" font-size="13" font-weight="700" text-anchor="start" fill="#E6EDF3">HDR</text><text x="760.7" y="406" font-size="11.5" text-anchor="start" class="m">UBO, Brest</text></g>
+</svg>
