@@ -28,6 +28,11 @@ I study how AI systems are attacked and how to make them hold: backdoor and data
 </picture>
 
 <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/career-dark.svg">
+  <img alt="Career map drawn like a metro map on the same years: research positions at Siena, NIST, Inria, INSERM and IMT Atlantique; funded programs and industrial partners (MediFor, PREMIER, SAIDA with Thales, the Cybaile industrial chair); industry roles at ViDiTrust and BRENUS PHARMA; and the PhD, Executive MBA and HDR" src="assets/career-light.svg" width="100%">
+</picture>
+
+<picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/network-dark.svg">
   <img alt="Collaboration map: my co-authors grouped by institution, sized by the number of papers we wrote together" src="assets/network-light.svg" width="100%">
 </picture>
@@ -35,22 +40,6 @@ I study how AI systems are attacked and how to make them hold: backdoor and data
 ### Publications
 
 <!--PUBS:START-->
-**Latest**
-
-- `2026` [Performance Characterizations of a Simultaneous" AND"-" OR" Gates System Dependent on a Parallel-Series SOA-MZIs Combination](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:rO6llkc54NcC) · *Journal of Electronics and Electrical Engineering*
-- `2026` [A Durable Backdoor Attack on Medical Imaging via Federated Learning](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:u_35RYKgDlwC) · *Opening the Personal Gate between Technology and Health Care…*
-- `2026` [GHOST: GAN-Harnessed Optimization for Strategic Backdoor Persistence with Future Update Anticipation in Non-IID Federated Learning](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:3s1wT3WcHBgC)
-- `2026` [Turning Distillation against Obfuscation: A Recovery Framework for DNN White-Box Watermarks](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:fPk4N6BV_jEC) · *Proceedings of the 2026 ACM Workshop on Information Hiding and…*
-- `2026` [ROSE: Extended Evaluation of RObust and SEcure Black-Box DNN Watermarking](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:zA6iFVUQeVQC) · *IEEE Transactions on Dependable and Secure Computing*
-- `2026` [A Brief Survey of Emerging Threats to AI Security](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:ZHo1McVdvXMC) · *Adversarial Example Detection and Mitigation Using Machine Learning*
-
-**Most cited**
-
-- `2019` [A new backdoor attack in cnns by training set corruption without label poisoning](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:_kc_bZDykSQC) · *IEEE International Conference on Image Processing* · **743 citations**
-- `2020` [CNN detection of GAN-generated face images based on cross-band co-occurrences analysis](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:Y0pCki6q_DkC) · *IEEE international workshop on information forensics and security (WIFS…* · **156 citations**
-- `2019` [On the transferability of adversarial examples against CNN-based image forensics](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:5nxA0vEk-isC) · *ICASSP 2019-2019 IEEE International Conference on Acoustics, Speech and…* · **51 citations**
-
-<sub>Updated automatically from Google Scholar on 2026-11-10.</sub>
 <!--PUBS:END-->
 
 ### Highlights
@@ -103,4 +92,4 @@ I study how AI systems are attacked and how to make them hold: backdoor and data
 
 Open to research collaboration, advisory roles, keynotes and senior leadership positions in AI security. Get in touch through the [contact form on my website](https://sites.google.com/view/prof-dr-kassem-kallas/contact).
 
-<sub>Everything above is drawn by my own <a href="scripts/visuals.py">script</a> and rebuilt every day by a <a href=".github/workflows/dashboard.yml">GitHub Action</a>, with no third-party image services. Badges, dashboard, journey and the publication lists all read the same data file, so the numbers always agree. Citations, h-index, i10-index and papers come from my <a href="https://scholar.google.com/citations?user=Bf9vAicAAAAJ">Google Scholar profile</a> through SerpApi (falling back to Semantic Scholar and OpenAlex if Scholar is unavailable); the collaboration map comes from OpenAlex; GitHub numbers from the GitHub API.</sub>
+<sub>Everything above is drawn by my own <a href="scripts/visuals.py">script</a> and rebuilt every day by a <a href=".github/workflows/dashboard.yml">GitHub Action</a>, with no third-party image services. Badges, dashboard, journey, career map and the publication lists all read the same data file, so the numbers always agree. Citations, h-index, i10-index and papers come from my <a href="https://scholar.google.com/citations?user=Bf9vAicAAAAJ">Google Scholar profile</a> through SerpApi (falling back to Semantic Scholar and OpenAlex if Scholar is unavailable); the collaboration map comes from OpenAlex; GitHub numbers from the GitHub API.</sub>
