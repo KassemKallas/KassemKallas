@@ -5,7 +5,7 @@ Runs daily in GitHub Actions. Pulls live numbers from:
   - Semantic Scholar Graph API: citations, h-index, paper count
   - OpenAlex API: citations per year, works count, h-index
   - Google Scholar profile, through SerpApi's free tier (only when the SERPAPI_KEY secret is set;
-    refreshed every 3 days to stay well inside the free monthly quota)
+    refreshed once a day, about 30 calls a month, inside the free monthly quota)
 Writes assets/dashboard-light.svg, assets/dashboard-dark.svg and assets/data.json.
 If a source is unreachable, the last saved values are reused so the card never breaks.
 Standard library only.
@@ -24,7 +24,7 @@ USER = "KassemKallas"
 S2_AUTHOR = "3192444"            # Semantic Scholar author id
 OPENALEX_AUTHOR = "A5046279472"  # OpenAlex author id (ORCID 0000-0001-7689-4125)
 SCHOLAR_ID = "Bf9vAicAAAAJ"      # Google Scholar profile id
-SCHOLAR_EVERY_DAYS = 3
+SCHOLAR_EVERY_DAYS = 1
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ASSETS = os.path.join(ROOT, "assets")
 DATA = os.path.join(ASSETS, "data.json")
