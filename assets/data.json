@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10",
+  "updated": "2026-11-11",
   "github": {
     "repos": 21,
     "stars": 28,
@@ -34,12 +34,12 @@
     ]
   },
   "s2": {
-    "citations": 889,
+    "citations": 894,
     "h": 10,
     "papers": 42
   },
   "openalex": {
-    "citations": 773,
+    "citations": 787,
     "works": 44,
     "h": 10,
     "i10": 10,
@@ -86,15 +86,15 @@
       },
       {
         "year": 2024,
-        "cites": 151
+        "cites": 152
       },
       {
         "year": 2025,
-        "cites": 180
+        "cites": 185
       },
       {
         "year": 2026,
-        "cites": 149
+        "cites": 157
       }
     ]
   },
@@ -570,7 +570,7 @@
     {
       "t": "A New Backdoor Attack in CNNS by Training Set Corruption Without Label Poisoning",
       "y": 2019,
-      "c": 392,
+      "c": 396,
       "type": "conference-paper",
       "doi": "https://doi.org/10.1109/icip.2019.8802997",
       "venue": "Proceedings - International Conference on Image Processing",
@@ -595,7 +595,7 @@
     {
       "t": "CNN Detection of GAN-Generated Face Images based on Cross-Band Co-occurrences Analysis",
       "y": 2020,
-      "c": 111,
+      "c": 115,
       "type": "conference-paper",
       "doi": "https://doi.org/10.1109/wifs49906.2020.9360905",
       "venue": "IEEE International Workshop on Information Forensics and Security",
@@ -625,7 +625,7 @@
     {
       "t": "A Comprehensive Survey on Backdoor Attacks and Their Defenses in Face Recognition Systems",
       "y": 2024,
-      "c": 30,
+      "c": 31,
       "type": "article",
       "doi": "https://doi.org/10.1109/access.2024.3382584",
       "venue": "IEEE Access",
@@ -655,7 +655,7 @@
     {
       "t": "On the Transferability of Adversarial Examples against CNN-based Image Forensics",
       "y": 2019,
-      "c": 41,
+      "c": 42,
       "type": "conference-paper",
       "doi": "https://doi.org/10.1109/icassp.2019.8683772",
       "venue": "IEEE International Conference on Acoustics Speech and Signal Processing",
@@ -810,7 +810,7 @@
     {
       "t": "Strategic safeguarding: A game theoretic approach for analyzing attacker-defender behavior in DNN backdoors",
       "y": 2024,
-      "c": 8,
+      "c": 9,
       "type": "article",
       "doi": "https://doi.org/10.1186/s13635-024-00180-5",
       "venue": "EURASIP Journal on Information Security",
@@ -840,7 +840,7 @@
     {
       "t": "Energy Backdoor Attack to Deep Neural Networks",
       "y": 2025,
-      "c": 5,
+      "c": 6,
       "type": "conference-paper",
       "doi": "https://doi.org/10.1109/icassp49660.2025.10888330",
       "venue": "IEEE International Conference on Acoustics Speech and Signal Processing",
@@ -1050,7 +1050,7 @@
     {
       "t": "Information Fusion in Distributed Sensor Networks with Byzantines",
       "y": 2020,
-      "c": 8,
+      "c": 9,
       "type": "book",
       "doi": "https://doi.org/10.1007/978-981-32-9001-3",
       "venue": "Signals and communication technology",
@@ -1133,6 +1133,36 @@
       ]
     },
     {
+      "t": "FLARE: Federated Learning Attack via Robust Expectation-Based Backdooring Using GAN",
+      "y": 2025,
+      "c": 2,
+      "type": "conference-paper",
+      "doi": "https://doi.org/10.1109/ic_etc65981.2025.11141092",
+      "venue": "International Conference on Emerging Technologies and Computing (IC_ETC)",
+      "a": [
+        [
+          "A5116772153",
+          "Hichem Faraoun",
+          "IMT Atlantique"
+        ],
+        [
+          "A5069264855",
+          "Reda Bellafqira",
+          "IMT Atlantique"
+        ],
+        [
+          "A5108307254",
+          "Gouenou Coatrieux",
+          "IMT Atlantique"
+        ],
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "Inserm"
+        ]
+      ]
+    },
+    {
       "t": "A Durable Backdoor Attack on Medical Imaging via Federated Learning",
       "y": 2026,
       "c": 2,
@@ -1189,36 +1219,6 @@
           "A5026139768",
           "Benedetta Tondi",
           "University of Siena"
-        ]
-      ]
-    },
-    {
-      "t": "FLARE: Federated Learning Attack via Robust Expectation-Based Backdooring Using GAN",
-      "y": 2025,
-      "c": 1,
-      "type": "conference-paper",
-      "doi": "https://doi.org/10.1109/ic_etc65981.2025.11141092",
-      "venue": "International Conference on Emerging Technologies and Computing (IC_ETC)",
-      "a": [
-        [
-          "A5116772153",
-          "Hichem Faraoun",
-          "IMT Atlantique"
-        ],
-        [
-          "A5069264855",
-          "Reda Bellafqira",
-          "IMT Atlantique"
-        ],
-        [
-          "A5108307254",
-          "Gouenou Coatrieux",
-          "IMT Atlantique"
-        ],
-        [
-          "A5046279472",
-          "Kassem Kallas",
-          "Inserm"
         ]
       ]
     },
