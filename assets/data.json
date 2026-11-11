@@ -99,8 +99,8 @@
     ]
   },
   "scholar": {
-    "fetched": "2026-11-09",
-    "citations": 1329,
+    "fetched": "2026-11-11",
+    "citations": 1333,
     "h": 14,
     "i10": 17,
     "papers": 59,
@@ -110,14 +110,14 @@
         "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:_kc_bZDykSQC",
         "year": 2019,
         "publication": "IEEE International Conference on Image Processing, 2019",
-        "cites": 743
+        "cites": 744
       },
       {
         "title": "CNN detection of GAN-generated face images based on cross-band co-occurrences analysis",
         "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:Y0pCki6q_DkC",
         "year": 2020,
         "publication": "2020 IEEE international workshop on information forensics and security (WIFS \u2026, 2020",
-        "cites": 156
+        "cites": 158
       },
       {
         "title": "On the transferability of adversarial examples against CNN-based image forensics",
@@ -152,7 +152,7 @@
         "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:Tyk-4Ss8FVUC",
         "year": 2022,
         "publication": "2022 IEEE wireless communications and networking conference (WCNC), 1665-1670, 2022",
-        "cites": 30
+        "cites": 31
       },
       {
         "title": "Decision and game theory for security",
@@ -562,7 +562,7 @@
       },
       {
         "year": 2026,
-        "cites": 281
+        "cites": 285
       }
     ]
   },
@@ -1775,7 +1775,7 @@
   ],
   "summary": {
     "source": "Google Scholar",
-    "citations": 1329,
+    "citations": 1333,
     "h": 14,
     "i10": 17,
     "papers": 59,
@@ -1823,7 +1823,7 @@
       },
       {
         "year": 2026,
-        "cites": 281
+        "cites": 285
       }
     ],
     "by_year_source": "Google Scholar"

@@ -51,5 +51,5 @@
 <text class="f" x="809.2" y="214.0" font-size="13" font-weight="700" text-anchor="middle" fill="#0E2136">6</text>
 <text x="809.2" y="327" font-size="12" text-anchor="middle" class="m">2026</text>
 <rect x="740" y="48" width="10" height="10" rx="2" fill="#7FB8BD"/><text x="755" y="58" font-size="12" class="m">2026 so far</text>
-<g class="f" style="animation-delay:1.4s"><line x1="378.5" y1="160" x2="378.5" y2="230.0" stroke="#C2412D" stroke-width="1" stroke-dasharray="2 3"/><path class="star" d="M378.5,145 l3,6 6.5,.9 -4.7,4.6 1.1,6.5 -5.9,-3.1 -5.9,3.1 1.1,-6.5 -4.7,-4.6 6.5,-.9z" fill="#C2412D"/><text x="390.5" y="157" font-size="12.5" text-anchor="start" fill="#C2412D">Most cited: A new backdoor attack in cnns by training set… · 743</text></g>
+<g class="f" style="animation-delay:1.4s"><line x1="378.5" y1="160" x2="378.5" y2="230.0" stroke="#C2412D" stroke-width="1" stroke-dasharray="2 3"/><path class="star" d="M378.5,145 l3,6 6.5,.9 -4.7,4.6 1.1,6.5 -5.9,-3.1 -5.9,3.1 1.1,-6.5 -4.7,-4.6 6.5,-.9z" fill="#C2412D"/><text x="390.5" y="157" font-size="12.5" text-anchor="start" fill="#C2412D">Most cited: A new backdoor attack in cnns by training set… · 744</text></g>
 </svg>
