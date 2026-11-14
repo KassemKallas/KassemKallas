@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13",
+  "updated": "2026-11-14",
   "github": {
     "repos": 21,
     "stars": 28,
@@ -39,7 +39,7 @@
     "papers": 42
   },
   "openalex": {
-    "citations": 787,
+    "citations": 790,
     "works": 44,
     "h": 10,
     "i10": 10,
@@ -70,7 +70,7 @@
       },
       {
         "year": 2020,
-        "cites": 41
+        "cites": 42
       },
       {
         "year": 2021,
@@ -94,12 +94,12 @@
       },
       {
         "year": 2026,
-        "cites": 157
+        "cites": 159
       }
     ]
   },
   "scholar": {
-    "fetched": "2026-11-13",
+    "fetched": "2026-11-14",
     "citations": 1333,
     "h": 14,
     "i10": 17,
@@ -558,11 +558,11 @@
       },
       {
         "year": 2025,
-        "cites": 333
+        "cites": 332
       },
       {
         "year": 2026,
-        "cites": 284
+        "cites": 285
       }
     ]
   },
@@ -570,7 +570,7 @@
     {
       "t": "A New Backdoor Attack in CNNS by Training Set Corruption Without Label Poisoning",
       "y": 2019,
-      "c": 396,
+      "c": 398,
       "type": "conference-paper",
       "doi": "https://doi.org/10.1109/icip.2019.8802997",
       "venue": "Proceedings - International Conference on Image Processing",
@@ -595,7 +595,7 @@
     {
       "t": "CNN Detection of GAN-Generated Face Images based on Cross-Band Co-occurrences Analysis",
       "y": 2020,
-      "c": 115,
+      "c": 116,
       "type": "conference-paper",
       "doi": "https://doi.org/10.1109/wifs49906.2020.9360905",
       "venue": "IEEE International Workshop on Information Forensics and Security",
@@ -893,26 +893,6 @@
       ]
     },
     {
-      "t": "Mixer: DNN Watermarking using Image Mixup",
-      "y": 2023,
-      "c": 7,
-      "type": "conference-paper",
-      "doi": "https://doi.org/10.1109/icassp49357.2023.10095332",
-      "venue": "IEEE International Conference on Acoustics Speech and Signal Processing",
-      "a": [
-        [
-          "A5046279472",
-          "Kassem Kallas",
-          "Centre Inria de l'Universit\u00e9 de Rennes"
-        ],
-        [
-          "A5062906790",
-          "Teddy Furon",
-          "Centre Inria de l'Universit\u00e9 de Rennes"
-        ]
-      ]
-    },
-    {
       "t": "REStore: Exploring a Black-Box Defense against DNN Backdoors using Rare Event Simulation",
       "y": 2024,
       "c": 7,
@@ -1074,6 +1054,26 @@
           "A5026139768",
           "Benedetta Tondi",
           "University of Siena"
+        ]
+      ]
+    },
+    {
+      "t": "Mixer: DNN Watermarking using Image Mixup",
+      "y": 2023,
+      "c": 7,
+      "type": "conference-paper",
+      "doi": "https://doi.org/10.1109/icassp49357.2023.10095332",
+      "venue": "IEEE International Conference on Acoustics Speech and Signal Processing",
+      "a": [
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "Centre Inria de l'Universit\u00e9 de Rennes"
+        ],
+        [
+          "A5062906790",
+          "Teddy Furon",
+          "Centre Inria de l'Universit\u00e9 de Rennes"
         ]
       ]
     },
@@ -1819,11 +1819,11 @@
       },
       {
         "year": 2025,
-        "cites": 333
+        "cites": 332
       },
       {
         "year": 2026,
-        "cites": 284
+        "cites": 285
       }
     ],
     "by_year_source": "Google Scholar"
