@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14",
+  "updated": "2026-11-15",
   "github": {
     "repos": 21,
     "stars": 28,
@@ -39,7 +39,7 @@
     "papers": 42
   },
   "openalex": {
-    "citations": 790,
+    "citations": 791,
     "works": 44,
     "h": 10,
     "i10": 10,
@@ -94,13 +94,13 @@
       },
       {
         "year": 2026,
-        "cites": 159
+        "cites": 160
       }
     ]
   },
   "scholar": {
-    "fetched": "2026-11-14",
-    "citations": 1333,
+    "fetched": "2026-11-15",
+    "citations": 1335,
     "h": 14,
     "i10": 17,
     "papers": 59,
@@ -110,7 +110,7 @@
         "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:_kc_bZDykSQC",
         "year": 2019,
         "publication": "IEEE International Conference on Image Processing, 2019",
-        "cites": 744
+        "cites": 746
       },
       {
         "title": "CNN detection of GAN-generated face images based on cross-band co-occurrences analysis",
@@ -562,7 +562,7 @@
       },
       {
         "year": 2026,
-        "cites": 285
+        "cites": 287
       }
     ]
   },
@@ -570,7 +570,7 @@
     {
       "t": "A New Backdoor Attack in CNNS by Training Set Corruption Without Label Poisoning",
       "y": 2019,
-      "c": 398,
+      "c": 399,
       "type": "conference-paper",
       "doi": "https://doi.org/10.1109/icip.2019.8802997",
       "venue": "Proceedings - International Conference on Image Processing",
@@ -893,31 +893,6 @@
       ]
     },
     {
-      "t": "REStore: Exploring a Black-Box Defense against DNN Backdoors using Rare Event Simulation",
-      "y": 2024,
-      "c": 7,
-      "type": "conference-paper",
-      "doi": "https://doi.org/10.1109/satml59370.2024.00021",
-      "venue": "IEEE Conference on Secure and Trustworthy Machine Learning (SaTML)",
-      "a": [
-        [
-          "A5015656596",
-          "Quentin Le Roux",
-          "Institut national de recherche en sciences et technologies du num\u00e9rique"
-        ],
-        [
-          "A5046279472",
-          "Kassem Kallas",
-          "Institut national de recherche en sciences et technologies du num\u00e9rique"
-        ],
-        [
-          "A5062906790",
-          "Teddy Furon",
-          "Institut national de recherche en sciences et technologies du num\u00e9rique"
-        ]
-      ]
-    },
-    {
       "t": "A message passing approach for decision fusion in adversarial multi-sensor networks",
       "y": 2017,
       "c": 6,
@@ -1074,6 +1049,31 @@
           "A5062906790",
           "Teddy Furon",
           "Centre Inria de l'Universit\u00e9 de Rennes"
+        ]
+      ]
+    },
+    {
+      "t": "REStore: Exploring a Black-Box Defense against DNN Backdoors using Rare Event Simulation",
+      "y": 2024,
+      "c": 7,
+      "type": "conference-paper",
+      "doi": "https://doi.org/10.1109/satml59370.2024.00021",
+      "venue": "IEEE Conference on Secure and Trustworthy Machine Learning (SaTML)",
+      "a": [
+        [
+          "A5015656596",
+          "Quentin Le Roux",
+          "Institut national de recherche en sciences et technologies du num\u00e9rique"
+        ],
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "Institut national de recherche en sciences et technologies du num\u00e9rique"
+        ],
+        [
+          "A5062906790",
+          "Teddy Furon",
+          "Institut national de recherche en sciences et technologies du num\u00e9rique"
         ]
       ]
     },
@@ -1775,7 +1775,7 @@
   ],
   "summary": {
     "source": "Google Scholar",
-    "citations": 1333,
+    "citations": 1335,
     "h": 14,
     "i10": 17,
     "papers": 59,
@@ -1823,7 +1823,7 @@
       },
       {
         "year": 2026,
-        "cites": 285
+        "cites": 287
       }
     ],
     "by_year_source": "Google Scholar"
