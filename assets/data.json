@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "github": {
     "repos": 21,
     "stars": 28,
@@ -39,10 +39,10 @@
     "papers": 42
   },
   "openalex": {
-    "citations": 791,
+    "citations": 1080,
     "works": 44,
-    "h": 10,
-    "i10": 10,
+    "h": 11,
+    "i10": 13,
     "by_year": [
       {
         "year": 2014,
@@ -70,36 +70,36 @@
       },
       {
         "year": 2020,
-        "cites": 42
+        "cites": 45
       },
       {
         "year": 2021,
-        "cites": 41
+        "cites": 43
       },
       {
         "year": 2022,
-        "cites": 72
+        "cites": 98
       },
       {
         "year": 2023,
-        "cites": 110
+        "cites": 140
       },
       {
         "year": 2024,
-        "cites": 152
+        "cites": 209
       },
       {
         "year": 2025,
-        "cites": 185
+        "cites": 264
       },
       {
         "year": 2026,
-        "cites": 160
+        "cites": 252
       }
     ]
   },
   "scholar": {
-    "fetched": "2026-11-16",
+    "fetched": "2026-11-17",
     "citations": 1335,
     "h": 14,
     "i10": 17,
@@ -570,7 +570,7 @@
     {
       "t": "A New Backdoor Attack in CNNS by Training Set Corruption Without Label Poisoning",
       "y": 2019,
-      "c": 399,
+      "c": 612,
       "type": "conference-paper",
       "doi": "https://doi.org/10.1109/icip.2019.8802997",
       "venue": "Proceedings - International Conference on Image Processing",
@@ -595,7 +595,7 @@
     {
       "t": "CNN Detection of GAN-Generated Face Images based on Cross-Band Co-occurrences Analysis",
       "y": 2020,
-      "c": 116,
+      "c": 143,
       "type": "conference-paper",
       "doi": "https://doi.org/10.1109/wifs49906.2020.9360905",
       "venue": "IEEE International Workshop on Information Forensics and Security",
@@ -625,7 +625,7 @@
     {
       "t": "A Comprehensive Survey on Backdoor Attacks and Their Defenses in Face Recognition Systems",
       "y": 2024,
-      "c": 31,
+      "c": 46,
       "type": "article",
       "doi": "https://doi.org/10.1109/access.2024.3382584",
       "venue": "IEEE Access",
@@ -655,7 +655,7 @@
     {
       "t": "On the Transferability of Adversarial Examples against CNN-based Image Forensics",
       "y": 2019,
-      "c": 42,
+      "c": 46,
       "type": "conference-paper",
       "doi": "https://doi.org/10.1109/icassp.2019.8683772",
       "venue": "IEEE International Conference on Acoustics Speech and Signal Processing",
@@ -683,39 +683,9 @@
       ]
     },
     {
-      "t": "A Game-Theoretic Framework for Optimum Decision Fusion in the Presence of Byzantines",
-      "y": 2016,
-      "c": 29,
-      "type": "article",
-      "doi": "https://doi.org/10.1109/tifs.2016.2526963",
-      "venue": "IEEE Transactions on Information Forensics and Security",
-      "a": [
-        [
-          "A5026258680",
-          "Andrea Abrardo",
-          "University of Siena"
-        ],
-        [
-          "A5007836692",
-          "Mauro Barni",
-          "University of Siena"
-        ],
-        [
-          "A5046279472",
-          "Kassem Kallas",
-          "University of Siena"
-        ],
-        [
-          "A5026139768",
-          "Benedetta Tondi",
-          "University of Siena"
-        ]
-      ]
-    },
-    {
       "t": "Deep Learning for Radar Signal Detection in the 3.5 GHz CBRS Band",
       "y": 2021,
-      "c": 26,
+      "c": 28,
       "type": "conference-paper",
       "doi": "https://doi.org/10.1109/dyspan53946.2021.9677280",
       "venue": "IEEE International Symposium on Dynamic Spectrum Access Networks",
@@ -750,7 +720,7 @@
     {
       "t": "Deep Learning for Path Loss Prediction in the 3.5 GHz CBRS Spectrum Band",
       "y": 2022,
-      "c": 23,
+      "c": 26,
       "type": "conference-paper",
       "doi": "https://doi.org/10.1109/wcnc51071.2022.9771737",
       "venue": "IEEE Wireless Communications and Networking Conference",
@@ -778,39 +748,9 @@
       ]
     },
     {
-      "t": "Luminance-based video backdoor attack against anti-spoofing rebroadcast detection",
-      "y": 2019,
-      "c": 17,
-      "type": "conference-paper",
-      "doi": "https://doi.org/10.1109/mmsp.2019.8901711",
-      "venue": "IEEE International Workshop on Multimedia Signal Processing (MMSP)",
-      "a": [
-        [
-          "A5081010150",
-          "Abhir H. Bhalerao",
-          "University of Warwick"
-        ],
-        [
-          "A5046279472",
-          "Kassem Kallas",
-          "University of Siena"
-        ],
-        [
-          "A5026139768",
-          "Benedetta Tondi",
-          "University of Siena"
-        ],
-        [
-          "A5007836692",
-          "Mauro Barni",
-          "University of Siena"
-        ]
-      ]
-    },
-    {
       "t": "Strategic safeguarding: A game theoretic approach for analyzing attacker-defender behavior in DNN backdoors",
       "y": 2024,
-      "c": 9,
+      "c": 15,
       "type": "article",
       "doi": "https://doi.org/10.1186/s13635-024-00180-5",
       "venue": "EURASIP Journal on Information Security",
@@ -840,7 +780,7 @@
     {
       "t": "Energy Backdoor Attack to Deep Neural Networks",
       "y": 2025,
-      "c": 6,
+      "c": 8,
       "type": "conference-paper",
       "doi": "https://doi.org/10.1109/icassp49660.2025.10888330",
       "venue": "IEEE International Conference on Acoustics Speech and Signal Processing",
@@ -873,9 +813,69 @@
       ]
     },
     {
+      "t": "A Game-Theoretic Framework for Optimum Decision Fusion in the Presence of Byzantines",
+      "y": 2016,
+      "c": 30,
+      "type": "article",
+      "doi": "https://doi.org/10.1109/tifs.2016.2526963",
+      "venue": "IEEE Transactions on Information Forensics and Security",
+      "a": [
+        [
+          "A5026258680",
+          "Andrea Abrardo",
+          "University of Siena"
+        ],
+        [
+          "A5007836692",
+          "Mauro Barni",
+          "University of Siena"
+        ],
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "University of Siena"
+        ],
+        [
+          "A5026139768",
+          "Benedetta Tondi",
+          "University of Siena"
+        ]
+      ]
+    },
+    {
+      "t": "Luminance-based video backdoor attack against anti-spoofing rebroadcast detection",
+      "y": 2019,
+      "c": 19,
+      "type": "conference-paper",
+      "doi": "https://doi.org/10.1109/mmsp.2019.8901711",
+      "venue": "IEEE International Workshop on Multimedia Signal Processing (MMSP)",
+      "a": [
+        [
+          "A5081010150",
+          "Abhir H. Bhalerao",
+          "University of Warwick"
+        ],
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "University of Siena"
+        ],
+        [
+          "A5026139768",
+          "Benedetta Tondi",
+          "University of Siena"
+        ],
+        [
+          "A5007836692",
+          "Mauro Barni",
+          "University of Siena"
+        ]
+      ]
+    },
+    {
       "t": "ROSE: A RObust and SEcure DNN Watermarking",
       "y": 2022,
-      "c": 12,
+      "c": 13,
       "type": "conference-paper",
       "doi": "https://doi.org/10.1109/wifs55849.2022.9975300",
       "venue": "IEEE International Workshop on Information Forensics and Security",
@@ -889,6 +889,161 @@
           "A5062906790",
           "Teddy Furon",
           "Centre Inria de l'Universit\u00e9 de Rennes"
+        ]
+      ]
+    },
+    {
+      "t": "REStore: Exploring a Black-Box Defense against DNN Backdoors using Rare Event Simulation",
+      "y": 2024,
+      "c": 10,
+      "type": "conference-paper",
+      "doi": "https://doi.org/10.1109/satml59370.2024.00021",
+      "venue": "IEEE Conference on Secure and Trustworthy Machine Learning (SaTML)",
+      "a": [
+        [
+          "A5015656596",
+          "Quentin Le Roux",
+          "Institut national de recherche en sciences et technologies du num\u00e9rique"
+        ],
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "Institut national de recherche en sciences et technologies du num\u00e9rique"
+        ],
+        [
+          "A5062906790",
+          "Teddy Furon",
+          "Institut national de recherche en sciences et technologies du num\u00e9rique"
+        ]
+      ]
+    },
+    {
+      "t": "A Double-Edged Sword: The Power of Two in Defending Against DNN Backdoor Attacks",
+      "y": 2024,
+      "c": 7,
+      "type": "conference-paper",
+      "doi": "https://doi.org/10.23919/eusipco63174.2024.10715340",
+      "venue": "European Signal Processing Conference (EUSIPCO)",
+      "a": [
+        [
+          "A5015656596",
+          "Quentin Le Roux",
+          "Thales (France)"
+        ],
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "Institut national de recherche en sciences et technologies du num\u00e9rique"
+        ],
+        [
+          "A5062906790",
+          "Teddy Furon",
+          "Centre Inria de l'Universit\u00e9 de Rennes"
+        ]
+      ]
+    },
+    {
+      "t": "Mixer: DNN Watermarking using Image Mixup",
+      "y": 2023,
+      "c": 9,
+      "type": "conference-paper",
+      "doi": "https://doi.org/10.1109/icassp49357.2023.10095332",
+      "venue": "IEEE International Conference on Acoustics Speech and Signal Processing",
+      "a": [
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "Centre Inria de l'Universit\u00e9 de Rennes"
+        ],
+        [
+          "A5062906790",
+          "Teddy Furon",
+          "Centre Inria de l'Universit\u00e9 de Rennes"
+        ]
+      ]
+    },
+    {
+      "t": "Adversarial Multimedia Forensics",
+      "y": 2024,
+      "c": 8,
+      "type": "book",
+      "doi": "https://doi.org/10.1007/978-3-031-49803-9",
+      "venue": "Advances in information security",
+      "a": [
+        [
+          "A5014302355",
+          "Ehsan Nowroozi",
+          "Ravensbourne University London"
+        ],
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "Institut national de recherche en sciences et technologies du num\u00e9rique"
+        ],
+        [
+          "A5045461052",
+          "Alireza Jolfaei",
+          "Flinders University"
+        ]
+      ]
+    },
+    {
+      "t": "FLARE: Federated Learning Attack via Robust Expectation-Based Backdooring Using GAN",
+      "y": 2025,
+      "c": 3,
+      "type": "conference-paper",
+      "doi": "https://doi.org/10.1109/ic_etc65981.2025.11141092",
+      "venue": "International Conference on Emerging Technologies and Computing (IC_ETC)",
+      "a": [
+        [
+          "A5116772153",
+          "Hichem Faraoun",
+          "IMT Atlantique"
+        ],
+        [
+          "A5069264855",
+          "Reda Bellafqira",
+          "IMT Atlantique"
+        ],
+        [
+          "A5108307254",
+          "Gouenou Coatrieux",
+          "IMT Atlantique"
+        ],
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "Inserm"
+        ]
+      ]
+    },
+    {
+      "t": "Information Fusion in Distributed Sensor Networks with Byzantines",
+      "y": 2020,
+      "c": 10,
+      "type": "book",
+      "doi": "https://doi.org/10.1007/978-981-32-9001-3",
+      "venue": "Signals and communication technology",
+      "a": [
+        [
+          "A5026258680",
+          "Andrea Abrardo",
+          "University of Siena"
+        ],
+        [
+          "A5007836692",
+          "Mauro Barni",
+          "University of Siena"
+        ],
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "University of Siena"
+        ],
+        [
+          "A5026139768",
+          "Benedetta Tondi",
+          "University of Siena"
         ]
       ]
     },
@@ -923,164 +1078,9 @@
       ]
     },
     {
-      "t": "Adversarial Multimedia Forensics",
-      "y": 2024,
-      "c": 6,
-      "type": "book",
-      "doi": "https://doi.org/10.1007/978-3-031-49803-9",
-      "venue": "Advances in information security",
-      "a": [
-        [
-          "A5014302355",
-          "Ehsan Nowroozi",
-          "Ravensbourne University London"
-        ],
-        [
-          "A5046279472",
-          "Kassem Kallas",
-          "Institut national de recherche en sciences et technologies du num\u00e9rique"
-        ],
-        [
-          "A5045461052",
-          "Alireza Jolfaei",
-          "Flinders University"
-        ]
-      ]
-    },
-    {
-      "t": "A Double-Edged Sword: The Power of Two in Defending Against DNN Backdoor Attacks",
-      "y": 2024,
-      "c": 6,
-      "type": "conference-paper",
-      "doi": "https://doi.org/10.23919/eusipco63174.2024.10715340",
-      "venue": "European Signal Processing Conference (EUSIPCO)",
-      "a": [
-        [
-          "A5015656596",
-          "Quentin Le Roux",
-          "Thales (France)"
-        ],
-        [
-          "A5046279472",
-          "Kassem Kallas",
-          "Institut national de recherche en sciences et technologies du num\u00e9rique"
-        ],
-        [
-          "A5062906790",
-          "Teddy Furon",
-          "Centre Inria de l'Universit\u00e9 de Rennes"
-        ]
-      ]
-    },
-    {
-      "t": "Decision fusion with corrupted reports in multi-sensor networks: A game-theoretic approach",
-      "y": 2014,
-      "c": 11,
-      "type": "conference-paper",
-      "doi": "https://doi.org/10.1109/cdc.2014.7039431",
-      "venue": "IEEE Conference on Decision and Control (CDC)",
-      "a": [
-        [
-          "A5026258680",
-          "Andrea Abrardo",
-          "University of Siena"
-        ],
-        [
-          "A5007836692",
-          "Mauro Barni",
-          "University of Siena"
-        ],
-        [
-          "A5046279472",
-          "Kassem Kallas",
-          "University of Siena"
-        ],
-        [
-          "A5026139768",
-          "Benedetta Tondi",
-          "University of Siena"
-        ]
-      ]
-    },
-    {
-      "t": "Information Fusion in Distributed Sensor Networks with Byzantines",
-      "y": 2020,
-      "c": 9,
-      "type": "book",
-      "doi": "https://doi.org/10.1007/978-981-32-9001-3",
-      "venue": "Signals and communication technology",
-      "a": [
-        [
-          "A5026258680",
-          "Andrea Abrardo",
-          "University of Siena"
-        ],
-        [
-          "A5007836692",
-          "Mauro Barni",
-          "University of Siena"
-        ],
-        [
-          "A5046279472",
-          "Kassem Kallas",
-          "University of Siena"
-        ],
-        [
-          "A5026139768",
-          "Benedetta Tondi",
-          "University of Siena"
-        ]
-      ]
-    },
-    {
-      "t": "Mixer: DNN Watermarking using Image Mixup",
-      "y": 2023,
-      "c": 7,
-      "type": "conference-paper",
-      "doi": "https://doi.org/10.1109/icassp49357.2023.10095332",
-      "venue": "IEEE International Conference on Acoustics Speech and Signal Processing",
-      "a": [
-        [
-          "A5046279472",
-          "Kassem Kallas",
-          "Centre Inria de l'Universit\u00e9 de Rennes"
-        ],
-        [
-          "A5062906790",
-          "Teddy Furon",
-          "Centre Inria de l'Universit\u00e9 de Rennes"
-        ]
-      ]
-    },
-    {
-      "t": "REStore: Exploring a Black-Box Defense against DNN Backdoors using Rare Event Simulation",
-      "y": 2024,
-      "c": 7,
-      "type": "conference-paper",
-      "doi": "https://doi.org/10.1109/satml59370.2024.00021",
-      "venue": "IEEE Conference on Secure and Trustworthy Machine Learning (SaTML)",
-      "a": [
-        [
-          "A5015656596",
-          "Quentin Le Roux",
-          "Institut national de recherche en sciences et technologies du num\u00e9rique"
-        ],
-        [
-          "A5046279472",
-          "Kassem Kallas",
-          "Institut national de recherche en sciences et technologies du num\u00e9rique"
-        ],
-        [
-          "A5062906790",
-          "Teddy Furon",
-          "Institut national de recherche en sciences et technologies du num\u00e9rique"
-        ]
-      ]
-    },
-    {
       "t": "RoSe-Mix: Robust and Secure Deep Neural Network Watermarking in Black-Box Settings via Image Mixup",
       "y": 2025,
-      "c": 3,
+      "c": 4,
       "type": "article",
       "doi": "https://doi.org/10.3390/make7020032",
       "venue": "Machine Learning and Knowledge Extraction",
@@ -1133,36 +1133,6 @@
       ]
     },
     {
-      "t": "FLARE: Federated Learning Attack via Robust Expectation-Based Backdooring Using GAN",
-      "y": 2025,
-      "c": 2,
-      "type": "conference-paper",
-      "doi": "https://doi.org/10.1109/ic_etc65981.2025.11141092",
-      "venue": "International Conference on Emerging Technologies and Computing (IC_ETC)",
-      "a": [
-        [
-          "A5116772153",
-          "Hichem Faraoun",
-          "IMT Atlantique"
-        ],
-        [
-          "A5069264855",
-          "Reda Bellafqira",
-          "IMT Atlantique"
-        ],
-        [
-          "A5108307254",
-          "Gouenou Coatrieux",
-          "IMT Atlantique"
-        ],
-        [
-          "A5046279472",
-          "Kassem Kallas",
-          "Inserm"
-        ]
-      ]
-    },
-    {
       "t": "A Durable Backdoor Attack on Medical Imaging via Federated Learning",
       "y": 2026,
       "c": 2,
@@ -1189,6 +1159,36 @@
           "A5046279472",
           "Kassem Kallas",
           "Inserm"
+        ]
+      ]
+    },
+    {
+      "t": "Decision fusion with corrupted reports in multi-sensor networks: A game-theoretic approach",
+      "y": 2014,
+      "c": 11,
+      "type": "conference-paper",
+      "doi": "https://doi.org/10.1109/cdc.2014.7039431",
+      "venue": "IEEE Conference on Decision and Control (CDC)",
+      "a": [
+        [
+          "A5026258680",
+          "Andrea Abrardo",
+          "University of Siena"
+        ],
+        [
+          "A5007836692",
+          "Mauro Barni",
+          "University of Siena"
+        ],
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "University of Siena"
+        ],
+        [
+          "A5026139768",
+          "Benedetta Tondi",
+          "University of Siena"
         ]
       ]
     },
@@ -1223,6 +1223,31 @@
       ]
     },
     {
+      "t": "A Zero\u2011Sum Game\u2011Theoretic Analysis for Cost\u2011Aware Backdoor Attacks and Defenses in Deep Learning",
+      "y": 2025,
+      "c": 1,
+      "type": "article",
+      "doi": "https://doi.org/10.54963/jic.v4i2.1576",
+      "venue": "Journal of Intelligent Communication",
+      "a": [
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "Inserm"
+        ],
+        [
+          "A5120336314",
+          "Carine Tannous",
+          "IMT Atlantique"
+        ],
+        [
+          "A5116772153",
+          "Hichem Faraoun",
+          "IMT Atlantique"
+        ]
+      ]
+    },
+    {
       "t": "Performance Characterizations of a Simultaneous \"AND\"-\"OR\" Gates System Dependent on a Parallel-Series SOA-MZIs Combination",
       "y": 2026,
       "c": 1,
@@ -1252,66 +1277,6 @@
       "a": [
         [
           "A5112286956",
-          "Andrea Abrardo",
-          "University of Siena"
-        ],
-        [
-          "A5007836692",
-          "Mauro Barni",
-          "University of Siena"
-        ],
-        [
-          "A5046279472",
-          "Kassem Kallas",
-          "University of Siena"
-        ],
-        [
-          "A5026139768",
-          "Benedetta Tondi",
-          "University of Siena"
-        ]
-      ]
-    },
-    {
-      "t": "Consensus Algorithm with Censored Data for Distributed Detection with Corrupted Measurements: A Game-Theoretic Approach",
-      "y": 2016,
-      "c": 2,
-      "type": "conference-paper",
-      "doi": "https://doi.org/10.1007/978-3-319-47413-7_26",
-      "venue": "Lecture notes in computer science",
-      "a": [
-        [
-          "A5046279472",
-          "Kassem Kallas",
-          "University of Siena"
-        ],
-        [
-          "A5026139768",
-          "Benedetta Tondi",
-          "University of Siena"
-        ],
-        [
-          "A5011222101",
-          "Riccardo Lazzeretti",
-          "University of Siena"
-        ],
-        [
-          "A5007836692",
-          "Mauro Barni",
-          "University of Siena"
-        ]
-      ]
-    },
-    {
-      "t": "Basic Notions of Distributed Detection, Information Fusion and Game Theory",
-      "y": 2020,
-      "c": 2,
-      "type": "book-chapter",
-      "doi": "https://doi.org/10.1007/978-981-32-9001-3_2",
-      "venue": "Signals and communication technology",
-      "a": [
-        [
-          "A5026258680",
           "Andrea Abrardo",
           "University of Siena"
         ],
@@ -1423,9 +1388,69 @@
       ]
     },
     {
+      "t": "Consensus Algorithm with Censored Data for Distributed Detection with Corrupted Measurements: A Game-Theoretic Approach",
+      "y": 2016,
+      "c": 2,
+      "type": "conference-paper",
+      "doi": "https://doi.org/10.1007/978-3-319-47413-7_26",
+      "venue": "Lecture notes in computer science",
+      "a": [
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "University of Siena"
+        ],
+        [
+          "A5026139768",
+          "Benedetta Tondi",
+          "University of Siena"
+        ],
+        [
+          "A5011222101",
+          "Riccardo Lazzeretti",
+          "University of Siena"
+        ],
+        [
+          "A5007836692",
+          "Mauro Barni",
+          "University of Siena"
+        ]
+      ]
+    },
+    {
+      "t": "Basic Notions of Distributed Detection, Information Fusion and Game Theory",
+      "y": 2020,
+      "c": 2,
+      "type": "book-chapter",
+      "doi": "https://doi.org/10.1007/978-981-32-9001-3_2",
+      "venue": "Signals and communication technology",
+      "a": [
+        [
+          "A5026258680",
+          "Andrea Abrardo",
+          "University of Siena"
+        ],
+        [
+          "A5007836692",
+          "Mauro Barni",
+          "University of Siena"
+        ],
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "University of Siena"
+        ],
+        [
+          "A5026139768",
+          "Benedetta Tondi",
+          "University of Siena"
+        ]
+      ]
+    },
+    {
       "t": "FedCrypt: A Dynamic White-Box Watermarking Scheme for Homomorphic Federated Learning",
       "y": 2024,
-      "c": 3,
+      "c": 4,
       "type": "preprint",
       "doi": "https://doi.org/10.36227/techrxiv.172114666.63343276/v1",
       "venue": "",
@@ -1664,31 +1689,6 @@
           "A5046279472",
           "Kassem Kallas",
           "Laboratoire de Traitement de l'Information M\u00e9dicale"
-        ]
-      ]
-    },
-    {
-      "t": "A Zero\u2011Sum Game\u2011Theoretic Analysis for Cost\u2011Aware Backdoor Attacks and Defenses in Deep Learning",
-      "y": 2025,
-      "c": 0,
-      "type": "article",
-      "doi": "https://doi.org/10.54963/jic.v4i2.1576",
-      "venue": "Journal of Intelligent Communication",
-      "a": [
-        [
-          "A5046279472",
-          "Kassem Kallas",
-          "Inserm"
-        ],
-        [
-          "A5120336314",
-          "Carine Tannous",
-          "IMT Atlantique"
-        ],
-        [
-          "A5116772153",
-          "Hichem Faraoun",
-          "IMT Atlantique"
         ]
       ]
     },
