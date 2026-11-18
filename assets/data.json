@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "github": {
     "repos": 21,
     "stars": 28,
@@ -34,12 +34,12 @@
     ]
   },
   "s2": {
-    "citations": 894,
+    "citations": 898,
     "h": 10,
     "papers": 42
   },
   "openalex": {
-    "citations": 1080,
+    "citations": 1083,
     "works": 44,
     "h": 11,
     "i10": 13,
@@ -90,17 +90,17 @@
       },
       {
         "year": 2025,
-        "cites": 264
+        "cites": 266
       },
       {
         "year": 2026,
-        "cites": 252
+        "cites": 253
       }
     ]
   },
   "scholar": {
-    "fetched": "2026-11-17",
-    "citations": 1335,
+    "fetched": "2026-11-18",
+    "citations": 1337,
     "h": 14,
     "i10": 17,
     "papers": 59,
@@ -110,7 +110,7 @@
         "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:_kc_bZDykSQC",
         "year": 2019,
         "publication": "IEEE International Conference on Image Processing, 2019",
-        "cites": 746
+        "cites": 747
       },
       {
         "title": "CNN detection of GAN-generated face images based on cross-band co-occurrences analysis",
@@ -138,7 +138,7 @@
         "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:ufrVoPGSRksC",
         "year": 2021,
         "publication": "2021 IEEE International Symposium on Dynamic Spectrum Access Networks \u2026, 2021",
-        "cites": 35
+        "cites": 36
       },
       {
         "title": "A game-theoretic framework for optimum decision fusion in the presence of Byzantines",
@@ -562,7 +562,7 @@
       },
       {
         "year": 2026,
-        "cites": 287
+        "cites": 289
       }
     ]
   },
@@ -570,7 +570,7 @@
     {
       "t": "A New Backdoor Attack in CNNS by Training Set Corruption Without Label Poisoning",
       "y": 2019,
-      "c": 612,
+      "c": 614,
       "type": "conference-paper",
       "doi": "https://doi.org/10.1109/icip.2019.8802997",
       "venue": "Proceedings - International Conference on Image Processing",
@@ -655,7 +655,7 @@
     {
       "t": "On the Transferability of Adversarial Examples against CNN-based Image Forensics",
       "y": 2019,
-      "c": 46,
+      "c": 47,
       "type": "conference-paper",
       "doi": "https://doi.org/10.1109/icassp.2019.8683772",
       "venue": "IEEE International Conference on Acoustics Speech and Signal Processing",
@@ -1298,6 +1298,66 @@
       ]
     },
     {
+      "t": "Consensus Algorithm with Censored Data for Distributed Detection with Corrupted Measurements: A Game-Theoretic Approach",
+      "y": 2016,
+      "c": 2,
+      "type": "conference-paper",
+      "doi": "https://doi.org/10.1007/978-3-319-47413-7_26",
+      "venue": "Lecture notes in computer science",
+      "a": [
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "University of Siena"
+        ],
+        [
+          "A5026139768",
+          "Benedetta Tondi",
+          "University of Siena"
+        ],
+        [
+          "A5011222101",
+          "Riccardo Lazzeretti",
+          "University of Siena"
+        ],
+        [
+          "A5007836692",
+          "Mauro Barni",
+          "University of Siena"
+        ]
+      ]
+    },
+    {
+      "t": "Basic Notions of Distributed Detection, Information Fusion and Game Theory",
+      "y": 2020,
+      "c": 2,
+      "type": "book-chapter",
+      "doi": "https://doi.org/10.1007/978-981-32-9001-3_2",
+      "venue": "Signals and communication technology",
+      "a": [
+        [
+          "A5026258680",
+          "Andrea Abrardo",
+          "University of Siena"
+        ],
+        [
+          "A5007836692",
+          "Mauro Barni",
+          "University of Siena"
+        ],
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "University of Siena"
+        ],
+        [
+          "A5026139768",
+          "Benedetta Tondi",
+          "University of Siena"
+        ]
+      ]
+    },
+    {
       "t": "Adversarial Decision Fusion: A Heuristic Approach",
       "y": 2020,
       "c": 2,
@@ -1363,66 +1423,6 @@
       "c": 1,
       "type": "book-chapter",
       "doi": "https://doi.org/10.1007/978-981-32-9001-3_3",
-      "venue": "Signals and communication technology",
-      "a": [
-        [
-          "A5026258680",
-          "Andrea Abrardo",
-          "University of Siena"
-        ],
-        [
-          "A5007836692",
-          "Mauro Barni",
-          "University of Siena"
-        ],
-        [
-          "A5046279472",
-          "Kassem Kallas",
-          "University of Siena"
-        ],
-        [
-          "A5026139768",
-          "Benedetta Tondi",
-          "University of Siena"
-        ]
-      ]
-    },
-    {
-      "t": "Consensus Algorithm with Censored Data for Distributed Detection with Corrupted Measurements: A Game-Theoretic Approach",
-      "y": 2016,
-      "c": 2,
-      "type": "conference-paper",
-      "doi": "https://doi.org/10.1007/978-3-319-47413-7_26",
-      "venue": "Lecture notes in computer science",
-      "a": [
-        [
-          "A5046279472",
-          "Kassem Kallas",
-          "University of Siena"
-        ],
-        [
-          "A5026139768",
-          "Benedetta Tondi",
-          "University of Siena"
-        ],
-        [
-          "A5011222101",
-          "Riccardo Lazzeretti",
-          "University of Siena"
-        ],
-        [
-          "A5007836692",
-          "Mauro Barni",
-          "University of Siena"
-        ]
-      ]
-    },
-    {
-      "t": "Basic Notions of Distributed Detection, Information Fusion and Game Theory",
-      "y": 2020,
-      "c": 2,
-      "type": "book-chapter",
-      "doi": "https://doi.org/10.1007/978-981-32-9001-3_2",
       "venue": "Signals and communication technology",
       "a": [
         [
@@ -1775,7 +1775,7 @@
   ],
   "summary": {
     "source": "Google Scholar",
-    "citations": 1335,
+    "citations": 1337,
     "h": 14,
     "i10": 17,
     "papers": 59,
@@ -1823,7 +1823,7 @@
       },
       {
         "year": 2026,
-        "cites": 287
+        "cites": 289
       }
     ],
     "by_year_source": "Google Scholar"
