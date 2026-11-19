@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18",
+  "updated": "2026-11-19",
   "github": {
     "repos": 21,
     "stars": 28,
@@ -39,7 +39,7 @@
     "papers": 42
   },
   "openalex": {
-    "citations": 1083,
+    "citations": 1084,
     "works": 44,
     "h": 11,
     "i10": 13,
@@ -94,12 +94,12 @@
       },
       {
         "year": 2026,
-        "cites": 253
+        "cites": 254
       }
     ]
   },
   "scholar": {
-    "fetched": "2026-11-18",
+    "fetched": "2026-11-19",
     "citations": 1337,
     "h": 14,
     "i10": 17,
@@ -570,7 +570,7 @@
     {
       "t": "A New Backdoor Attack in CNNS by Training Set Corruption Without Label Poisoning",
       "y": 2019,
-      "c": 614,
+      "c": 615,
       "type": "conference-paper",
       "doi": "https://doi.org/10.1109/icip.2019.8802997",
       "venue": "Proceedings - International Conference on Image Processing",
@@ -802,7 +802,7 @@
         ],
         [
           "A5031377954",
-          "Olivier D\u00e9forges A",
+          "Olivier D\u00e9forges",
           "Centre National de la Recherche Scientifique"
         ],
         [
