@@ -51,11 +51,11 @@ I study how AI systems are attacked and how to make them hold: backdoor and data
 
 **Most cited**
 
-- `2019` [A new backdoor attack in cnns by training set corruption without label poisoning](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:_kc_bZDykSQC) · *IEEE International Conference on Image Processing* · **747 citations**
+- `2019` [A new backdoor attack in cnns by training set corruption without label poisoning](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:_kc_bZDykSQC) · *IEEE International Conference on Image Processing* · **748 citations**
 - `2020` [CNN detection of GAN-generated face images based on cross-band co-occurrences analysis](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:Y0pCki6q_DkC) · *IEEE international workshop on information forensics and security (WIFS…* · **158 citations**
-- `2019` [On the transferability of adversarial examples against CNN-based image forensics](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:5nxA0vEk-isC) · *ICASSP 2019-2019 IEEE International Conference on Acoustics, Speech and…* · **51 citations**
+- `2024` [A comprehensive survey on backdoor attacks and their defenses in face recognition systems](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:4TOpqqG69KYC) · *IEEE Access* · **51 citations**
 
-<sub>Updated automatically from Google Scholar on 2026-11-19.</sub>
+<sub>Updated automatically from Google Scholar on 2026-11-20.</sub>
 <!--PUBS:END-->
 
 ### Highlights

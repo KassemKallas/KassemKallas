@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19",
+  "updated": "2026-11-20",
   "github": {
     "repos": 21,
     "stars": 28,
@@ -39,7 +39,7 @@
     "papers": 42
   },
   "openalex": {
-    "citations": 1084,
+    "citations": 1087,
     "works": 44,
     "h": 11,
     "i10": 13,
@@ -82,7 +82,7 @@
       },
       {
         "year": 2023,
-        "cites": 140
+        "cites": 141
       },
       {
         "year": 2024,
@@ -94,13 +94,13 @@
       },
       {
         "year": 2026,
-        "cites": 254
+        "cites": 256
       }
     ]
   },
   "scholar": {
-    "fetched": "2026-11-19",
-    "citations": 1337,
+    "fetched": "2026-11-20",
+    "citations": 1339,
     "h": 14,
     "i10": 17,
     "papers": 59,
@@ -110,7 +110,7 @@
         "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:_kc_bZDykSQC",
         "year": 2019,
         "publication": "IEEE International Conference on Image Processing, 2019",
-        "cites": 747
+        "cites": 748
       },
       {
         "title": "CNN detection of GAN-generated face images based on cross-band co-occurrences analysis",
@@ -120,18 +120,18 @@
         "cites": 158
       },
       {
+        "title": "A comprehensive survey on backdoor attacks and their defenses in face recognition systems",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:4TOpqqG69KYC",
+        "year": 2024,
+        "publication": "IEEE Access 12, 47433-47468, 2024",
+        "cites": 51
+      },
+      {
         "title": "On the transferability of adversarial examples against CNN-based image forensics",
         "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:5nxA0vEk-isC",
         "year": 2019,
         "publication": "ICASSP 2019-2019 IEEE International Conference on Acoustics, Speech and \u2026, 2019",
         "cites": 51
-      },
-      {
-        "title": "A comprehensive survey on backdoor attacks and their defenses in face recognition systems",
-        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:4TOpqqG69KYC",
-        "year": 2024,
-        "publication": "IEEE Access 12, 47433-47468, 2024",
-        "cites": 50
       },
       {
         "title": "Deep learning for radar signal detection in the 3.5 GHz CBRS band",
@@ -558,11 +558,11 @@
       },
       {
         "year": 2025,
-        "cites": 332
+        "cites": 333
       },
       {
         "year": 2026,
-        "cites": 289
+        "cites": 290
       }
     ]
   },
@@ -595,7 +595,7 @@
     {
       "t": "CNN Detection of GAN-Generated Face Images based on Cross-Band Co-occurrences Analysis",
       "y": 2020,
-      "c": 143,
+      "c": 144,
       "type": "conference-paper",
       "doi": "https://doi.org/10.1109/wifs49906.2020.9360905",
       "venue": "IEEE International Workshop on Information Forensics and Security",
@@ -918,6 +918,31 @@
       ]
     },
     {
+      "t": "Adversarial Multimedia Forensics",
+      "y": 2024,
+      "c": 9,
+      "type": "book",
+      "doi": "https://doi.org/10.1007/978-3-031-49803-9",
+      "venue": "Advances in information security",
+      "a": [
+        [
+          "A5014302355",
+          "Ehsan Nowroozi",
+          "Ravensbourne University London"
+        ],
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "Institut national de recherche en sciences et technologies du num\u00e9rique"
+        ],
+        [
+          "A5045461052",
+          "Alireza Jolfaei",
+          "Flinders University"
+        ]
+      ]
+    },
+    {
       "t": "A Double-Edged Sword: The Power of Two in Defending Against DNN Backdoor Attacks",
       "y": 2024,
       "c": 7,
@@ -963,27 +988,42 @@
       ]
     },
     {
-      "t": "Adversarial Multimedia Forensics",
-      "y": 2024,
-      "c": 8,
-      "type": "book",
-      "doi": "https://doi.org/10.1007/978-3-031-49803-9",
-      "venue": "Advances in information security",
+      "t": "RoSe-Mix: Robust and Secure Deep Neural Network Watermarking in Black-Box Settings via Image Mixup",
+      "y": 2025,
+      "c": 5,
+      "type": "article",
+      "doi": "https://doi.org/10.3390/make7020032",
+      "venue": "Machine Learning and Knowledge Extraction",
       "a": [
         [
-          "A5014302355",
-          "Ehsan Nowroozi",
-          "Ravensbourne University London"
+          "A5116866377",
+          "Tamara El Hajjar",
+          "Inserm"
+        ],
+        [
+          "A5043935032",
+          "Mohammed Lansari",
+          "Inserm"
+        ],
+        [
+          "A5069264855",
+          "Reda Bellafqira",
+          "Inserm"
+        ],
+        [
+          "A5062289182",
+          "Gouenou Coatrieux",
+          "Inserm"
+        ],
+        [
+          "A5060291347",
+          "Katarzyna Kapusta",
+          "Thales (France)"
         ],
         [
           "A5046279472",
           "Kassem Kallas",
-          "Institut national de recherche en sciences et technologies du num\u00e9rique"
-        ],
-        [
-          "A5045461052",
-          "Alireza Jolfaei",
-          "Flinders University"
+          "Inserm"
         ]
       ]
     },
@@ -1074,46 +1114,6 @@
           "A5026139768",
           "Benedetta Tondi",
           "University of Siena"
-        ]
-      ]
-    },
-    {
-      "t": "RoSe-Mix: Robust and Secure Deep Neural Network Watermarking in Black-Box Settings via Image Mixup",
-      "y": 2025,
-      "c": 4,
-      "type": "article",
-      "doi": "https://doi.org/10.3390/make7020032",
-      "venue": "Machine Learning and Knowledge Extraction",
-      "a": [
-        [
-          "A5116866377",
-          "Tamara El Hajjar",
-          "Inserm"
-        ],
-        [
-          "A5043935032",
-          "Mohammed Lansari",
-          "Inserm"
-        ],
-        [
-          "A5069264855",
-          "Reda Bellafqira",
-          "Inserm"
-        ],
-        [
-          "A5062289182",
-          "Gouenou Coatrieux",
-          "Inserm"
-        ],
-        [
-          "A5060291347",
-          "Katarzyna Kapusta",
-          "Thales (France)"
-        ],
-        [
-          "A5046279472",
-          "Kassem Kallas",
-          "Inserm"
         ]
       ]
     },
@@ -1775,7 +1775,7 @@
   ],
   "summary": {
     "source": "Google Scholar",
-    "citations": 1337,
+    "citations": 1339,
     "h": 14,
     "i10": 17,
     "papers": 59,
@@ -1819,11 +1819,11 @@
       },
       {
         "year": 2025,
-        "cites": 332
+        "cites": 333
       },
       {
         "year": 2026,
-        "cites": 289
+        "cites": 290
       }
     ],
     "by_year_source": "Google Scholar"
