@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21",
+  "updated": "2026-11-22",
   "github": {
     "repos": 21,
     "stars": 28,
@@ -39,7 +39,7 @@
     "papers": 42
   },
   "openalex": {
-    "citations": 1087,
+    "citations": 1099,
     "works": 44,
     "h": 11,
     "i10": 13,
@@ -70,39 +70,39 @@
       },
       {
         "year": 2020,
-        "cites": 45
+        "cites": 41
       },
       {
         "year": 2021,
-        "cites": 43
+        "cites": 44
       },
       {
         "year": 2022,
-        "cites": 98
+        "cites": 101
       },
       {
         "year": 2023,
-        "cites": 141
+        "cites": 133
       },
       {
         "year": 2024,
-        "cites": 209
+        "cites": 215
       },
       {
         "year": 2025,
-        "cites": 266
+        "cites": 270
       },
       {
         "year": 2026,
-        "cites": 256
+        "cites": 266
       }
     ]
   },
   "scholar": {
-    "fetched": "2026-11-21",
-    "citations": 1339,
+    "fetched": "2026-11-22",
+    "citations": 1337,
     "h": 14,
-    "i10": 17,
+    "i10": 16,
     "papers": 59,
     "articles": [
       {
@@ -110,7 +110,7 @@
         "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:_kc_bZDykSQC",
         "year": 2019,
         "publication": "IEEE International Conference on Image Processing, 2019",
-        "cites": 748
+        "cites": 747
       },
       {
         "title": "CNN detection of GAN-generated face images based on cross-band co-occurrences analysis",
@@ -218,17 +218,17 @@
         "cites": 11
       },
       {
-        "title": "A double-edged sword: The power of two in defending against dnn backdoor attacks",
-        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:QIV2ME_5wuYC",
-        "year": 2024,
-        "publication": "2024 32nd European Signal Processing Conference (EUSIPCO), 2007-2011, 2024",
-        "cites": 10
-      },
-      {
         "title": "Energy backdoor attack to deep neural networks",
         "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:M3NEmzRMIkIC",
         "year": 2025,
         "publication": "ICASSP 2025-2025 IEEE International Conference on Acoustics, Speech and \u2026, 2025",
+        "cites": 9
+      },
+      {
+        "title": "A double-edged sword: The power of two in defending against dnn backdoor attacks",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:QIV2ME_5wuYC",
+        "year": 2024,
+        "publication": "2024 32nd European Signal Processing Conference (EUSIPCO), 2007-2011, 2024",
         "cites": 9
       },
       {
@@ -562,7 +562,7 @@
       },
       {
         "year": 2026,
-        "cites": 290
+        "cites": 288
       }
     ]
   },
@@ -873,31 +873,6 @@
       ]
     },
     {
-      "t": "Adversarial Multimedia Forensics",
-      "y": 2024,
-      "c": 9,
-      "type": "book",
-      "doi": "https://doi.org/10.1007/978-3-031-49803-9",
-      "venue": "Advances in information security",
-      "a": [
-        [
-          "A5014302355",
-          "Ehsan Nowroozi",
-          "Ravensbourne University London"
-        ],
-        [
-          "A5046279472",
-          "Kassem Kallas",
-          "Institut national de recherche en sciences et technologies du num\u00e9rique"
-        ],
-        [
-          "A5045461052",
-          "Alireza Jolfaei",
-          "Flinders University"
-        ]
-      ]
-    },
-    {
       "t": "ROSE: A RObust and SEcure DNN Watermarking",
       "y": 2022,
       "c": 13,
@@ -959,6 +934,31 @@
           "A5062906790",
           "Teddy Furon",
           "Centre Inria de l'Universit\u00e9 de Rennes"
+        ]
+      ]
+    },
+    {
+      "t": "Adversarial Multimedia Forensics",
+      "y": 2024,
+      "c": 9,
+      "type": "book",
+      "doi": "https://doi.org/10.1007/978-3-031-49803-9",
+      "venue": "Advances in information security",
+      "a": [
+        [
+          "A5014302355",
+          "Ehsan Nowroozi",
+          "Ravensbourne University London"
+        ],
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "Institut national de recherche en sciences et technologies du num\u00e9rique"
+        ],
+        [
+          "A5045461052",
+          "Alireza Jolfaei",
+          "Flinders University"
         ]
       ]
     },
@@ -1775,9 +1775,9 @@
   ],
   "summary": {
     "source": "Google Scholar",
-    "citations": 1339,
+    "citations": 1337,
     "h": 14,
-    "i10": 17,
+    "i10": 16,
     "papers": 59,
     "papers_source": "Google Scholar",
     "by_year": [
@@ -1823,7 +1823,7 @@
       },
       {
         "year": 2026,
-        "cites": 290
+        "cites": 288
       }
     ],
     "by_year_source": "Google Scholar"
