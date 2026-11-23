@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22",
+  "updated": "2026-11-23",
   "github": {
     "repos": 21,
     "stars": 28,
@@ -39,7 +39,7 @@
     "papers": 42
   },
   "openalex": {
-    "citations": 1099,
+    "citations": 1100,
     "works": 44,
     "h": 11,
     "i10": 13,
@@ -94,13 +94,13 @@
       },
       {
         "year": 2026,
-        "cites": 266
+        "cites": 267
       }
     ]
   },
   "scholar": {
-    "fetched": "2026-11-22",
-    "citations": 1337,
+    "fetched": "2026-11-23",
+    "citations": 1343,
     "h": 14,
     "i10": 16,
     "papers": 59,
@@ -110,7 +110,7 @@
         "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:_kc_bZDykSQC",
         "year": 2019,
         "publication": "IEEE International Conference on Image Processing, 2019",
-        "cites": 747
+        "cites": 750
       },
       {
         "title": "CNN detection of GAN-generated face images based on cross-band co-occurrences analysis",
@@ -138,21 +138,21 @@
         "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:ufrVoPGSRksC",
         "year": 2021,
         "publication": "2021 IEEE International Symposium on Dynamic Spectrum Access Networks \u2026, 2021",
-        "cites": 36
+        "cites": 37
       },
       {
         "title": "A game-theoretic framework for optimum decision fusion in the presence of Byzantines",
         "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:UeHWp8X0CEIC",
         "year": 2016,
         "publication": "IEEE Transactions on Information Forensics and Security 11 (6), 1333-1345, 2016",
-        "cites": 34
+        "cites": 35
       },
       {
         "title": "Deep learning for path loss prediction in the 3.5 GHz CBRS spectrum band",
         "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:Tyk-4Ss8FVUC",
         "year": 2022,
         "publication": "2022 IEEE wireless communications and networking conference (WCNC), 1665-1670, 2022",
-        "cites": 31
+        "cites": 32
       },
       {
         "title": "Decision and game theory for security",
@@ -562,7 +562,7 @@
       },
       {
         "year": 2026,
-        "cites": 288
+        "cites": 294
       }
     ]
   },
@@ -570,7 +570,7 @@
     {
       "t": "A New Backdoor Attack in CNNS by Training Set Corruption Without Label Poisoning",
       "y": 2019,
-      "c": 622,
+      "c": 623,
       "type": "conference-paper",
       "doi": "https://doi.org/10.1109/icip.2019.8802997",
       "venue": "Proceedings - International Conference on Image Processing",
@@ -815,7 +815,7 @@
     {
       "t": "A Game-Theoretic Framework for Optimum Decision Fusion in the Presence of Byzantines",
       "y": 2016,
-      "c": 30,
+      "c": 31,
       "type": "article",
       "doi": "https://doi.org/10.1109/tifs.2016.2526963",
       "venue": "IEEE Transactions on Information Forensics and Security",
@@ -875,7 +875,7 @@
     {
       "t": "ROSE: A RObust and SEcure DNN Watermarking",
       "y": 2022,
-      "c": 13,
+      "c": 14,
       "type": "conference-paper",
       "doi": "https://doi.org/10.1109/wifs55849.2022.9975300",
       "venue": "IEEE International Workshop on Information Forensics and Security",
@@ -1060,7 +1060,7 @@
     {
       "t": "Information Fusion in Distributed Sensor Networks with Byzantines",
       "y": 2020,
-      "c": 10,
+      "c": 11,
       "type": "book",
       "doi": "https://doi.org/10.1007/978-981-32-9001-3",
       "venue": "Signals and communication technology",
@@ -1453,7 +1453,7 @@
       "c": 4,
       "type": "preprint",
       "doi": "https://doi.org/10.36227/techrxiv.172114666.63343276/v1",
-      "venue": "",
+      "venue": "TechRxiv",
       "a": [
         [
           "A5043935032",
@@ -1775,7 +1775,7 @@
   ],
   "summary": {
     "source": "Google Scholar",
-    "citations": 1337,
+    "citations": 1343,
     "h": 14,
     "i10": 16,
     "papers": 59,
@@ -1823,7 +1823,7 @@
       },
       {
         "year": 2026,
-        "cites": 288
+        "cites": 294
       }
     ],
     "by_year_source": "Google Scholar"
