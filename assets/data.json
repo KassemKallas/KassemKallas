@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "github": {
     "repos": 21,
     "stars": 28,
     "forks": 3,
-    "followers": 9,
+    "followers": 10,
     "top": [
       {
         "name": "Backdoor-Attacks-in-DeepLearning",
@@ -39,7 +39,7 @@
     "papers": 42
   },
   "openalex": {
-    "citations": 1100,
+    "citations": 1103,
     "works": 44,
     "h": 11,
     "i10": 13,
@@ -74,7 +74,7 @@
       },
       {
         "year": 2021,
-        "cites": 44
+        "cites": 45
       },
       {
         "year": 2022,
@@ -90,16 +90,16 @@
       },
       {
         "year": 2025,
-        "cites": 270
+        "cites": 269
       },
       {
         "year": 2026,
-        "cites": 267
+        "cites": 270
       }
     ]
   },
   "scholar": {
-    "fetched": "2026-11-23",
+    "fetched": "2026-11-24",
     "citations": 1343,
     "h": 14,
     "i10": 16,
@@ -1518,7 +1518,7 @@
       "c": 0,
       "type": "preprint",
       "doi": "https://doi.org/10.48550/arxiv.1503.05829",
-      "venue": "arXiv (Cornell University)",
+      "venue": "arXiv",
       "a": [
         [
           "A5026258680",
