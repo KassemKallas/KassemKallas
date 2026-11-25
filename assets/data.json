@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "github": {
     "repos": 21,
     "stars": 28,
@@ -34,13 +34,13 @@
     ]
   },
   "s2": {
-    "citations": 898,
+    "citations": 902,
     "h": 10,
     "papers": 42
   },
   "openalex": {
-    "citations": 1103,
-    "works": 44,
+    "citations": 1106,
+    "works": 45,
     "h": 11,
     "i10": 13,
     "by_year": [
@@ -70,39 +70,39 @@
       },
       {
         "year": 2020,
-        "cites": 41
+        "cites": 40
       },
       {
         "year": 2021,
-        "cites": 45
+        "cites": 44
       },
       {
         "year": 2022,
-        "cites": 101
+        "cites": 99
       },
       {
         "year": 2023,
-        "cites": 133
+        "cites": 136
       },
       {
         "year": 2024,
-        "cites": 215
+        "cites": 216
       },
       {
         "year": 2025,
-        "cites": 269
+        "cites": 271
       },
       {
         "year": 2026,
-        "cites": 270
+        "cites": 271
       }
     ]
   },
   "scholar": {
-    "fetched": "2026-11-24",
+    "fetched": "2026-11-25",
     "citations": 1343,
     "h": 14,
-    "i10": 16,
+    "i10": 17,
     "papers": 59,
     "articles": [
       {
@@ -110,7 +110,7 @@
         "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:_kc_bZDykSQC",
         "year": 2019,
         "publication": "IEEE International Conference on Image Processing, 2019",
-        "cites": 750
+        "cites": 749
       },
       {
         "title": "CNN detection of GAN-generated face images based on cross-band co-occurrences analysis",
@@ -218,17 +218,17 @@
         "cites": 11
       },
       {
-        "title": "Energy backdoor attack to deep neural networks",
-        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:M3NEmzRMIkIC",
-        "year": 2025,
-        "publication": "ICASSP 2025-2025 IEEE International Conference on Acoustics, Speech and \u2026, 2025",
-        "cites": 9
-      },
-      {
         "title": "A double-edged sword: The power of two in defending against dnn backdoor attacks",
         "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:QIV2ME_5wuYC",
         "year": 2024,
         "publication": "2024 32nd European Signal Processing Conference (EUSIPCO), 2007-2011, 2024",
+        "cites": 10
+      },
+      {
+        "title": "Energy backdoor attack to deep neural networks",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:M3NEmzRMIkIC",
+        "year": 2025,
+        "publication": "ICASSP 2025-2025 IEEE International Conference on Acoustics, Speech and \u2026, 2025",
         "cites": 9
       },
       {
@@ -570,7 +570,7 @@
     {
       "t": "A New Backdoor Attack in CNNS by Training Set Corruption Without Label Poisoning",
       "y": 2019,
-      "c": 623,
+      "c": 627,
       "type": "conference-paper",
       "doi": "https://doi.org/10.1109/icip.2019.8802997",
       "venue": "Proceedings - International Conference on Image Processing",
@@ -685,7 +685,7 @@
     {
       "t": "Deep Learning for Radar Signal Detection in the 3.5 GHz CBRS Band",
       "y": 2021,
-      "c": 29,
+      "c": 30,
       "type": "conference-paper",
       "doi": "https://doi.org/10.1109/dyspan53946.2021.9677280",
       "venue": "IEEE International Symposium on Dynamic Spectrum Access Networks",
@@ -940,7 +940,7 @@
     {
       "t": "Adversarial Multimedia Forensics",
       "y": 2024,
-      "c": 9,
+      "c": 7,
       "type": "book",
       "doi": "https://doi.org/10.1007/978-3-031-49803-9",
       "venue": "Advances in information security",
@@ -1165,7 +1165,7 @@
     {
       "t": "Decision fusion with corrupted reports in multi-sensor networks: A game-theoretic approach",
       "y": 2014,
-      "c": 11,
+      "c": 10,
       "type": "conference-paper",
       "doi": "https://doi.org/10.1109/cdc.2014.7039431",
       "venue": "IEEE Conference on Decision and Control (CDC)",
@@ -1450,7 +1450,7 @@
     {
       "t": "FedCrypt: A Dynamic White-Box Watermarking Scheme for Homomorphic Federated Learning",
       "y": 2024,
-      "c": 4,
+      "c": 5,
       "type": "preprint",
       "doi": "https://doi.org/10.36227/techrxiv.172114666.63343276/v1",
       "venue": "TechRxiv",
@@ -1498,7 +1498,7 @@
       "c": 0,
       "type": "article",
       "doi": null,
-      "venue": "DOAJ (DOAJ: Directory of Open Access Journals)",
+      "venue": "Revista Polit\u00e9cnica",
       "a": [
         [
           "A5037170311",
@@ -1548,7 +1548,7 @@
       "c": 0,
       "type": "preprint",
       "doi": "https://doi.org/10.13140/rg.2.2.28011.54564",
-      "venue": "arXiv (Cornell University)",
+      "venue": "arXiv",
       "a": [
         [
           "A5046279472",
@@ -1771,13 +1771,33 @@
           "IMT Atlantique"
         ]
       ]
+    },
+    {
+      "t": "Code and aggregate results for \"Suppress Codes, Not Patients: What k^m-Anonymity Costs on Complete Diagnosis Histories\"",
+      "y": 2026,
+      "c": 0,
+      "type": "software",
+      "doi": "https://doi.org/10.5281/zenodo.24496606",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "a": [
+        [
+          "A5115456062",
+          "P.I. Zamroz",
+          "Lviv Polytechnic National University"
+        ],
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "Inserm"
+        ]
+      ]
     }
   ],
   "summary": {
     "source": "Google Scholar",
     "citations": 1343,
     "h": 14,
-    "i10": 16,
+    "i10": 17,
     "papers": 59,
     "papers_source": "Google Scholar",
     "by_year": [

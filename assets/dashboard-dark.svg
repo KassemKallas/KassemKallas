@@ -2,7 +2,7 @@
 <style>text{font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;} .n{font-weight:700;} .m{fill:#8B98A9;}</style>
 <rect x="0.5" y="0.5" width="879" height="379" rx="10" fill="#0D1117" stroke="#30363D"/>
 <text x="24" y="36" font-size="16" class="n" fill="#E6EDF3">Research &amp; code dashboard</text>
-<text x="856" y="36" font-size="12" text-anchor="end" class="m">Updated 2026-11-24 · refreshes daily</text>
+<text x="856" y="36" font-size="12" text-anchor="end" class="m">Updated 2026-11-25 · refreshes daily</text>
 <rect x="262" y="25" width="5" height="5" fill="#E6EDF3"/>
 <rect x="268" y="25" width="5" height="5" fill="#43C3CB"/>
 <rect x="262" y="31" width="5" height="5" fill="#43C3CB"/>
@@ -19,7 +19,7 @@
 <text x="180.33333333333334" y="125" font-size="10" class="m">Google Scholar</text>
 <rect x="304.7" y="56" width="130.3" height="78" rx="8" fill="#161B22"/>
 <rect x="304.6666666666667" y="56" width="4" height="78" rx="2" fill="#43C3CB"/>
-<text x="320.6666666666667" y="90" font-size="26" class="n" fill="#E6EDF3">16</text>
+<text x="320.6666666666667" y="90" font-size="26" class="n" fill="#E6EDF3">17</text>
 <text x="320.6666666666667" y="110" font-size="12" fill="#E6EDF3">i10-index</text>
 <text x="320.6666666666667" y="125" font-size="10" class="m">Google Scholar</text>
 <rect x="445.0" y="56" width="130.3" height="78" rx="8" fill="#161B22"/>
