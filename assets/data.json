@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25",
+  "updated": "2026-11-26",
   "github": {
     "repos": 21,
     "stars": 28,
@@ -39,7 +39,7 @@
     "papers": 42
   },
   "openalex": {
-    "citations": 1106,
+    "citations": 1109,
     "works": 45,
     "h": 11,
     "i10": 13,
@@ -86,11 +86,11 @@
       },
       {
         "year": 2024,
-        "cites": 216
+        "cites": 217
       },
       {
         "year": 2025,
-        "cites": 271
+        "cites": 273
       },
       {
         "year": 2026,
@@ -99,8 +99,8 @@
     ]
   },
   "scholar": {
-    "fetched": "2026-11-25",
-    "citations": 1343,
+    "fetched": "2026-11-26",
+    "citations": 1345,
     "h": 14,
     "i10": 17,
     "papers": 59,
@@ -110,7 +110,7 @@
         "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:_kc_bZDykSQC",
         "year": 2019,
         "publication": "IEEE International Conference on Image Processing, 2019",
-        "cites": 749
+        "cites": 751
       },
       {
         "title": "CNN detection of GAN-generated face images based on cross-band co-occurrences analysis",
@@ -562,7 +562,7 @@
       },
       {
         "year": 2026,
-        "cites": 294
+        "cites": 296
       }
     ]
   },
@@ -570,7 +570,7 @@
     {
       "t": "A New Backdoor Attack in CNNS by Training Set Corruption Without Label Poisoning",
       "y": 2019,
-      "c": 627,
+      "c": 628,
       "type": "conference-paper",
       "doi": "https://doi.org/10.1109/icip.2019.8802997",
       "venue": "Proceedings - International Conference on Image Processing",
@@ -595,7 +595,7 @@
     {
       "t": "CNN Detection of GAN-Generated Face Images based on Cross-Band Co-occurrences Analysis",
       "y": 2020,
-      "c": 146,
+      "c": 148,
       "type": "conference-paper",
       "doi": "https://doi.org/10.1109/wifs49906.2020.9360905",
       "venue": "IEEE International Workshop on Information Forensics and Security",
@@ -1046,7 +1046,7 @@
           "IMT Atlantique"
         ],
         [
-          "A5108307254",
+          "A5062289182",
           "Gouenou Coatrieux",
           "IMT Atlantique"
         ],
@@ -1133,36 +1133,6 @@
       ]
     },
     {
-      "t": "A Durable Backdoor Attack on Medical Imaging via Federated Learning",
-      "y": 2026,
-      "c": 2,
-      "type": "book-chapter",
-      "doi": "https://doi.org/10.3233/shti260241",
-      "venue": "Studies in health technology and informatics",
-      "a": [
-        [
-          "A5116772153",
-          "Hichem Faraoun",
-          "IMT Atlantique"
-        ],
-        [
-          "A5069264855",
-          "Reda Bellafqira",
-          "Inserm"
-        ],
-        [
-          "A5108307254",
-          "Gouenou Coatrieux",
-          "Inserm"
-        ],
-        [
-          "A5046279472",
-          "Kassem Kallas",
-          "Inserm"
-        ]
-      ]
-    },
-    {
       "t": "Decision fusion with corrupted reports in multi-sensor networks: A game-theoretic approach",
       "y": 2014,
       "c": 10,
@@ -1199,6 +1169,66 @@
       "type": "conference-paper",
       "doi": "https://doi.org/10.23919/apsipa.2018.8659667",
       "venue": "Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC)",
+      "a": [
+        [
+          "A5026258680",
+          "Andrea Abrardo",
+          "University of Siena"
+        ],
+        [
+          "A5007836692",
+          "Mauro Barni",
+          "University of Siena"
+        ],
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "University of Siena"
+        ],
+        [
+          "A5026139768",
+          "Benedetta Tondi",
+          "University of Siena"
+        ]
+      ]
+    },
+    {
+      "t": "A Durable Backdoor Attack on Medical Imaging via Federated Learning",
+      "y": 2026,
+      "c": 2,
+      "type": "book-chapter",
+      "doi": "https://doi.org/10.3233/shti260241",
+      "venue": "Studies in health technology and informatics",
+      "a": [
+        [
+          "A5116772153",
+          "Hichem Faraoun",
+          "IMT Atlantique"
+        ],
+        [
+          "A5069264855",
+          "Reda Bellafqira",
+          "Inserm"
+        ],
+        [
+          "A5062289182",
+          "Gouenou Coatrieux",
+          "Inserm"
+        ],
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "Inserm"
+        ]
+      ]
+    },
+    {
+      "t": "A Message Passing Approach for Decision Fusion of Hidden-Markov Observations in the presence of Synchronized Attacks",
+      "y": 2017,
+      "c": 3,
+      "type": "conference-paper",
+      "doi": null,
+      "venue": "HAL",
       "a": [
         [
           "A5026258680",
@@ -1264,36 +1294,6 @@
           "A5046279472",
           "Kassem Kallas",
           "Inserm"
-        ]
-      ]
-    },
-    {
-      "t": "A Message Passing Approach for Decision Fusion of Hidden-Markov Observations in the presence of Synchronized Attacks",
-      "y": 2017,
-      "c": 3,
-      "type": "conference-paper",
-      "doi": null,
-      "venue": "HAL",
-      "a": [
-        [
-          "A5112286956",
-          "Andrea Abrardo",
-          "University of Siena"
-        ],
-        [
-          "A5007836692",
-          "Mauro Barni",
-          "University of Siena"
-        ],
-        [
-          "A5046279472",
-          "Kassem Kallas",
-          "University of Siena"
-        ],
-        [
-          "A5026139768",
-          "Benedetta Tondi",
-          "University of Siena"
         ]
       ]
     },
@@ -1666,7 +1666,7 @@
           "Inserm"
         ],
         [
-          "A5108307254",
+          "A5062289182",
           "Gouenou Coatrieux",
           "Inserm"
         ],
@@ -1795,7 +1795,7 @@
   ],
   "summary": {
     "source": "Google Scholar",
-    "citations": 1343,
+    "citations": 1345,
     "h": 14,
     "i10": 17,
     "papers": 59,
@@ -1843,7 +1843,7 @@
       },
       {
         "year": 2026,
-        "cites": 294
+        "cites": 296
       }
     ],
     "by_year_source": "Google Scholar"
