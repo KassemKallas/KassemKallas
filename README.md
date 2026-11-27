@@ -55,7 +55,7 @@ I study how AI systems are attacked and how to make them hold: backdoor and data
 - `2020` [CNN detection of GAN-generated face images based on cross-band co-occurrences analysis](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:Y0pCki6q_DkC) · *IEEE international workshop on information forensics and security (WIFS…* · **158 citations**
 - `2024` [A comprehensive survey on backdoor attacks and their defenses in face recognition systems](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:4TOpqqG69KYC) · *IEEE Access* · **51 citations**
 
-<sub>Updated automatically from Google Scholar on 2026-11-26.</sub>
+<sub>Updated automatically from Google Scholar on 2026-11-27.</sub>
 <!--PUBS:END-->
 
 ### Highlights

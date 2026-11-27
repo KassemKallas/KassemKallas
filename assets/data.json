@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-26",
+  "updated": "2026-11-27",
   "github": {
-    "repos": 21,
+    "repos": 22,
     "stars": 28,
     "forks": 3,
     "followers": 10,
@@ -39,7 +39,7 @@
     "papers": 42
   },
   "openalex": {
-    "citations": 1109,
+    "citations": 1116,
     "works": 45,
     "h": 11,
     "i10": 13,
@@ -82,7 +82,7 @@
       },
       {
         "year": 2023,
-        "cites": 136
+        "cites": 137
       },
       {
         "year": 2024,
@@ -94,12 +94,12 @@
       },
       {
         "year": 2026,
-        "cites": 271
+        "cites": 277
       }
     ]
   },
   "scholar": {
-    "fetched": "2026-11-26",
+    "fetched": "2026-11-27",
     "citations": 1345,
     "h": 14,
     "i10": 17,
@@ -570,7 +570,7 @@
     {
       "t": "A New Backdoor Attack in CNNS by Training Set Corruption Without Label Poisoning",
       "y": 2019,
-      "c": 628,
+      "c": 634,
       "type": "conference-paper",
       "doi": "https://doi.org/10.1109/icip.2019.8802997",
       "venue": "Proceedings - International Conference on Image Processing",
@@ -720,7 +720,7 @@
     {
       "t": "Deep Learning for Path Loss Prediction in the 3.5 GHz CBRS Spectrum Band",
       "y": 2022,
-      "c": 27,
+      "c": 28,
       "type": "conference-paper",
       "doi": "https://doi.org/10.1109/wcnc51071.2022.9771737",
       "venue": "IEEE Wireless Communications and Networking Conference",
@@ -1118,21 +1118,6 @@
       ]
     },
     {
-      "t": "Efficient Deep-Learning-Based Decision Fusion for Adversarial Sensor Networks With Byzantine Attacks",
-      "y": 2025,
-      "c": 2,
-      "type": "article",
-      "doi": "https://doi.org/10.1109/jsen.2025.3566168",
-      "venue": "IEEE Sensors Journal",
-      "a": [
-        [
-          "A5046279472",
-          "Kassem Kallas",
-          "Inserm"
-        ]
-      ]
-    },
-    {
       "t": "Decision fusion with corrupted reports in multi-sensor networks: A game-theoretic approach",
       "y": 2014,
       "c": 10,
@@ -1189,6 +1174,21 @@
           "A5026139768",
           "Benedetta Tondi",
           "University of Siena"
+        ]
+      ]
+    },
+    {
+      "t": "Efficient Deep-Learning-Based Decision Fusion for Adversarial Sensor Networks With Byzantine Attacks",
+      "y": 2025,
+      "c": 2,
+      "type": "article",
+      "doi": "https://doi.org/10.1109/jsen.2025.3566168",
+      "venue": "IEEE Sensors Journal",
+      "a": [
+        [
+          "A5046279472",
+          "Kassem Kallas",
+          "Inserm"
         ]
       ]
     },
