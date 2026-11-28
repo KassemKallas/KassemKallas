@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27",
+  "updated": "2026-11-28",
   "github": {
     "repos": 22,
     "stars": 28,
@@ -39,7 +39,7 @@
     "papers": 42
   },
   "openalex": {
-    "citations": 1116,
+    "citations": 1118,
     "works": 45,
     "h": 11,
     "i10": 13,
@@ -94,13 +94,13 @@
       },
       {
         "year": 2026,
-        "cites": 277
+        "cites": 279
       }
     ]
   },
   "scholar": {
-    "fetched": "2026-11-27",
-    "citations": 1345,
+    "fetched": "2026-11-28",
+    "citations": 1347,
     "h": 14,
     "i10": 17,
     "papers": 59,
@@ -110,7 +110,7 @@
         "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bf9vAicAAAAJ&pagesize=100&citation_for_view=Bf9vAicAAAAJ:_kc_bZDykSQC",
         "year": 2019,
         "publication": "IEEE International Conference on Image Processing, 2019",
-        "cites": 751
+        "cites": 753
       },
       {
         "title": "CNN detection of GAN-generated face images based on cross-band co-occurrences analysis",
@@ -558,11 +558,11 @@
       },
       {
         "year": 2025,
-        "cites": 333
+        "cites": 332
       },
       {
         "year": 2026,
-        "cites": 296
+        "cites": 299
       }
     ]
   },
@@ -570,7 +570,7 @@
     {
       "t": "A New Backdoor Attack in CNNS by Training Set Corruption Without Label Poisoning",
       "y": 2019,
-      "c": 634,
+      "c": 636,
       "type": "conference-paper",
       "doi": "https://doi.org/10.1109/icip.2019.8802997",
       "venue": "Proceedings - International Conference on Image Processing",
@@ -1795,7 +1795,7 @@
   ],
   "summary": {
     "source": "Google Scholar",
-    "citations": 1345,
+    "citations": 1347,
     "h": 14,
     "i10": 17,
     "papers": 59,
@@ -1839,11 +1839,11 @@
       },
       {
         "year": 2025,
-        "cites": 333
+        "cites": 332
       },
       {
         "year": 2026,
-        "cites": 296
+        "cites": 299
       }
     ],
     "by_year_source": "Google Scholar"
